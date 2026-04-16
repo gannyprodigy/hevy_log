@@ -15,6 +15,22 @@ The output PDF must be named `hevy_report_YYYY-MM-DD.pdf` (today's date).
 import glob, os, datetime, textwrap
 from fpdf import FPDF
 
+# ── Unicode → Latin-1 sanitizer (fpdf2 built-in fonts are Latin-1 only) ──────
+_UNICODE_MAP = str.maketrans({
+    "\u2502": "|",  "\u2503": "|",  "\u2551": "|",   # │ ┃ ║ → |
+    "\u2500": "-",  "\u2501": "-",  "\u2550": "=",   # ─ ━ ═ → - =
+    "\u250c": "+",  "\u2510": "+",  "\u2514": "+",  "\u2518": "+",  # corners → +
+    "\u251c": "+",  "\u2524": "+",  "\u252c": "+",  "\u2534": "+",  "\u253c": "+",  # junctions
+    "\u2560": "+",  "\u2563": "+",  "\u2566": "+",  "\u2569": "+",  "\u256c": "+",  # double-line junctions
+    "\u2192": "->", "\u2190": "<-", "\u2191": "^",  "\u2193": "v",  # arrows
+    "\u2265": ">=", "\u2264": "<=", "\u00b7": ".",                   # math
+    "\u2022": "*",  "\u25cf": "*",  "\u2013": "-",  "\u2014": "--", # bullets, dashes
+    "\u00d7": "x",  "\u00b0": "deg",                                  # misc
+})
+
+def sanitize(text):
+    return text.translate(_UNICODE_MAP).encode("latin-1", errors="replace").decode("latin-1")
+
 # ── Locate files ─────────────────────────────────────────────────────────────
 report_files = sorted(glob.glob("report_*.txt"), reverse=True)
 if not report_files:
@@ -57,7 +73,7 @@ class HevyPDF(FPDF):
         self.set_y(12)
         self.set_font("Helvetica", "I", 8)
         self.set_text_color(120, 120, 120)
-        self.cell(0, 5, f"Hevy Training Report — Ganesh — {today}", align="R", ln=True)
+        self.cell(0, 5, f"Hevy Training Report - Ganesh - {today}", align="R", ln=True)
         self.ln(2)
 
     def footer(self):
@@ -67,10 +83,11 @@ class HevyPDF(FPDF):
         self.ln(1)
         self.set_font("Helvetica", "I", 7.5)
         self.set_text_color(150, 150, 150)
-        self.cell(0, 5, f"Page {self.page_no()}  |  Generated {today}  |  Confidential — Ganesh", align="C")
+        self.cell(0, 5, f"Page {self.page_no()}  |  Generated {today}  |  Confidential - Ganesh", align="C")
 
     def title_page(self, date_range):
         self.add_page()
+        self.set_auto_page_break(False)   # prevent bottom bar from spilling to page 2
         # Full-width navy header block
         self.set_fill_color(26, 39, 68)
         self.rect(0, 0, 210, 80, "F")
@@ -134,7 +151,8 @@ class HevyPDF(FPDF):
         self.set_y(284)
         self.set_font("Helvetica", "B", 8)
         self.set_text_color(255, 255, 255)
-        self.cell(0, 6, "POWERED BY HEVY AGENT  •  CLAUDE AI", align="C")
+        self.cell(0, 6, "POWERED BY HEVY AGENT  *  CLAUDE AI", align="C")
+        self.set_auto_page_break(True, 22)   # restore for content pages
 
     def section_header(self, text):
         self.ln(4)
@@ -158,26 +176,31 @@ class HevyPDF(FPDF):
     def body_line(self, text):
         self.set_font("Helvetica", "", 9.5)
         self.set_text_color(40, 40, 40)
-        # Indent bullet lines
         stripped = text.strip()
+        # Skip horizontal-rule lines (--- / === / --- from markdown)
+        if stripped and all(c in "-=~" for c in stripped):
+            return
+        # Indent bullet lines
         if stripped.startswith(("-", "•", "*")):
+            content = stripped.lstrip("-•* ").strip()
+            if not content:          # bare "-" with no text — skip
+                return
             self.set_x(22)
             self.set_font("Helvetica", "", 9)
             self.set_text_color(26, 39, 68)
-            self.cell(4, 5, "•", ln=False)
+            self.cell(4, 5, "*", ln=False)
             self.set_text_color(50, 50, 50)
-            content = stripped.lstrip("-•* ").strip()
-            self.multi_cell(0, 5, content)
+            self.multi_cell(0, 5, sanitize(content))
         elif stripped.startswith("|"):
             # Table row — monospaced
             self.set_font("Courier", "", 8)
             self.set_x(18)
             self.set_fill_color(245, 247, 252)
-            self.cell(0, 5, stripped, ln=True, fill=True)
-        elif stripped == "" :
+            self.cell(0, 5, sanitize(stripped), ln=True, fill=True)
+        elif stripped == "":
             self.ln(2)
         else:
-            for chunk in textwrap.wrap(text, width=100) or [""]:
+            for chunk in textwrap.wrap(sanitize(text), width=100) or [""]:
                 self.set_x(18)
                 self.multi_cell(0, 5.5, chunk)
 
@@ -194,7 +217,7 @@ for line in lines[:5]:
         break
 
 pdf.title_page(date_range)
-pdf.add_page()
+pdf.add_page()   # first content page (title page is page 1)
 
 for line in lines:
     stripped = line.strip()
