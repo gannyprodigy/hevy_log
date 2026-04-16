@@ -1,0 +1,60 @@
+name: Send Hevy Report Email
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*_hevylog.txt'
+      - 'report_*.txt'
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find and send report
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python3 - <<'EOF'
+          import smtplib, ssl, glob, os, datetime
+          from email.mime.multipart import MIMEMultipart
+          from email.mime.text import MIMEText
+
+          # Find the latest report and log files
+          reports = sorted(glob.glob("report_*.txt"), reverse=True)
+          logs    = sorted(glob.glob("*_hevylog.txt"), reverse=True)
+
+          body_parts = []
+
+          if reports:
+              with open(reports[0]) as f:
+                  body_parts.append(f.read())
+          else:
+              body_parts.append("(No analysis report found — check agent run logs)")
+
+          if logs:
+              with open(logs[0]) as f:
+                  body_parts.append("\n\n" + "="*72 + "\nRAW WORKOUT LOG\n" + "="*72 + "\n")
+                  body_parts.append(f.read())
+
+          body = "".join(body_parts)
+
+          sender   = os.environ["GMAIL_ADDRESS"]
+          password = os.environ["GMAIL_APP_PASSWORD"]
+          today    = datetime.date.today()
+
+          msg = MIMEMultipart()
+          msg["Subject"] = f"Hevy Weekly Report — {today}"
+          msg["From"]    = sender
+          msg["To"]      = sender
+          msg.attach(MIMEText(body, "plain"))
+
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
+              s.login(sender, password)
+              s.send_message(msg)
+
+          print(f"Email sent to {sender}")
+          EOF
