@@ -4,9 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '*_hevylog.txt'
-      - 'report_*.txt'
-      - 'summary_*.txt'
+      - 'hevy_report_*.pdf'
 
 jobs:
   send-email:
@@ -14,68 +12,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install fpdf2
-        run: pip install fpdf2
-
-      - name: Build PDF and send email
+      - name: Send email with attachments
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
           python3 - <<'PYEOF'
-          import smtplib, ssl, glob, os, datetime, textwrap
+          import smtplib, ssl, glob, os, datetime
           from email.mime.multipart import MIMEMultipart
           from email.mime.text import MIMEText
           from email.mime.base import MIMEBase
           from email import encoders
-          from fpdf import FPDF
 
-          # ── Locate latest files ──────────────────────────────────────────
-          logs     = sorted(glob.glob("*_hevylog.txt"),  reverse=True)
-          reports  = sorted(glob.glob("report_*.txt"),   reverse=True)
-          summaries = sorted(glob.glob("summary_*.txt"), reverse=True)
+          def latest(pattern):
+              files = sorted(glob.glob(pattern), reverse=True)
+              return files[0] if files else None
 
-          if not logs:
-              print("No hevylog.txt found — skipping email.")
+          log_path     = latest("*_hevylog.txt")
+          pdf_path     = latest("hevy_report_*.pdf")
+          summary_path = latest("summary_*.txt")
+
+          if not pdf_path:
+              print("No PDF found — skipping email.")
               exit(0)
 
-          log_path    = logs[0]
-          report_path = reports[0] if reports else None
-          summary_path = summaries[0] if summaries else None
+          body = open(summary_path).read() if summary_path else "(See attachments for full report.)"
 
-          with open(log_path) as f:
-              log_text = f.read()
-
-          report_text = ""
-          if report_path:
-              with open(report_path) as f:
-                  report_text = f.read()
-
-          email_body = ""
-          if summary_path:
-              with open(summary_path) as f:
-                  email_body = f.read()
-          elif report_text:
-              # Fallback: first 50 lines of report
-              email_body = "\n".join(report_text.splitlines()[:50])
-          else:
-              email_body = "(No summary available — see attachments.)"
-
-          # ── Generate PDF from detailed report ────────────────────────────
-          pdf_path = None
-          if report_text:
-              pdf_path = "/tmp/hevy_report.pdf"
-              pdf = FPDF()
-              pdf.set_auto_page_break(auto=True, margin=15)
-              pdf.add_page()
-              pdf.set_font("Courier", size=9)
-              for line in report_text.splitlines():
-                  # Wrap long lines
-                  for chunk in textwrap.wrap(line, width=110) or [""]:
-                      pdf.cell(0, 4.5, chunk, ln=True)
-              pdf.output(pdf_path)
-
-          # ── Build email ──────────────────────────────────────────────────
           sender   = os.environ["GMAIL_ADDRESS"]
           password = os.environ["GMAIL_APP_PASSWORD"]
           today    = datetime.date.today()
@@ -84,27 +46,23 @@ jobs:
           msg["Subject"] = f"Hevy 30-Day Report — {today}"
           msg["From"]    = sender
           msg["To"]      = sender
-          msg.attach(MIMEText(email_body, "plain"))
+          msg.attach(MIMEText(body, "plain"))
 
-          def attach_file(path, name):
+          def attach(path):
               with open(path, "rb") as f:
                   part = MIMEBase("application", "octet-stream")
                   part.set_payload(f.read())
               encoders.encode_base64(part)
-              part.add_header("Content-Disposition", f'attachment; filename="{name}"')
+              part.add_header("Content-Disposition", f'attachment; filename="{os.path.basename(path)}"')
               msg.attach(part)
 
-          # Attachment 1: raw workout log
-          attach_file(log_path, os.path.basename(log_path))
+          if log_path:
+              attach(log_path)
+          attach(pdf_path)
 
-          # Attachment 2: detailed analysis PDF
-          if pdf_path and os.path.exists(pdf_path):
-              attach_file(pdf_path, f"hevy_analysis_{today}.pdf")
-
-          # ── Send ─────────────────────────────────────────────────────────
           with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
               s.login(sender, password)
               s.send_message(msg)
 
-          print(f"Email sent to {sender} with {2 if pdf_path else 1} attachment(s).")
+          print(f"Sent to {sender}: body from {summary_path}, attachments: {os.path.basename(log_path or '')}, {os.path.basename(pdf_path)}")
           PYEOF
