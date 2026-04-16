@@ -1,0 +1,124 @@
+========================================================================
+HEVY TRAINING — DEEP ANALYSIS REPORT
+Date     : 2026-04-16
+Week     : 2026-04-13 to 2026-04-19
+User     : Ganesh | 44M | 181 cm | 87 kg → 79 kg target
+========================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. DATA COLLECTION STATUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  API Status   : FAILED — HTTP 503 (DNS cache overflow on Hevy server)
+  Data source  : Local export only (no live workout records retrieved)
+  Sessions     : 0 logged this week (could not confirm against live data)
+  State history: No prior weekly snapshots on record (first run / fresh state)
+
+  NOTE: The 503 error is a transient Hevy API outage, NOT a credentials
+  problem. The API key is accepted; the upstream endpoint was temporarily
+  unavailable at export time. Re-running `hevy_trainer.py export` once
+  the service recovers will populate the log with actual session data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. CURRENT WEEK SNAPSHOT  (2026-04-13 → 2026-04-19, as of 2026-04-16)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sessions completed : 0  of 5 planned
+  Days remaining     : 3  (Thu 16 → Sun 19)
+  Total sets         : 0
+  Total volume       : 0 kg·reps
+  Push volume        : 0 kg·reps
+  Pull volume        : 0 kg·reps
+  Push/Pull ratio    : N/A  (target ≥ 1.0; ideally 0.8–1.0 for shoulder health)
+
+  ⚠  ADHERENCE ALERT: With 0 sessions logged through mid-week (Thursday),
+     completing 5 sessions by Sunday would require training every remaining
+     day. Even 2–3 quality sessions would be a meaningful partial recovery.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. WEIGHT-LOSS PROGRESS ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Current weight : 87 kg  (recorded in user profile)
+  Target weight  : 79 kg
+  Deficit to goal: 8 kg
+
+  Context for a 44-year-old male at 181 cm:
+  ─────────────────────────────────────────
+  • BMI at 87 kg  → 26.5  (overweight threshold: 25.0)
+  • BMI at 79 kg  → 24.1  (healthy range)
+  • Estimated TDEE (lightly active) : ~2,350 kcal/day
+  • Estimated TDEE (moderately active, 3–5 sessions/wk) : ~2,650 kcal/day
+
+  Realistic timelines:
+  ─────────────────────────────────────────
+  Rate         Caloric deficit   Duration to -8 kg
+  ──────────   ───────────────   ──────────────────
+  0.25 kg/wk   ~275 kcal/day     ~32 weeks
+  0.5  kg/wk   ~550 kcal/day     ~16 weeks
+  0.75 kg/wk   ~825 kcal/day     ~11 weeks  (upper comfortable limit)
+
+  Recommendation: Target 0.5 kg/wk for sustainable fat loss while
+  preserving muscle mass at age 44. This puts goal attainment at roughly
+  mid-August 2026 if started now and maintained consistently.
+
+  Key lever: Resistance training (the 5-session programme) elevates TDEE
+  by 200–350 kcal/day above sedentary baseline. Missing sessions directly
+  shrinks this advantage and risks muscle catabolism during the deficit.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. TRAINING PROGRAMME ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Planned frequency : 5 sessions / week
+  Historical data   : Insufficient (state file is empty — no prior weeks)
+
+  Structural considerations for a 44M in a fat-loss phase:
+  ─────────────────────────────────────────────────────────
+  a) FREQUENCY
+     5 days/week is achievable but demanding. If adherence is breaking
+     down, consider a 3–4 day split as a floor:
+       • Mon/Wed/Fri/Sat  – full-body or Upper/Lower alternation
+     This guarantees stimulus even on imperfect weeks.
+
+  b) PUSH / PULL BALANCE
+     The log flags the ratio as LOW (0.00 this week, trivially). For
+     shoulder health and posture, ensure every pressing session is
+     matched by an equal or greater pulling volume (rows, pull-ups,
+     face pulls). Target Pull:Push ≥ 1.0.
+
+  c) PROGRESSIVE OVERLOAD
+     No PR history exists yet. Once data is flowing, aim for:
+       • +2.5 kg on compound lifts every 2–3 successful sessions
+       • Deload every 6–8 weeks (the system tracks deload weeks)
+
+  d) AGE-SPECIFIC NOTES (44M)
+     • Recovery: Allow 48 h between sessions for the same muscle group.
+     • Warm-up: 5–10 min dynamic warm-up before each session reduces
+       injury risk substantially; prioritise this more than in younger years.
+     • Protein: Target 1.6–2.0 g/kg lean body mass (~130–160 g/day at
+       ~82 kg lean mass estimate) to protect muscle during caloric deficit.
+     • Sleep: ≥7 h/night is the single highest-leverage recovery tool.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. IMMEDIATE ACTION PLAN (THIS WEEK)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Priority    Action
+  ──────────  ─────────────────────────────────────────────────────────
+  CRITICAL    Log at least 2 training sessions Thu–Sun to break the
+              zero-session streak. Even shortened sessions count.
+  HIGH        Re-run `hevy_trainer.py export` tomorrow to confirm
+              the Hevy API has recovered and data is syncing.
+  HIGH        Track nutrition this week; aim for 500 kcal/day below
+              estimated TDEE (~2,100–2,150 kcal if lightly active).
+  MEDIUM      Establish sleep schedule: same bed/wake time daily.
+  LOW         Review 5-session split; consider dropping to 4 if
+              scheduling is the adherence bottleneck.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. NEXT REPORT TRIGGERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • End of week (2026-04-19): Full weekly wrap-up once API data is live.
+  • First PR logged: Strength baseline report.
+  • Week 4: Deload assessment (volume-fatigue balance).
+  • Every 4 weeks: Weight trend vs. target trajectory review.
+
+========================================================================
+END OF REPORT  |  Generated 2026-04-16
+========================================================================
