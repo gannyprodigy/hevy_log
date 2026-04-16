@@ -23,5 +23,5 @@ If the command fails or prints `[ERROR]`, stop immediately and report the error.
    - Total volume (kg·reps)
    - List of exercises seen
    - Any anomalies (empty data, API errors, 0 sessions)
-
+4. Time are in IST
 If sessions = 0 or data appears empty, note this clearly but still proceed — subsequent steps will reflect the lack of data.
