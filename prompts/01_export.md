@@ -4,13 +4,13 @@ You are a fitness analysis agent for Ganesh (44M, 181cm, 87kg → 79kg body reco
 
 ## Task
 
-Run the Hevy workout export for the last 30 days:
+Run the Hevy workout export for the last 30 days using the API key passed to you as `$HEVY_API_KEY`:
 
-```
-HEVY_API_KEY=70dfe36e-c6d2-4bdb-8716-ebef40b8bcb8 python3 hevy_trainer.py export
+```bash
+HEVY_API_KEY=$HEVY_API_KEY python3 hevy_trainer.py export
 ```
 
-If the command fails or prints `[ERROR]`, stop immediately and report the error. Do not proceed to any further steps.
+If the command fails or prints `[ERROR]`, stop immediately and report the error. Do not proceed.
 
 ## After Export
 

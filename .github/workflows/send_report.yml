@@ -30,13 +30,14 @@ jobs:
 
           log_path     = latest("*_hevylog.txt")
           pdf_path     = latest("hevy_report_*.pdf")
-          summary_path = latest("summary_*.txt")
+          summary_path = latest("summary_*.html") or latest("summary_*.txt")
 
           if not pdf_path:
               print("No PDF found — skipping email.")
               exit(0)
 
-          body = open(summary_path).read() if summary_path else "(See attachments for full report.)"
+          body      = open(summary_path).read() if summary_path else "<p>See attachments for full report.</p>"
+          mime_type = "html" if summary_path and summary_path.endswith(".html") else "plain"
 
           sender   = os.environ["GMAIL_ADDRESS"]
           password = os.environ["GMAIL_APP_PASSWORD"]
@@ -46,7 +47,7 @@ jobs:
           msg["Subject"] = f"Hevy 30-Day Report — {today}"
           msg["From"]    = sender
           msg["To"]      = sender
-          msg.attach(MIMEText(body, "plain"))
+          msg.attach(MIMEText(body, mime_type))
 
           def attach(path):
               with open(path, "rb") as f:
