@@ -778,14 +778,11 @@ def run_recomp_monitor(state):
 
 # ─── Export: Weekly Plain-Text Log ───────────────────────────────────────────
 
-def get_week_workouts():
-    """Return workouts that fall within the current ISO week (Mon–Sun, UTC)."""
-    now = datetime.now(timezone.utc)
-    # Monday 00:00 of the current ISO week
-    week_start = (now - timedelta(days=now.weekday())).replace(
-        hour=0, minute=0, second=0, microsecond=0
-    )
-    week_end = week_start + timedelta(days=7)
+def get_week_workouts(days=30):
+    """Return workouts from the last N days (default 30) for trend analysis."""
+    now        = datetime.now(timezone.utc)
+    from_date  = (now - timedelta(days=days)).replace(hour=0, minute=0, second=0, microsecond=0)
+    to_date    = now
 
     workouts = []
     page = 1
@@ -800,27 +797,26 @@ def get_week_workouts():
                 created = datetime.fromisoformat(ts.replace("Z", "+00:00"))
             except Exception:
                 continue
-            if week_start <= created < week_end:
+            if from_date <= created <= to_date:
                 workouts.append(w)
-        # Stop if the oldest item in this page predates the week
         oldest_ts = batch[-1].get("created_at") or batch[-1].get("start_time", "")
         try:
             oldest_dt = datetime.fromisoformat(oldest_ts.replace("Z", "+00:00"))
         except Exception:
             break
-        if oldest_dt < week_start or len(batch) < 10:
+        if oldest_dt < from_date or len(batch) < 10:
             break
         page += 1
 
-    return workouts, week_start, week_end - timedelta(seconds=1)
+    return workouts, from_date, to_date
 
 
 def run_export_log(state):
-    """Export this week's workout data to a plain-text file for AI analysis."""
-    workouts, week_start, week_end = get_week_workouts()
+    """Export the last 30 days of workout data to a plain-text file for AI analysis."""
+    workouts, from_date, to_date = get_week_workouts(days=30)
 
-    from_str = week_start.strftime("%Y-%m-%d")
-    to_str   = week_end.strftime("%Y-%m-%d")
+    from_str = from_date.strftime("%Y-%m-%d")
+    to_str   = to_date.strftime("%Y-%m-%d")
     filename = f"{from_str}_to_{to_str}_hevylog.txt"
     filepath = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
 
@@ -830,8 +826,8 @@ def run_export_log(state):
 
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     w("=" * 72)
-    w("HEVY WORKOUT LOG — WEEKLY EXPORT")
-    w(f"Week   : {from_str} to {to_str}")
+    w("HEVY WORKOUT LOG — 30-DAY EXPORT")
+    w(f"Period : {from_str} to {to_str}  (last 30 days)")
     w(f"Created: {now_str}")
     w(f"User   : {USER['name']} | {USER['age']}M | {USER['height_cm']}cm | "
       f"{USER['weight_kg']}kg → {USER['target_kg']}kg target")
@@ -840,7 +836,7 @@ def run_export_log(state):
 
     workouts_sorted = sorted(workouts, key=lambda x: parse_ts(x) or datetime.min)
 
-    w(f"SESSIONS THIS WEEK: {len(workouts_sorted)} of 5 planned")
+    w(f"SESSIONS (last 30 days): {len(workouts_sorted)}  |  planned: ~{5*4} (5/wk × 4 wks)")
     w()
 
     # ── Per-session detail ──
@@ -950,9 +946,9 @@ def run_export_log(state):
 
     # ── Weekly totals ──
     w("=" * 72)
-    w("WEEKLY TOTALS")
+    w("30-DAY TOTALS")
     w("=" * 72)
-    w(f"  Sessions  : {len(workouts_sorted)} of 5 planned")
+    w(f"  Sessions  : {len(workouts_sorted)}  (planned ~20 for 30 days)")
     w(f"  Total sets: {week_sets}")
     w(f"  Total vol : {week_vol:,.0f} kg·reps")
     w()
@@ -1014,8 +1010,8 @@ def run_export_log(state):
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(text)
 
-    section(f"EXPORT — Weekly Log")
-    print(f"\n  Week    : {from_str} to {to_str}")
+    section(f"EXPORT — 30-Day Log")
+    print(f"\n  Period  : {from_str} to {to_str}  (last 30 days)")
     print(f"  Sessions: {len(workouts_sorted)}")
     print(f"  Volume  : {week_vol:,.0f} kg·reps  |  {week_sets} sets")
     print(f"\n  Saved → {filepath}")
