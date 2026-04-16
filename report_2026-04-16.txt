@@ -1,98 +1,246 @@
 HEVY FULL TRAINING REPORT — 2026-04-16
 Ganesh | 44M | 181cm | 87kg → 79kg recomp target
 Period: 2026-03-17 to 2026-04-16 (30 days)
-================================================================
-⚠️  DATA NOTICE: Hevy API returned HTTP 503 (DNS cache overflow) during
-    export. All metrics below show 0 — this is an API failure, NOT a
-    reflection of actual training. Retry export when API recovers.
+Sessions: 5 | Total Volume: 29,629 kg·reps | 75 sets
 ================================================================
 
 1. WEEK BY WEEK BREAKDOWN
 ----------------------------------------------------------------
-  Week 1  (Mar 17–23): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
-  Week 2  (Mar 24–30): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+  Week 1  (Mar 17–23): Sessions: 0 | Volume: 0 kg·reps    | Sets: 0
+  Week 2  (Mar 24–30): Sessions: 0 | Volume: 0 kg·reps    | Sets: 0
   Week 3  (Mar 31–Apr 6): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
-  Week 4  (Apr 7–16):  Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+  Week 4  (Apr  7–13): Sessions: 3 | Volume: 17,652 kg·reps | Sets: 44
+    - Fri Apr 10 22:52  "Fri Drona Upper"     65 min  7,070 kg·reps  17 sets
+    - Sat Apr 11 03:18  "Sat Cult Lower"      22 min  5,858 kg·reps  12 sets
+    - Mon Apr 13 04:19  "Monday: Push (Cult)" 77 min  4,724 kg·reps  15 sets
+  Week 5  (Apr 14–16): Sessions: 2 | Volume: 11,977 kg·reps | Sets: 31
+    - Wed Apr 15 02:28  "Tuesday: Pull (Cult)" 84 min  5,542 kg·reps 16 sets
+    - Wed Apr 15 03:30  "Wednesday: Legs (Drona)" 61 min 6,435 kg·reps 15 sets
 
-  Target: 5 sessions/wk | ~20 sessions/30 days
-  Actual: 0 sessions (data unavailable — API outage)
+  TARGET: 5 sessions/wk × 4 wks = ~20 sessions
+  ACTUAL: 5 sessions (25% adherence)
+  CRITICAL GAP: 23 consecutive days with zero training (Mar 17 – Apr 9).
+  All 5 sessions occurred in a 6-day burst (Apr 10–15).
 
 2. STRENGTH PERFORMANCE
 ----------------------------------------------------------------
-  e1RM per Exercise: No data (0 sessions logged)
-  PRs Hit:          None recorded
-  Stalled Lifts:    Cannot assess
+  COMPOUND LIFTS — e1RM
+  ┌──────────────────────────────────────────────┬────────────┬────────┐
+  │ Exercise                                     │ Best e1RM  │ Trend  │
+  ├──────────────────────────────────────────────┼────────────┼────────┤
+  │ Shoulder Press (Machine Plates)              │  93.3 kg   │  ---   │
+  │ Deadlift (Trap Bar)                          │  91.0 kg   │  ---   │
+  │ Bent Over Row (Barbell)                      │  80.0 kg   │  ---   │
+  │ Lat Pulldown (Machine)                       │  66.7 kg   │  ---   │
+  │ Incline Bench Press (Dumbbell, per arm)      │  27.3 kg   │  ---   │
+  │ Romanian Deadlift (Dumbbell, per arm)        │  58.5 kg   │  ---   │
+  │ Shoulder Press (Dumbbell, per arm)           │  21.5 kg   │  ---   │
+  └──────────────────────────────────────────────┴────────────┴────────┘
 
-  Trend Arrows: N/A — requires at least 2 data points per lift
-  Note: Once data recovers, track e1RM trend for compound lifts
-  (squat, bench, deadlift, OHP, row) over the 30-day window.
+  ISOLATION LIFTS — e1RM
+  ┌──────────────────────────────────────────────┬────────────┬────────┐
+  │ Exercise                                     │ Best e1RM  │ Trend  │
+  ├──────────────────────────────────────────────┼────────────┼────────┤
+  │ Hip Abduction (Machine)                      │ 106.7 kg   │  UP ↑  │
+  │ Leg Extension (Machine)                      │  88.2 kg   │ DOWN ↓ │
+  │ Shrug (Smith Machine)                        │  82.0 kg   │  ---   │
+  │ Chest Press (Machine)                        │  63.0 kg   │  ---   │
+  │ Triceps Pushdown                             │  64.5 kg   │  ---   │
+  │ Chest Fly (Machine)                          │  54.6 kg   │  ---   │
+  │ Hip Adduction (Machine)                      │  54.7 kg   │  ---   │
+  │ Seated Leg Curl (Machine)                    │  40.6 kg   │  ---   │
+  │ Lateral Raise (Machine)                      │  37.5 kg   │  ---   │
+  │ Face Pull                                    │  32.6 kg   │  ---   │
+  │ Crunch (Machine)                             │  33.3 kg   │  ---   │
+  │ Bicep Curl (Machine)                         │  29.3 kg   │  ---   │
+  │ Lateral Raise (Dumbbell, per arm)            │  15.0 kg   │  ---   │
+  │ Hammer Curl (Dumbbell, per arm)              │  13.3 kg   │  13.3k │
+  └──────────────────────────────────────────────┴────────────┴────────┘
+
+  Trend Notes (--- = single data point, no trend calculable):
+  - Hip Abduction: Progressive overload visible within session
+    (60→70→80kg across sets), best e1RM 106.7kg. Positive sign.
+  - Leg Extension: Session 2 (Apr 11) used 63kg for 12 reps (e1RM 88.2kg);
+    Session 5 (Apr 15) dropped to 57kg for 10 reps (e1RM 76.0kg). Possible
+    fatigue from double-session same day, or different programme emphasis.
+  - Bent Over Row: Clear warm-up-style progression within session
+    (6→9→10 reps at 60kg), topping at 80.0kg e1RM. Good.
+  - Pull-Up: 3 × 6 BW — logged as 0 kg·reps (bodyweight not recorded).
+    At 87kg BW this represents ~1,566 kg·reps of untracked volume.
+  - Pendulum Squat: 3 × 6 @ 0kg — warm-up/empty machine only. No load data.
+
+  PRs This Period: Insufficient history to confirm PRs (first export).
+  Stalls: Cannot assess — single observation per lift.
 
 3. MUSCLE BALANCE
 ----------------------------------------------------------------
-  Push Volume:  0 kg·reps
-  Pull Volume:  0 kg·reps
-  Push/Pull Ratio: 0.00  (target: ~1.0)
+  PUSH / PULL
+  Push Volume:  9,614 kg·reps  (chest 3,804 + shoulders 4,185 + triceps 1,625)
+  Pull Volume: 11,941 kg·reps  (back 6,175 + biceps 2,024 + rear delts 1,102
+                                + traps 5,815 — traps partly shared)
+  Ratio: 1.24  (pull-dominant; target ~1.0; acceptable up to 1.3)
+  Status: BALANCED — no urgent correction needed.
 
-  Rear-Delt Sets:   0/wk  (target: ≥8 sets/wk)
-  Trap Sets:        0/wk  (target: ≥6 sets/wk)
+  REAR DELTS
+  Sets logged: 3 sets (Face Pull, Apr 15 only)
+  Target:      8 sets/wk
+  Active weeks: 1 week of training (Apr 10–15)
+  This-week rate: 3 sets vs. 8-set target → 37% of target. CRITICAL GAP.
+  Risk: Shoulder impingement and anterior tilt are elevated at 44M with
+  heavy pressing (OHP 93.3kg e1RM, Chest Press 63.0kg e1RM) if rear delts
+  are chronically undertrained.
 
-  Imbalance Risk: Cannot evaluate — no session data.
-  Recommendation: When data is available, prioritise face pulls,
-  reverse flyes, and shrugs if pull volume is lagging push volume.
+  TRAPS
+  Sets logged: 10 sets (Shrug 4 sets + Trap Bar DL 3 sets + Romanian DL 3)
+  Target:      6 sets/wk
+  This-week rate: 10 sets vs. 6-set target → 167% of target. ON TRACK.
+  However, all trap work was concentrated in 2 days; spread it out.
+
+  CHEST
+  Sets: 9 | Volume: 3,804 kg·reps | 10.2% of total
+  Push compound e1RMs are moderate (Incline DB 27.3kg/arm, Chest Press 63.0kg).
+  Chest is present but could use more direct pressing volume.
+
+  LEGS
+  Sets: 21 | Volume: 9,603 kg·reps | 25.7% of total — highest muscle group.
+  Good. Quad/hamstring balance: Leg Extension 3,834 vs Leg Curl 1,044 —
+  quad-dominant (3.7:1 ratio). Target closer to 2:1. Add more hamstring work.
+
+  BICEPS vs TRICEPS
+  Biceps: 9 sets, 2,024 kg·reps
+  Triceps: 3 sets, 1,625 kg·reps
+  Ratio: biceps-dominant in sets. Triceps volume is low for recomp;
+  arm definition benefits from more triceps work (bigger muscle).
 
 4. RECOVERY AND CONSISTENCY
 ----------------------------------------------------------------
-  Session Gaps:           Cannot calculate (0 sessions)
-  Late-Night Sessions:    None logged
-  Consecutive-Day Risk:   No back-to-back training detected (0 data)
+  SESSION TIMELINE
+  ┌─────────────────────────────────┬────────────┬──────────────────────────┐
+  │ Session                         │ Time       │ Rest from prior session  │
+  ├─────────────────────────────────┼────────────┼──────────────────────────┤
+  │ Fri Apr 10 Upper (65 min)       │ 22:52      │ 23+ days (since last log)│
+  │ Sat Apr 11 Lower (22 min)       │ 03:18      │ ~4.5 hours ⚠️            │
+  │ Mon Apr 13 Push  (77 min)       │ 04:19      │ ~49 hours                │
+  │ Wed Apr 15 Pull  (84 min)       │ 02:28      │ ~46 hours                │
+  │ Wed Apr 15 Legs  (61 min)       │ 03:30      │ ~62 minutes ⛔            │
+  └─────────────────────────────────┴────────────┴──────────────────────────┘
 
-  Consistency Score: N/A
-  Note: At 44M, 48-72h recovery between heavy compound sessions is
-  recommended. Flag any 3+ consecutive training days once data loads.
+  GAPS
+  - 23-day zero-training gap (Mar 17 – Apr 9): Major deconditioning risk.
+    Returning from a 3-week layoff with 5 sessions in 6 days is high-volume
+    shock loading. DOMS and injury risk elevated.
+
+  LATE-NIGHT SESSIONS (2–5 AM)
+  4 of 5 sessions logged between 2:28 AM and 4:19 AM:
+  - Apr 11 at 3:18 AM
+  - Apr 13 at 4:19 AM
+  - Apr 15 at 2:28 AM and 3:30 AM
+  Training at 2–4 AM severely impairs:
+  (a) circadian rhythm → elevated cortisol → blunted muscle protein synthesis
+  (b) sleep quality post-session → reduced GH pulse → slower recovery
+  (c) cognitive function during lifting → higher injury risk (form breakdown)
+
+  BACK-TO-BACK RISKS
+  Apr 10→11: Upper followed by Lower with only 4.5h gap. Lower body
+  recovery was incomplete; trap bar DL loaded the same posterior chain
+  stressed in the Upper session (traps, upper back). MODERATE RISK.
+
+  Apr 15 double: Pull (back, biceps, traps) then Legs (quads, hams,
+  glutes) within 62 minutes. Physiologically, the legs session began
+  before the pull session ended. CNS fatigue, glycogen depletion, and
+  form quality in the second session are all compromised. HIGH RISK.
+  The 22-min lower session on Apr 11 also suggests rushed execution.
+
+  CONSECUTIVE DAYS
+  Apr 10, 11, (rest Apr 12), 13, (rest Apr 14), 15: Not 3+ consecutive
+  days, but effective density is extreme given the layoff.
 
 5. RECOMP PROGRESS
 ----------------------------------------------------------------
   Starting Weight:  87 kg
   Target Weight:    79 kg
-  Total to Lose:    8 kg
-  Target Pace:      0.5 kg/wk (aggressive but achievable with training)
-  Target Duration:  ~16 weeks from baseline
+  Total to Lose:    8 kg at 0.5 kg/wk = 16-week timeline
+  Deficit:          15% of TDEE
 
-  Caloric Math (estimated, 15% deficit):
-    TDEE at 87kg/181cm/44M (moderate activity): ~2,600 kcal/day
-    15% deficit: ~390 kcal/day cut → ~2,210 kcal/day
-    Expected rate: 0.3–0.5 kg/wk (matches target pace)
+  CALORIC MATH
+  TDEE estimate (Mifflin-St Jeor, moderate activity):
+    BMR = 10×87 + 6.25×181 − 5×44 + 5 = 1,888 kcal
+    TDEE (×1.55 moderate) = ~2,927 kcal/day
+    15% deficit = ~439 kcal/day cut → ~2,488 kcal/day target
+    Protein at 2.2g/kg = ~191g/day (priority #1 during recomp)
+    Expected fat loss rate: 0.4–0.55 kg/wk (aligns with 0.5 target)
 
-  Deload Week Timing:
-    Recommended every 4–6 weeks of progressive overload.
-    Insert deload at Week 5 or 6 of a training block.
-    Current block start: Unknown (no session data).
-    Flag: If training has been continuous since before Mar 17,
-    a deload may already be overdue.
+  TRAINING ADHERENCE IMPACT ON RECOMP
+  With only 5 sessions in 30 days (25% adherence), muscle protein
+  synthesis stimulus is severely insufficient. Recomp requires
+  consistent mechanical tension 3–4×/wk per muscle group to preserve
+  (or build) lean mass while in a deficit. Current frequency:
+    - Chest: 3 sessions total (should be 8–12/month)
+    - Back: 4 sessions total
+    - Legs: 3 sessions total
+  At this frequency, the recomp is functioning as a cut with muscle
+  loss risk, not a true recomp.
 
-  Body Composition Note: Recomp at 87→79kg is achievable in
-  16–20 weeks with consistent progressive overload + moderate
-  deficit. Protein target: ≥2.0g/kg = ≥174g/day.
+  DELOAD TIMING
+  - A deload is NOT needed right now. Only 1 active week of training
+    logged. The 23-day gap already acted as passive rest.
+  - First deload: schedule at Week 5–6 of the new consistent training
+    block (target start: week of Apr 14).
+  - Deload protocol: reduce volume 50% (drop to 1–2 sets/exercise),
+    maintain load/intensity, keep same session frequency.
+  - Watch for: persistent joint soreness, sleep disruption, mood/
+    motivation drop — early deload indicators.
+
+  RECOMP TIMELINE PROJECTION
+  If 4 sessions/wk maintained from Apr 14 onward:
+    Weeks 1–4 (Apr 14 – May 11): Establish baseline, CNS adaptation
+    Weeks 5–8 (May 12 – Jun 8):  Progressive overload, track e1RM
+    Weeks 9–16 (Jun 9 – Aug 3):  Strength + body composition shift
+    Target arrival at 79kg:      ~Late July / early August 2026
 
 6. RECOMMENDATIONS
 ----------------------------------------------------------------
-  IMMEDIATE:
-  1. Retry API export once DNS issue resolves to recover real data.
-  2. Do NOT base training decisions on this zero-data report.
-  3. Manually verify last 4 weeks of sessions in the Hevy app.
+  CRITICAL (address immediately)
 
-  STRUCTURAL (apply once data is confirmed):
-  1. Push/Pull Balance — ensure ratio stays between 0.8–1.2.
-     Add 1 extra pull movement if push-dominant.
-  2. Rear-Delt Volume — target 8+ sets/wk (face pulls, reverse flyes).
-     This directly supports shoulder health and posture in recomp.
-  3. Progressive Overload — increase load or reps every 1–2 sessions
-     per exercise to drive muscle retention during caloric deficit.
-  4. Deload Planning — schedule a deload week every 4–5 weeks;
-     reduce volume 40–50%, maintain intensity.
-  5. Sleep & Recovery — at 44M, prioritise 7–8h sleep. Cortisol
-     management is critical for successful recomp.
+  1. STOP training at 2–4 AM. Sleep is the primary recovery tool. Even
+     shifting sessions to 7–9 PM would dramatically improve GH release,
+     cortisol rhythm, and muscle protein synthesis. At 44M, sleep quality
+     directly controls recomp speed.
+
+  2. NEVER run Pull + Legs back-to-back within the same 2-hour window.
+     These are distinct sessions on the programme (Tuesday Pull /
+     Wednesday Legs) — log them on separate days.
+
+  3. ESTABLISH weekly minimum of 4 sessions BEFORE adding volume.
+     The current problem is frequency (5/30 days), not session quality.
+     Target: Mon Push, Tue Pull, Thu Lower, Sat Upper as the core 4.
+
+  STRUCTURAL
+
+  4. REAR DELTS — add Face Pull or Rear Delt Fly to every upper-body
+     session (3 × 15–20 reps). Target 6–8 sets/wk minimum. This is
+     non-negotiable for shoulder health at 44 with heavy OHP.
+
+  5. HAMSTRING BALANCE — Leg Extension:Leg Curl ratio is 3.7:1 (should
+     be ~2:1). Add 1–2 extra Leg Curl sets per leg session. Romanian DL
+     helps but targets hams differently than isolated curl.
+
+  6. PROGRESSIVE OVERLOAD — now that a baseline exists, track e1RM for
+     key lifts each session. Aim for +2.5kg or +1 rep per session on
+     compounds (OHP, DL, Row). Small, consistent gains drive recomp.
+
+  7. TRICEPS VOLUME — currently only 3 sets vs. 9 bicep sets. For arm
+     definition, triceps (2/3 of arm) deserves equal or more volume.
+     Add 1–2 sets Overhead Tricep Extension or Cable Pushdown to pull
+     days or as a superset.
+
+  8. BODYWEIGHT on PULL-UPS — record bodyweight in Hevy so Pull-Ups
+     register actual volume (currently logged as 0 kg·reps). At 87kg,
+     3 × 6 = 1,566 kg·reps of untracked volume.
+
+  9. DELOAD at Week 6 — schedule ~May 25 for first deload. Halve sets,
+     keep weights. One deload week per 5-week block going forward.
 
 ================================================================
-END OF REPORT | Generated 2026-04-16 | Data: 0 sessions (API error)
+END OF REPORT | Generated 2026-04-16 | Data: 5 sessions, 29,629 kg·reps
 ================================================================

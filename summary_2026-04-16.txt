@@ -1,29 +1,34 @@
-HEVY FITNESS SUMMARY — 2026-04-16
-Ganesh | 44M | 181cm | 87kg → 79kg recomp
-Period: 2026-03-17 to 2026-04-16 (30 days)
-================================================================
+HEVY FITNESS SUMMARY — Ganesh | 2026-04-16
+Period: 2026-03-17 to 2026-04-16 | 5 sessions | 29,629 kg·reps | 75 sets
+========================================================================
 
 KEY FINDINGS
-------------
-⚠️  API FAILURE: Hevy API returned HTTP 503 (DNS cache overflow). Zero
-    sessions were retrieved — data may exist but could not be fetched.
 
-📉  SESSIONS LOGGED: 0 of ~20 planned (5/wk × 4 wks). This reflects the
-    API outage, not necessarily zero training activity.
+🚨 CONSISTENCY COLLAPSE: Only 5 of ~20 planned sessions completed (25%
+   adherence). Zero training for 23 straight days (Mar 17 – Apr 9), then
+   all 5 sessions crammed into 6 days (Apr 10–15). Recomp timeline of
+   87→79kg at 0.5kg/wk is at serious risk without sustained weekly volume.
 
-⚖️  VOLUME: 0 kg·reps across 0 sets. No push/pull ratio calculable.
-    Recomp progress (87→79kg, 0.5kg/wk pace) cannot be assessed.
+⏰ LATE-NIGHT OVERREACH: Four of five sessions logged between 2–4 AM.
+   Sessions 4 & 5 on Apr 15 were back-to-back (2:28 AM Pull + 3:30 AM
+   Legs — only 62 min apart). This is a significant injury and recovery
+   risk.
 
-🔁  DATA INTEGRITY: Re-run export once API is stable to recover actual
-    session data before drawing any training conclusions.
+💪 STRENGTH BASE INTACT: Top e1RMs — Hip Abduction 106.7kg, Shoulder
+   Press (Machine) 93.3kg, Trap Bar Deadlift 91.0kg, Bent Over Row 80.0kg.
+   Strength held despite the layoff.
+
+⚖️ REAR DELTS CRITICALLY UNDERTRAINED: Only 3 sets of Face Pulls this
+   entire period vs. an 8/wk target. Shoulder imbalance risk is real at
+   44 years old.
 
 ACTION ITEMS
-------------
-1. Retry export (HEVY_API_KEY=... python3 hevy_trainer.py export) once
-   Hevy API DNS issue resolves — typically within minutes to hours.
 
-2. If the API remains unavailable, manually log recent sessions directly
-   in the Hevy app to ensure no data is lost between syncs.
+1. Re-establish minimum 4 sessions/week at consistent daytime or early
+   evening hours — not 2-4 AM. Target 16+ sessions in the next 30 days.
 
-3. Once valid data is recovered, re-generate this summary and the full
-   report to assess week-by-week volume, strength trends, and recomp pace.
+2. Add rear-delt work (Face Pull or Rear Delt Fly) to EVERY upper-body
+   session — 3 sets each time to reach 6–8 sets/wk.
+
+3. Never double-up sessions under 4 hours apart. Split Pull + Legs onto
+   separate calendar days to protect recovery and sleep quality.
