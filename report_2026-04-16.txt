@@ -1,0 +1,98 @@
+HEVY FULL TRAINING REPORT — 2026-04-16
+Ganesh | 44M | 181cm | 87kg → 79kg recomp target
+Period: 2026-03-17 to 2026-04-16 (30 days)
+================================================================
+⚠️  DATA NOTICE: Hevy API returned HTTP 503 (DNS cache overflow) during
+    export. All metrics below show 0 — this is an API failure, NOT a
+    reflection of actual training. Retry export when API recovers.
+================================================================
+
+1. WEEK BY WEEK BREAKDOWN
+----------------------------------------------------------------
+  Week 1  (Mar 17–23): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+  Week 2  (Mar 24–30): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+  Week 3  (Mar 31–Apr 6): Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+  Week 4  (Apr 7–16):  Sessions: 0 | Volume: 0 kg·reps | Sets: 0
+
+  Target: 5 sessions/wk | ~20 sessions/30 days
+  Actual: 0 sessions (data unavailable — API outage)
+
+2. STRENGTH PERFORMANCE
+----------------------------------------------------------------
+  e1RM per Exercise: No data (0 sessions logged)
+  PRs Hit:          None recorded
+  Stalled Lifts:    Cannot assess
+
+  Trend Arrows: N/A — requires at least 2 data points per lift
+  Note: Once data recovers, track e1RM trend for compound lifts
+  (squat, bench, deadlift, OHP, row) over the 30-day window.
+
+3. MUSCLE BALANCE
+----------------------------------------------------------------
+  Push Volume:  0 kg·reps
+  Pull Volume:  0 kg·reps
+  Push/Pull Ratio: 0.00  (target: ~1.0)
+
+  Rear-Delt Sets:   0/wk  (target: ≥8 sets/wk)
+  Trap Sets:        0/wk  (target: ≥6 sets/wk)
+
+  Imbalance Risk: Cannot evaluate — no session data.
+  Recommendation: When data is available, prioritise face pulls,
+  reverse flyes, and shrugs if pull volume is lagging push volume.
+
+4. RECOVERY AND CONSISTENCY
+----------------------------------------------------------------
+  Session Gaps:           Cannot calculate (0 sessions)
+  Late-Night Sessions:    None logged
+  Consecutive-Day Risk:   No back-to-back training detected (0 data)
+
+  Consistency Score: N/A
+  Note: At 44M, 48-72h recovery between heavy compound sessions is
+  recommended. Flag any 3+ consecutive training days once data loads.
+
+5. RECOMP PROGRESS
+----------------------------------------------------------------
+  Starting Weight:  87 kg
+  Target Weight:    79 kg
+  Total to Lose:    8 kg
+  Target Pace:      0.5 kg/wk (aggressive but achievable with training)
+  Target Duration:  ~16 weeks from baseline
+
+  Caloric Math (estimated, 15% deficit):
+    TDEE at 87kg/181cm/44M (moderate activity): ~2,600 kcal/day
+    15% deficit: ~390 kcal/day cut → ~2,210 kcal/day
+    Expected rate: 0.3–0.5 kg/wk (matches target pace)
+
+  Deload Week Timing:
+    Recommended every 4–6 weeks of progressive overload.
+    Insert deload at Week 5 or 6 of a training block.
+    Current block start: Unknown (no session data).
+    Flag: If training has been continuous since before Mar 17,
+    a deload may already be overdue.
+
+  Body Composition Note: Recomp at 87→79kg is achievable in
+  16–20 weeks with consistent progressive overload + moderate
+  deficit. Protein target: ≥2.0g/kg = ≥174g/day.
+
+6. RECOMMENDATIONS
+----------------------------------------------------------------
+  IMMEDIATE:
+  1. Retry API export once DNS issue resolves to recover real data.
+  2. Do NOT base training decisions on this zero-data report.
+  3. Manually verify last 4 weeks of sessions in the Hevy app.
+
+  STRUCTURAL (apply once data is confirmed):
+  1. Push/Pull Balance — ensure ratio stays between 0.8–1.2.
+     Add 1 extra pull movement if push-dominant.
+  2. Rear-Delt Volume — target 8+ sets/wk (face pulls, reverse flyes).
+     This directly supports shoulder health and posture in recomp.
+  3. Progressive Overload — increase load or reps every 1–2 sessions
+     per exercise to drive muscle retention during caloric deficit.
+  4. Deload Planning — schedule a deload week every 4–5 weeks;
+     reduce volume 40–50%, maintain intensity.
+  5. Sleep & Recovery — at 44M, prioritise 7–8h sleep. Cortisol
+     management is critical for successful recomp.
+
+================================================================
+END OF REPORT | Generated 2026-04-16 | Data: 0 sessions (API error)
+================================================================

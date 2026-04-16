@@ -1,0 +1,29 @@
+HEVY FITNESS SUMMARY — 2026-04-16
+Ganesh | 44M | 181cm | 87kg → 79kg recomp
+Period: 2026-03-17 to 2026-04-16 (30 days)
+================================================================
+
+KEY FINDINGS
+------------
+⚠️  API FAILURE: Hevy API returned HTTP 503 (DNS cache overflow). Zero
+    sessions were retrieved — data may exist but could not be fetched.
+
+📉  SESSIONS LOGGED: 0 of ~20 planned (5/wk × 4 wks). This reflects the
+    API outage, not necessarily zero training activity.
+
+⚖️  VOLUME: 0 kg·reps across 0 sets. No push/pull ratio calculable.
+    Recomp progress (87→79kg, 0.5kg/wk pace) cannot be assessed.
+
+🔁  DATA INTEGRITY: Re-run export once API is stable to recover actual
+    session data before drawing any training conclusions.
+
+ACTION ITEMS
+------------
+1. Retry export (HEVY_API_KEY=... python3 hevy_trainer.py export) once
+   Hevy API DNS issue resolves — typically within minutes to hours.
+
+2. If the API remains unavailable, manually log recent sessions directly
+   in the Hevy app to ensure no data is lost between syncs.
+
+3. Once valid data is recovered, re-generate this summary and the full
+   report to assess week-by-week volume, strength trends, and recomp pace.
