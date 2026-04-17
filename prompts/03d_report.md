@@ -1,4 +1,12 @@
-# Step 3d: Report — Sections 7 and 8 (Insights + Next Week Plan)
+# TASK 5 OF 7: Append report sections 7 and 8
+
+## STRICT RULES FOR THIS TASK
+- Do THIS TASK ONLY. Append sections 7 and 8 only.
+- When done, STOP. The next task will be sent automatically.
+
+---
+
+# Report — Sections 7 and 8 (Insights + Next Week Plan)
 
 Append sections 7 and 8 to the existing `report_YYYY-MM-DD.txt` (today's date).
 Do NOT overwrite — append only.

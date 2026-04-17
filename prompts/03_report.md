@@ -1,4 +1,12 @@
-# Step 3: Weekly Training Report — Part 1 (Sections 1–4)
+# TASK 2 OF 7: Write report sections 1 and 2
+
+## STRICT RULES FOR THIS TASK
+- Do THIS TASK ONLY. Do not read other prompt files. Do not write sections 3-8.
+- When done writing sections 1-2, STOP. The next task will be sent automatically.
+
+---
+
+# Weekly Training Report — Sections 1 and 2
 
 Write a file named `report_YYYY-MM-DD.txt` (today's date) using the Write tool.
 **This step writes the first half only.** A follow-up step will append sections 5–8.

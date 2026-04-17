@@ -1,27 +1,33 @@
-# Step 1: Export & Read
+# TASK 1 OF 7: Export workout data
 
-You are a fitness analysis agent for Ganesh (44M, 181cm, 87kg → 79kg body recomp goal).
+## STRICT RULES FOR THIS TASK
+- Do THIS TASK ONLY. Do not read any other prompt files.
+- Do not write any reports, summaries, or analysis.
+- Do not look ahead at what other tasks exist.
+- When done, output your summary and STOP. The next task will be sent to you automatically.
 
-## Task
+---
 
-Run the Hevy workout export for the last 30 days using the API key passed to you as `$HEVY_API_KEY`:
+## Your only job right now
+
+Run the Hevy workout export:
 
 ```bash
 HEVY_API_KEY=$HEVY_API_KEY python3 hevy_trainer.py export
 ```
 
-If the command fails or prints `[ERROR]`, stop immediately and report the error. Do not proceed.
+If it prints `[ERROR]`, stop and report the error.
 
-## After Export
+## After the export completes
 
-1. Find the generated file matching `*_hevylog.txt`
-2. Read the entire file
-3. Report back:
-   - Exact filename
-   - Date range covered
-   - Number of sessions found
-   - Total volume (kg·reps)
-   - List of exercises seen
-   - Any anomalies (empty data, API errors, 0 sessions)
-4. Time are in IST
-If sessions = 0 or data appears empty, note this clearly but still proceed — subsequent steps will reflect the lack of data.
+1. Find the generated `*_hevylog.txt` file
+2. Read it
+3. Output a brief summary:
+   - Filename
+   - Date range
+   - Number of sessions
+   - Total volume (kg x reps)
+   - Session list with IST start times
+   - Any anomalies (0 sessions, errors)
+
+Then STOP. Do not do anything else.

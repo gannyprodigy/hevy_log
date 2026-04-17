@@ -1,4 +1,12 @@
-# Step 3b: Report — Sections 3 and 4 (Strength + Muscle Balance)
+# TASK 3 OF 7: Append report sections 3 and 4
+
+## STRICT RULES FOR THIS TASK
+- Do THIS TASK ONLY. Append sections 3 and 4 only. Do not write sections 5-8.
+- When done, STOP. The next task will be sent automatically.
+
+---
+
+# Report — Sections 3 and 4 (Strength + Muscle Balance)
 
 Append sections 3 and 4 to the existing `report_YYYY-MM-DD.txt` (today's date).
 Do NOT overwrite — append only.

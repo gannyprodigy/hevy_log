@@ -1,4 +1,12 @@
-# Step 3c: Report — Sections 5 and 6 (Recovery + Recomp)
+# TASK 4 OF 7: Append report sections 5 and 6
+
+## STRICT RULES FOR THIS TASK
+- Do THIS TASK ONLY. Append sections 5 and 6 only. Do not write sections 7-8.
+- When done, STOP. The next task will be sent automatically.
+
+---
+
+# Report — Sections 5 and 6 (Recovery + Recomp)
 
 Append sections 5 and 6 to the existing `report_YYYY-MM-DD.txt` (today's date).
 Do NOT overwrite — append only.
