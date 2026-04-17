@@ -34,7 +34,7 @@ If no previous report exists, write "First report — no baseline" and continue.
 
 ---
 
-## Write sections 1–4
+## Write ONLY sections 1 and 2 to the file (a follow-up step will append the rest)
 
 ### 1. THIS WEEK AT A GLANCE
 - Sessions this week vs 5 target, and how that compares to prior weeks in the 30-day window
@@ -48,7 +48,7 @@ For each session this week:
 - Date and time (IST), session name, duration
 - Total volume (kg x reps) and sets
 - Top 2-3 exercises — what weight/reps, any progress vs the prior session in the log
-- Any flags (too late at night, back-to-back with same muscle group, overlapping timestamps)
+- Any flags (too late at night, back-to-back with same muscle group)
 
 Then a simple 4-week volume trend in plain text (no special characters):
 
@@ -56,30 +56,7 @@ Then a simple 4-week volume trend in plain text (no special characters):
   Week 2 (dates): [########] Xkg total, N sessions
   ...
 
-### 3. STRENGTH: HOW ARE THE LIFTS MOVING?
-For every exercise that appeared this week:
-- Best weight x reps this week
-- Best estimated 1-rep max (e1RM = weight x (1 + reps/30))
-- Compared to the last time this exercise appeared in the 30-day log: up / same / down, and by how much
-- What to do next session (specific weight and reps)
-- Any flags: rep collapse, weight drop mid-session, bodyweight exercise with no load logged
-
-Group: main lifts first (rows, presses, deadlifts, squats), then smaller exercises.
-
-### 4. ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?
-Plain text table for this week's sets per muscle group:
-
-  Muscle Group    | Sets this wk | Target/wk | Gap    | Status
-  ----------------+--------------+-----------+--------+--------
-  ...
-
-Explain in plain terms:
-- Which muscles got enough work (and what "enough" means)
-- Which are falling short and why it matters in simple language
-- Flag rear delts (need 8+ sets/week — affects shoulder health) and traps (6+ sets/week)
-- Push vs pull set count and whether they're balanced
-
 ---
 
 ## Tone
-Plain English. Write like a knowledgeable coach talking to someone who trains regularly but isn't a sports scientist. Explain any technical terms briefly in brackets. Specific numbers always.
+Plain English. Coach talking to a regular gym-goer. Explain technical terms briefly in brackets. Always cite specific numbers.
