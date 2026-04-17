@@ -846,9 +846,11 @@ def run_export_log(state):
     vol_by_muscle  = defaultdict(float)
     sets_by_muscle = defaultdict(int)
 
+    IST = timezone(timedelta(hours=5, minutes=30))
     for idx, workout in enumerate(workouts_sorted, 1):
         dt      = parse_ts(workout)
-        day_str = dt.strftime("%A %d %b %Y  %H:%M") if dt else "Unknown"
+        dt_ist  = dt.astimezone(IST) if dt else None
+        day_str = dt_ist.strftime("%A %d %b %Y  %H:%M IST") if dt_ist else "Unknown"
         title   = workout.get("title") or workout.get("name") or "Workout"
 
         # Duration

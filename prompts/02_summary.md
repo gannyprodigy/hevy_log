@@ -32,24 +32,24 @@ This is the email body. It must render beautifully in Gmail, Apple Mail, and Out
     <!-- Header -->
     <tr><td style="background:#1a2744;border-radius:12px 12px 0 0;padding:28px 32px 22px;">
       <p style="margin:0 0 4px;color:#7eb3ff;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;">Hevy Training Intelligence</p>
-      <h1 style="margin:0 0 6px;color:#ffffff;font-size:22px;font-weight:700;">30-Day Analysis Report</h1>
-      <p style="margin:0;color:#a8c8ff;font-size:13px;">[DATE RANGE] &nbsp;·&nbsp; Generated [TODAY]</p>
+      <h1 style="margin:0 0 6px;color:#ffffff;font-size:22px;font-weight:700;">This Week's Training Summary</h1>
+      <p style="margin:0;color:#a8c8ff;font-size:13px;">[THIS WEEK DATE RANGE] &nbsp;·&nbsp; Generated [TODAY]</p>
     </td></tr>
 
     <!-- Key Findings card -->
     <tr><td style="background:#ffffff;padding:24px 32px 16px;">
-      <p style="margin:0 0 14px;color:#1a2744;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">Key Findings</p>
-      <!-- One row per finding: -->
+      <p style="margin:0 0 14px;color:#1a2744;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">How This Week Went</p>
+      <!-- One row per finding. Write in plain English — what happened and why it matters. Always include a specific number. -->
       <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px;">
         <tr>
           <td width="32" style="vertical-align:top;padding-top:1px;font-size:18px;">[EMOJI]</td>
-          <td style="font-size:14px;color:#374151;line-height:1.5;">[FINDING — specific number, not vague. e.g. "Push/pull ratio 0.87 — below 1.0 target"]</td>
+          <td style="font-size:14px;color:#374151;line-height:1.5;">[FINDING in plain English with a number, e.g. "Trained 3 of 5 planned days — rear delt sets were only 3 this week, need 8+ for shoulder health"]</td>
           <td width="60" align="right" style="vertical-align:top;">
             <span style="background:[STATUS_COLOR];color:#fff;font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;">[STATUS]</span>
           </td>
         </tr>
       </table>
-      <!-- Repeat for each finding (3–4 total) -->
+      <!-- Repeat for 3-4 findings total. Cover: sessions hit, a strength highlight, a muscle gap, sleep/recovery if relevant -->
     </td></tr>
 
     <!-- Divider -->
@@ -57,14 +57,14 @@ This is the email body. It must render beautifully in Gmail, Apple Mail, and Out
 
     <!-- Actions card -->
     <tr><td style="background:#ffffff;padding:16px 32px 24px;border-radius:0 0 12px 12px;">
-      <p style="margin:0 0 14px;color:#1a2744;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">This Week's Actions</p>
-      <!-- One row per action: -->
+      <p style="margin:0 0 14px;color:#1a2744;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">Do This Next Week</p>
+      <!-- 3 specific, actionable things. Name the exercise and the exact change. Plain English. -->
       <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:10px;">
         <tr>
           <td width="28" style="vertical-align:top;">
             <div style="background:#4a90ff;color:#fff;font-size:11px;font-weight:700;width:20px;height:20px;border-radius:50%;text-align:center;line-height:20px;">[N]</div>
           </td>
-          <td style="font-size:14px;color:#374151;line-height:1.5;padding-left:8px;">[ACTION — name specific exercise, specific change, specific reason]</td>
+          <td style="font-size:14px;color:#374151;line-height:1.5;padding-left:8px;">[ACTION — e.g. "Add 2 sets of Face Pulls to every session this week — rear delts are critically undertrained and this protects your shoulder long-term"]</td>
         </tr>
       </table>
       <!-- Repeat for actions 2 and 3 -->
