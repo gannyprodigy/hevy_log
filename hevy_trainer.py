@@ -155,14 +155,14 @@ def get_recent_workouts(days=7):
         if not batch:
             break
         for w in batch:
-            ts = w.get("created_at") or w.get("start_time", "")
+            ts = w.get("start_time") or w.get("created_at", "")
             try:
                 created = datetime.fromisoformat(ts.replace("Z", "+00:00"))
             except Exception:
                 continue
             if created >= cutoff:
                 workouts.append(w)
-        oldest = batch[-1].get("created_at") or batch[-1].get("start_time", "")
+        oldest = batch[-1].get("start_time") or batch[-1].get("created_at", "")
         try:
             oldest_dt = datetime.fromisoformat(oldest.replace("Z", "+00:00"))
         except Exception:
@@ -193,7 +193,7 @@ def e1rm(weight, reps):
     return weight if reps == 1 else round(weight * (1 + reps / 30), 1)
 
 def parse_ts(w):
-    ts = w.get("created_at") or w.get("start_time", "")
+    ts = w.get("start_time") or w.get("created_at", "")
     try:
         return datetime.fromisoformat(ts.replace("Z", "+00:00"))
     except Exception:
@@ -792,14 +792,14 @@ def get_week_workouts(days=30):
         if not batch:
             break
         for w in batch:
-            ts = w.get("created_at") or w.get("start_time", "")
+            ts = w.get("start_time") or w.get("created_at", "")
             try:
                 created = datetime.fromisoformat(ts.replace("Z", "+00:00"))
             except Exception:
                 continue
             if from_date <= created <= to_date:
                 workouts.append(w)
-        oldest_ts = batch[-1].get("created_at") or batch[-1].get("start_time", "")
+        oldest_ts = batch[-1].get("start_time") or batch[-1].get("created_at", "")
         try:
             oldest_dt = datetime.fromisoformat(oldest_ts.replace("Z", "+00:00"))
         except Exception:
