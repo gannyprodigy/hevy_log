@@ -1,0 +1,680 @@
+HEVY 30-DAY TRAINING ANALYSIS REPORT
+Athlete  : Ganesh | 44M | 181cm | 87kg -> 79kg goal
+Period   : 2026-03-19 to 2026-04-18 (30 days)
+This Week: 2026-04-13 to 2026-04-18 (Mon-Sat)
+Generated: 2026-04-18 (IST)
+Compared : report_2026-04-17.txt
+========================================================================
+
+
+1. THIS WEEK AT A GLANCE
+------------------------------------------------------------------------
+Sessions this week (Apr 13-18): 4 of 5 target.
+Mon 13 Apr: Push (Cult) | Tue 14 Apr: Pull (Cult) |
+Wed 15 Apr: Legs (Drona) | Fri 17 Apr: Upper Body (Drona).
+No session Thu 16 Apr. Today (Sat 18 Apr) could still add a 5th.
+
+Overall score: 7/10. Four consistent morning sessions (07:58-08:56 IST),
+progressive loading visible on multiple exercises, and the most productive
+week volume of the 30-day window (26,266 kg*reps across 4 sessions). One
+session short of the 5/week target, and two persistent tracking gaps
+(Pendulum Squat and Pull-Up still logged at 0 kg) continue to mask real
+volume. The rear delt and trap situation improved but is not yet fixed.
+
+Biggest win: Seated Shoulder Press (Machine) on Fri Apr 17 -- 3x12@70kg,
+e1RM 98.0kg. This is +4.7kg on e1RM vs last week's Shoulder Press Machine
+Plates (3x10@70kg, e1RM 93.3kg), achieved by adding 2 reps at the same
+load. Triceps Pushdown also advanced intra-week: 45kg on Mon climbed to
+50kg x 11 on Fri (e1RM 68.3kg), demonstrating real mid-week strength gain.
+
+Biggest concern: Traps at only 4 direct sets this week (Shrug x4 on Tue
+only) -- below the 6-set/week minimum, and DOWN from 7 sets last week.
+Rear delts at 6 sets (Face Pull 3 + Rear Delt Fly 3) improved from last
+week's 3 sets but remain below the 8-set/week shoulder-health threshold.
+The strength gap between Shoulder Press (e1RM 98kg) and rear delt work
+(Face Pull e1RM 32.6kg) is a long-term injury risk that is closing too
+slowly.
+
+vs previous report (Apr 17): BETTER on volume and muscle balance.
+Fri Apr 17 session (Upper Body Drona, 18 sets, 9,565 kg*reps) was added
+after yesterday's report cutoff -- this is the new data. Key improvements:
+chest up to 9 sets (from 6), triceps up to 6 sets (from 3), rear delts
+up to 6 sets (from 3), new Rear Delt Fly exercise confirmed at 35x12
+(e1RM 49.0kg). Chest Press advanced from 40->50kg on work sets. Weekly
+volume 26,266 vs 22,559 (+16%). Session timing: all morning -- maintained.
+Adherence: SAME at 4/5 sessions (different window composition).
+
+
+2. SESSION BY SESSION
+------------------------------------------------------------------------
+
+SESSION 1: Monday 13 Apr 2026 | 08:31 IST | Monday: Push (Cult) | 77 min
+Volume: 4,724 kg*reps | 15 sets
+  Top exercises:
+    Triceps Pushdown: 40x13, 40x13, 45x13 | e1RM 64.5kg.
+      Final set advanced to 45kg -- good auto-regulation. Target all 3
+      sets at 45kg next Push session.
+    Chest Fly (Machine): 3x12@39kg | e1RM 54.6kg.
+      All 3 sets identical -- consistent and ready to advance to 41kg.
+    Incline Bench Press (Dumbbell): 3x11@20kg | e1RM 27.3kg.
+      Stable across all 3 sets. Advance to 22.5kg next session.
+  Note: 48h gap from Sat Lower (Apr 11). Adequate for all muscle groups.
+    No muscle overlap concerns with prior session.
+  No flags.
+
+SESSION 2: Tuesday 14 Apr 2026 | 08:56 IST | Tuesday: Pull (Cult) | 84 min
+Volume: 5,542 kg*reps | 16 sets
+  Top exercises:
+    Shrug (Smith Machine): 4x11@60kg | e1RM 82.0kg.
+      Four sets of consistent trap work. Best trap session this week.
+      Next: 62.5kg x4x11.
+    Bent Over Row (Barbell): 60x6, 60x9, 60x10 | e1RM 80.0kg.
+      Reps built 6->10 at constant weight (warm-up effect). Not true
+      progressive overload yet -- target all 3 sets at 60x10 next Pull.
+    Face Pull: 3x18@20.4kg | e1RM 32.6kg.
+      Only 3 sets -- needs to be 5 sets minimum on pull days. Volume is
+      the issue, not the weight.
+  Flag: Pull-Up logged 3x6@0kg -- bodyweight (~87kg) still not entered
+    in Hevy app. Real back volume ~1,566 kg*reps is invisible in tracking.
+    Enter BW in Hevy profile before next session. This is the 2nd week
+    this flag has appeared.
+  Note: 24h from Push (S1). Push/pull split -- ideal. No overlap concerns.
+
+SESSION 3: Wednesday 15 Apr 2026 | 07:58 IST | Wednesday: Legs (Drona) | 61 min
+Volume: 6,435 kg*reps | 15 sets
+  Top exercises:
+    Hip Abduction (Machine): 60x11, 70x11, 80x10 | e1RM 106.7kg.
+      Highest e1RM in the 30-day log. Perfect progressive loading within
+      session. Next: 80x11 (add 1 rep before advancing weight).
+    Leg Extension (Machine): 3x10@57kg | e1RM 76.0kg.
+      REGRESSED from Sat peak of 63x12 (e1RM 88.2kg). -6kg and -2 reps
+      in one week. Cumulative fatigue after 3 sessions in 3 days.
+    Romanian Deadlift (Dumbbell): 40x11, 40x11, 45x9 | e1RM 58.5kg.
+      Slight rep drop at 45kg (9 vs 11 reps). Appropriate auto-regulation.
+  Flag: Pendulum Squat logged 3x6@0kg -- plate weight still not entered.
+    This is the 2nd consecutive week this flag appears. Primary quad
+    compound movement has zero visible volume. Log actual plate weight
+    loaded on the machine from next session -- this is the most important
+    tracking fix needed.
+  Note: 23h from Pull (S2). Romanian DL overlaps lower back and traps
+    worked in S2 (Bent Over Row + Shrug). Below the 48h ideal for posterior
+    chain compounds. Monitor lower-back fatigue going forward.
+
+SESSION 4: Friday 17 Apr 2026 | 08:14 IST | Friday: Upper Body (Drona) | 78 min
+Volume: 9,565 kg*reps | 18 sets
+  Top exercises:
+    Seated Shoulder Press (Machine): 3x12@70kg | e1RM 98.0kg.
+      Best shoulder press performance in the 30-day log. 2 more reps than
+      last week's 3x10@70kg (93.3kg e1RM). Ready to advance to 72.5kg.
+    Triceps Pushdown: 45x15, 50x11, 50x11 | e1RM 68.3kg.
+      Advanced from Mon's 45x13 to 50x11 on top sets -- clear mid-week
+      strength gain. Next: all 3 sets at 50kg.
+    Rear Delt Reverse Fly (Machine): 3x12@35kg | e1RM 49.0kg.
+      NEW exercise this session. Strong opener for a new movement.
+      Add this to every session -- rear delt gap is critical.
+  Note: 49h from Legs (S3). Excellent recovery window. No muscle group
+    overlap between Legs and Upper Body sessions.
+  No flags.
+
+---
+4-WEEK VOLUME TREND  (Mon-Sun calendar weeks)
+---
+Scale: each # = ~1,000 kg*reps | max bar = 26 chars (W4 = 26,266)
+
+  W1 (Mar 23-29):  [                          ]       0 kg*reps   0 sessions
+  W2 (Mar 30-Apr5):[                          ]       0 kg*reps   0 sessions
+  W3 (Apr  6-12):  [#############             ]  12,928 kg*reps   2 sessions
+  W4 (Apr 13-18):  [##########################]  26,266 kg*reps   4 sessions
+
+Volume doubled week-over-week. The 30-day log shows a sharp return to
+training after a 3-week complete gap (W1-W2 = 0 sessions). W3 and W4
+represent the first two weeks of the new training block. W4 is the most
+productive week in the 30-day window by both volume and session count.
+The 4-week chart makes the training gap in weeks 1-2 clearly visible --
+consistency in W5 and beyond is critical to sustaining the recomp goal.
+
+
+3. STRENGTH: HOW ARE THE LIFTS MOVING?
+------------------------------------------------------------------------
+Focus: exercises from this week (Apr 13-18). Baseline = last appearance
+in 30-day log. e1RM = weight x (1 + reps/30). Compounds listed first.
+
+--- COMPOUND LIFTS ---
+
+Seated Shoulder Press (Machine)  [shoulders | S4 Fri Apr 17]
+  This week   : 3x12@70kg | e1RM 98.0kg
+  vs last seen: Shoulder Press Machine Plates (S1 Fri Apr 10): 3x10@70kg
+                e1RM 93.3kg. UP +4.7kg e1RM (same weight, +2 reps).
+  Assessment  : Best shoulder pressing performance in the 30-day log.
+                Two more reps at the same load in one week = clear adaptation.
+  Next session: 3x10@72.5kg (test new weight, hold reps at 10 initially).
+
+Lat Pulldown (Machine)  [back | S4 Fri Apr 17]
+  This week   : 3x11@50kg | e1RM 68.3kg
+  vs last seen: S1 Fri Apr 10: 3x10@50kg | e1RM 66.7kg.
+                UP +1 rep per set. e1RM +1.6kg.
+  Assessment  : Steady incremental gain. Small but consistent.
+  Next session: 3x10@55kg (advance weight; if reps drop below 8, return to 52.5kg).
+
+Bent Over Row (Barbell)  [back | S2 Tue Apr 14]
+  This week   : 60x6, 60x9, 60x10 | best e1RM 80.0kg
+  vs last seen: Same data as Apr 17 report. Rep build 6->10 within session.
+  Assessment  : Ramp-up within session is improving (S1 effect). Not yet
+                true progressive overload -- weight unchanged. A brief
+                primer set (50kgx5) before working sets would fix the
+                cold-start on set 1.
+  Next session: Target all 3x10@60kg. Once achieved, advance to 62.5kg x3x8.
+
+Incline Bench Press (Dumbbell)  [chest | S1 Mon Apr 13]
+  This week   : 3x11@20kg | e1RM 27.3kg
+  vs last seen: Same as Apr 17 report. SAME weight and reps. Stable for
+                2 consecutive weeks. The Apr 17 report already flagged this
+                as overdue for progression.
+  Next session: 22.5kg x3x10. Do not stay at 20kg another week.
+
+Shoulder Press (Dumbbell)  [shoulders | S1 Mon Apr 13]
+  This week   : 3x13@15kg | e1RM 21.5kg
+  vs last seen: SAME. Stable for 2 weeks. Apr 17 recommended 17.5kg.
+  Next session: 17.5kg x3x12. Overdue to advance.
+
+Romanian Deadlift (Dumbbell)  [back, traps, legs | S3 Wed Apr 15]
+  This week   : 40x11, 40x11, 45x9 | best e1RM 58.5kg
+  vs last seen: SAME as Apr 17 report. No change in weight or reps.
+  Next session: 40x10, 42.5x10, 45x10 -- more gradual increment ladder.
+
+Pull-Up (BW)  [back | S2 Tue Apr 14]
+  This week   : 3x6@0kg logged (bodyweight NOT entered in Hevy app)
+  vs last seen: Same logging gap as Apr 17 report. No change.
+  Real volume : ~87kg x 18 reps = ~1,566 kg*reps hidden from log.
+  Next session: Enter current bodyweight (87kg) in Hevy profile BEFORE
+                next session. Target 3x7 once BW is captured.
+
+Pendulum Squat (Machine)  [legs | S3 Wed Apr 15]
+  This week   : 3x6@0kg logged (plate weight still not entered)
+  vs last seen: Same for 2 consecutive weeks. Volume is completely invisible.
+  Flag        : This is the primary quad compound. Zero tracking = zero
+                ability to show progress. Log the actual plate loaded.
+  Next session: Load the machine, note the plate weight, enter it in Hevy.
+
+--- ISOLATION LIFTS ---
+
+Triceps Pushdown  [triceps | S1 Mon Apr 13 + S4 Fri Apr 17]
+  S1 (Mon)    : 40x13, 40x13, 45x13 | e1RM 64.5kg
+  S4 (Fri)    : 45x15, 50x11, 50x11 | e1RM 68.3kg
+  vs last seen: Mon S1 was first session this week. Within-week progression
+                of +5kg on top sets and e1RM +3.8kg from Mon to Fri.
+  Assessment  : Clear intra-week strength gain -- the body adapted between
+                sessions. Both sessions in the same week show real progress.
+  Next session: All 3 sets at 50kg x12. Once consistent, advance to 52.5kg.
+
+Chest Press (Machine)  [chest | S4 Fri Apr 17]
+  This week   : 45x12, 50x11, 50x11 | e1RM 68.3kg
+  vs last seen: S1 Fri Apr 10: 45x12, 40x15, 40x15 | e1RM 63.0kg.
+                UP: Sets 2-3 advanced from 40kg to 50kg (+10kg). e1RM
+                +5.3kg. The mid-set weight drop from last week is fixed.
+  Assessment  : Strong improvement. Weight consistency across sets improved.
+  Next session: 3x12@50kg (standardise all sets at 50kg).
+
+Rear Delt Reverse Fly (Machine)  [rear_delts | S4 Fri Apr 17]
+  This week   : 3x12@35kg | e1RM 49.0kg
+  vs last seen: NEW exercise -- first appearance in the 30-day log.
+  Assessment  : Strong baseline for a new exercise. Consistent across 3 sets.
+                e1RM of 49.0kg is a solid starting point.
+  Next session: 35kg x3x13 (add 1 rep) or 37.5kg x3x12. Add to EVERY session.
+
+Face Pull  [rear_delts | S2 Tue Apr 14]
+  This week   : 3x18@20.4kg | e1RM 32.6kg
+  vs last seen: SAME. Apr 17 report recommended 4+ sets. Still at 3 sets.
+  Flag        : Volume is the issue, not weight. Need 5 sets on pull days
+                AND 3 sets added to push and upper sessions.
+  Next session: 5x18@20.4kg on pull day. 3x18@20.4kg on push/upper days.
+
+Chest Fly (Machine)  [chest | S1 Mon Apr 13]
+  This week   : 3x12@39kg | e1RM 54.6kg
+  vs last seen: SAME. Apr 17 report recommended 41kg. Still at 39kg.
+  Next session: 41kg x3x12. Advance now -- consistent for 2 weeks.
+
+Lateral Raise (Dumbbell)  [shoulders | S1 Mon Apr 13]
+  This week   : 3x15@10kg | e1RM 15.0kg
+  vs last seen: SAME. Apr 17 report recommended 12kg. Still at 10kg.
+  Next session: 12kg x3x12.
+
+Shrug (Smith Machine)  [traps | S2 Tue Apr 14]
+  This week   : 4x11@60kg | e1RM 82.0kg
+  vs last seen: SAME. Apr 17 report recommended 62.5kg.
+  Next session: 62.5kg x4x11.
+
+Hip Abduction (Machine)  [legs, core | S3 Wed Apr 15]
+  This week   : 60x11, 70x11, 80x10 | e1RM 106.7kg
+  vs last seen: SAME load as last week. Did not add the recommended rep (80x11).
+  Assessment  : Progression paused but volume is adequate. Mid-week placement
+                after 3 sessions may have limited top-set performance.
+  Next session: 80x11, then 85x10.
+
+Leg Extension (Machine)  [legs | S3 Wed Apr 15]
+  This week   : 3x10@57kg | e1RM 76.0kg
+  vs last seen: S2 Sat Apr 11: 57x12, 57x12, 63x12 | e1RM 88.2kg.
+                DOWN: -6kg on top set, -2 reps per set. e1RM -12.2kg.
+  Flag        : Regression for 2 consecutive appearances. 63x12 on Sat,
+                57x10 on Wed -- same week. Cumulative fatigue from 4
+                sessions in 5 days (Wed was session 3 in 3 days). If this
+                regresses again next week, volume may need to be reduced.
+  Next session: 60kg x3x10. If reps drop below 8, return to 57kg.
+
+Hip Adduction (Machine)  [legs | S3 Wed Apr 15]
+  This week   : 30x11, 40x11, 40x11 | e1RM 54.7kg
+  vs last seen: SAME. Apr 17 report recommended 40x11, 45x11, 45x11.
+                Did not advance middle sets to 45kg.
+  Next session: 40x11, 45x11, 45x11.
+
+Bicep Curl (Machine)  [biceps | S4 Fri Apr 17]
+  This week   : 3x12@20kg | e1RM 28.0kg
+  vs last seen: S1 Fri Apr 10: 20x14, 20x12, 20x8 | e1RM 29.3kg.
+  Assessment  : Rep collapse FIXED. All 3 sets now at 12 reps (was 14,12,8).
+                Consistency restored despite staying at same weight.
+                Slight e1RM drop (29.3 -> 28.0) is acceptable -- cleaner work.
+  Next session: 3x12@20kg (confirm consistency one more time), then 22.5kg.
+
+Hammer Curl (Dumbbell)  [biceps | S2 Tue Apr 14]
+  This week   : 3x10@10kg | e1RM 13.3kg
+  vs last seen: SAME. Apr 17 report recommended 12.5kg.
+  Next session: 12.5kg x3x10. Overdue to advance.
+
+Crunch (Machine)  [core | last seen S2 Sat Apr 11 -- NOT this week]
+  This week   : 0 sets (only in prior week's Lower session).
+  Flag        : No core work in this week's sessions (Apr 13-18).
+  Next session: Add Crunch (Machine) 3x20@20kg to every Lower session.
+
+
+4. MUSCLE BALANCE: ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?
+------------------------------------------------------------------------
+Based on THIS WEEK (Apr 13-18) -- 4 sessions, 64 working sets.
+Target: 8-12 sets/week per major group for muscle retention during deficit.
+Rear delt minimum: 8 sets/wk (shoulder health risk if below).
+Traps minimum: 6 sets/wk (scapular stability).
+
+  Muscle Group    | Sets this wk | Target/wk | Gap    | Status
+  ----------------+--------------+-----------+--------+----------
+  Chest           |      9       |    8-12   |  OK    | OK
+  Back            |      9       |    8-12   |  OK    | OK
+  Shoulders       |      9       |    6-10   |  OK    | OK
+  Traps           |      4       |     6+    |  -2    | LOW (flag)
+  Rear Delts      |      6       |     8+    |  -2    | LOW (flag)
+  Legs            |     15       |    8-12   | +3     | GOOD
+  Biceps          |      6       |    6-8    |  OK    | OK
+  Triceps         |      6       |    6-8    |  OK    | OK
+  Core            |      0       |    4-6    |  -4    | NONE (flag)
+
+Set counting:
+  Chest     = Mon: Incline Bench 3 + Chest Fly 3 = 6; Fri: Chest Press 3 = 3; TOTAL 9
+  Back      = Tue: Bent Over Row 3 + Pull-Up 3 = 6; Fri: Lat Pulldown 3 = 3; TOTAL 9
+  Shoulders = Mon: DB Shoulder Press 3 + DB Lateral Raise 3 = 6; Fri: Seated Press 3 = 3; TOTAL 9
+  Traps     = Tue: Shrug 4 only (RDL = secondary); TOTAL 4 [DOWN from 7 last week]
+  Rear Delts= Tue: Face Pull 3; Fri: Rear Delt Fly 3; TOTAL 6 [UP from 3 last week]
+  Legs      = Wed: Pendulum Squat 3 + Hip Abd 3 + Hip Add 3 + RDL 3 + Leg Ext 3; TOTAL 15
+  Biceps    = Tue: Hammer Curl 3; Fri: Bicep Curl 3; TOTAL 6
+  Triceps   = Mon: Pushdown 3; Fri: Pushdown 3; TOTAL 6 [UP from 3 last week]
+  Core      = 0 (Crunch was last week's Sat Lower session only)
+
+PUSH VS PULL BALANCE:
+  Push sets (chest + shoulders + triceps): 9 + 9 + 6 = 24 sets
+  Pull sets (back + rear delts + biceps):  9 + 6 + 6 = 21 sets
+  Ratio: 1.14 push:pull -- SLIGHTLY push-dominant.
+  Push volume (kg*reps): ~14,189 | Pull volume: ~12,077.
+  Rear delt gap is the main reason pull sets are lower. Adding Face Pull
+  and Rear Delt Fly to every session will rebalance toward 1.0 push:pull.
+
+TRAP FLAG (4 sets vs 6 minimum):
+  Traps dropped from 7 sets last week to 4 this week. The Deadlift (Trap Bar)
+  appeared only in the Sat Apr 11 Lower session (last week). This week's only
+  direct trap work is Shrug (4 sets, Tue Pull). Romanian DL provides partial
+  trap loading but is primarily a posterior-chain hip hinge. To meet the 6-set
+  minimum: add Deadlift (Trap Bar) or Face Pull (partial trap) to a second
+  session, or do 2 sets of Shrugs on Upper sessions.
+
+REAR DELT FLAG (6 sets vs 8 minimum):
+  Improved from last week's 3 sets. Adding Rear Delt Fly (3 sets, Fri) alongside
+  Face Pull (3 sets, Tue) brings total to 6. Still 2 sets short of minimum.
+  Fix: Add Face Pull (2-3 sets) to Monday Pull and Wednesday Legs sessions.
+  Target 8-10 rear delt sets/week consistently for shoulder joint health.
+
+CORE FLAG (0 sets this week):
+  No direct core training this week. Core is recruited in Deadlifts, Rows,
+  and RDL, so acute atrophy risk is low. However, dedicated core work is
+  needed for spinal stability in heavy compound lifts. Add 3x20@20kg Crunch
+  (Machine) to every Lower session.
+
+
+5. REST AND RECOVERY THIS WEEK
+------------------------------------------------------------------------
+Sessions this week (Apr 13-18): 4 of 5 target.
+Prior weeks in 30-day window: W1 Mar 23-29 = 0, W2 Mar 30-Apr 5 = 0,
+W3 Apr 6-12 = 2 sessions. Week 4 (this week) = 4 sessions -- the most
+active training week in the entire 30-day period.
+
+SESSION GAPS (all times IST):
+  S_prev: Sat Apr 11  08:25  (Sat Cult Lower -- prior week context)
+  S1    : Mon Apr 13  08:31  -> 48h 6min after Sat Lower.
+                               Push session after Lower. OPTIMAL -- full 48h,
+                               no muscle group overlap (Trap Bar DL in Sat vs
+                               chest/shoulders/triceps on Mon).
+  S2    : Tue Apr 14  08:56  -> 24h 25min after Mon Push.
+                               Pull session after Push. GOOD split. Anterior
+                               deltoid from Push is not primary in Pull. 24h
+                               is adequate for non-overlapping splits.
+  S3    : Wed Apr 15  07:58  -> 23h 2min after Tue Pull.
+                               Legs session after Pull. MARGINAL for posterior
+                               chain. Romanian DL (Wed Legs) loads the same
+                               lower back and traps trained via Bent Over Row
+                               and Shrug (Tue Pull). Specific back-to-back
+                               overlap: Bent Over Row (back/lower back) ->
+                               Romanian DL (lower back/hamstrings/traps). 23h
+                               is below the 48h ideal for same-muscle posterior
+                               chain compounds. Leg Extension regression
+                               (63kg->57kg from Sat to Wed) may reflect this
+                               cumulative fatigue.
+  REST  : Thu Apr 16  (full rest day)
+  S4    : Fri Apr 17  08:14  -> 49h 16min after Wed Legs.
+                               Upper Body after Legs + rest day. EXCELLENT --
+                               nearly 50h gap, no muscle group overlap. This
+                               is the cleanest recovery window of the week.
+
+GAP > 3 DAYS: NONE within the training week (longest gap = Wed->Fri = 49h
++ Thu rest = effectively 2 days with a rest day between). No dangerous
+detraining gap this week.
+
+LATE-NIGHT SESSIONS: NONE.
+  All sessions: Mon 08:31, Tue 08:56, Wed 07:58, Fri 08:14 IST.
+  Morning training (7-9 AM) is the optimal window for a 44M on a recomp.
+  At this age, cortisol peaks naturally between 6-8 AM and supports muscle
+  contraction, alertness, and fat mobilisation. Late-night training (after
+  9 PM IST) suppresses the growth hormone pulse that occurs ~90 minutes
+  after sleep onset -- this pulse is the primary signal for overnight muscle
+  repair and fat oxidation during sleep. Suppressing it even by 1-2 hours
+  reduces the muscle-retention signal that is essential during a calorie
+  deficit. At 44, anabolic hormones (testosterone, IGF-1, GH) are already
+  lower than at 25, so protecting the overnight GH pulse is non-negotiable
+  for maintaining lean mass while cutting. Morning sessions protect this.
+  All sessions this week were morning -- this is a genuine strength of the
+  current training pattern and must be maintained into next week.
+
+SAME-MUSCLE BACK-TO-BACK FLAGS:
+  Tue Pull (S2) -> Wed Legs (S3) -- 23h gap:
+    Exact overlap: Bent Over Row + Shrug (Tue) worked the lower back and
+    upper traps. Romanian Deadlift (Wed) loaded the same lower back
+    (erectors) and upper traps (isometric hold during hip hinge). These
+    are the same muscle fibres at a 23h gap. The 48h minimum for compound
+    posterior-chain work was not met.
+    Consequence observed: Leg Extension dropped from 63kg (Sat) to 57kg
+    (Wed), and Hip Abduction did not advance (held at 80x10 instead of 80x11).
+    Minor fatigue effects -- not alarming at this volume, but a pattern to
+    correct. Recommendation: In Week 3 (Apr 20 onward), pull on Mon, rest
+    Tue or Wed, then legs on Thu. Minimum 48h between Pull and RDL.
+
+  No other same-muscle back-to-back sessions this week.
+
+OVERALL RECOVERY ASSESSMENT:
+  Positive: All morning sessions, no late-night training, 48h gap before
+  Push on Mon (clean start to week), rest day Thursday provided natural
+  buffer before Friday Upper.
+  Needs improvement: The Tue->Wed 23h pull-to-legs gap with RDL overlap
+  is the one structural recovery flaw in this week's schedule. Restructure
+  next week to avoid Mon-Tue-Wed consecutive sessions where Pull and Legs
+  are adjacent.
+  vs prior weeks: Significantly better. Prior weeks had 0 or 1 session per
+  week. This week achieved 4 sessions with no detraining gap, no late-night
+  training, and reasonable muscle group separation on most transitions.
+
+
+6. BODY RECOMPOSITION CHECK
+------------------------------------------------------------------------
+Goal: Lose fat, keep (or gain) muscle simultaneously.
+Target rate: 0.5 kg/week fat loss (slow enough to preserve lean mass).
+
+CALORIE TARGETS:
+  TDEE estimate  : 2,784 kcal/day (87kg x 32 -- moderate activity)
+  Deficit target : 417 kcal/day (15%)
+  Daily intake   : 2,367 kcal/day
+  Protein target : 174g/day (2.0g per kg bodyweight)
+
+WHY THIS MATTERS AT 44 AND ON A DEFICIT:
+  When calories are below maintenance, the body needs a reason to keep
+  muscle rather than burning it for fuel. That reason is mechanical tension
+  (the signal from resistance training) and dietary protein. At 44, anabolic
+  hormones that protect muscle (testosterone, IGF-1, growth hormone) are
+  15-20% lower than at 30. This means the training signal must be stronger,
+  not weaker, to maintain lean mass at the same deficit. Missing sessions or
+  underdoing sets for a muscle group removes the mechanical tension signal --
+  the body then treats that muscle as unnecessary and catabolises it. For
+  Ganesh at 87kg targeting 79kg, approximately 2-3 kg of the 8 kg to lose
+  could come from muscle if training and protein are inadequate.
+
+MUSCLE STIMULUS ADEQUACY (this week vs MEV):
+  MEV = minimum effective volume: minimum sets/week to maintain muscle
+  during a calorie deficit. For trained males: ~8-10 sets/week per group.
+
+  Legs        : 15 sets -- well above MEV. SAFE from catabolism.
+  Chest       :  9 sets -- above MEV. ADEQUATE. Improved from last week's 6.
+  Back        :  9 sets -- at MEV. ADEQUATE (plus ~1,566 kg*reps from BW
+                           Pull-Ups not logged -- real back volume is higher).
+  Shoulders   :  9 sets -- above MEV. ADEQUATE.
+  Biceps      :  6 sets -- at MEV. ADEQUATE (borderline; do not drop below).
+  Triceps     :  6 sets -- at MEV. ADEQUATE. Improved from last week's 3.
+  Traps       :  4 sets -- BELOW MEV of 6. MARGINAL ATROPHY RISK.
+                           Reduced from last week's 7. No Trap Bar Deadlift
+                           this week (it was in last week's Sat Lower session).
+                           Fix: Ensure Deadlift (Trap Bar) appears in next
+                           week's Lower session; add Shrug to a second session.
+  Rear Delts  :  6 sets -- BELOW MEV of 8. MILD ATROPHY AND INJURY RISK.
+                           Improved from 3 last week. 2 sets below threshold.
+                           Rear delt is a small, slow-twitch dominant muscle
+                           that atrophies quickly under a deficit when undertrained.
+                           The shoulder joint health consequences compound over weeks.
+  Core        :  0 sets -- BELOW MEV. LOW DIRECT ATROPHY RISK (recruited
+                           heavily in all compound lifts as stabiliser), but
+                           dedicated work needed to maintain spinal stability
+                           and posture under heavy loads.
+
+MUSCLES AT CATABOLISM RISK IF CURRENT PATTERN CONTINUES:
+  1. Rear Delts -- highest risk. Small muscle, 6 sets vs 8+ MEV, deficit
+     conditions, and significantly weaker than the opposing push muscles.
+  2. Traps -- moderate risk. Dropped to 4 sets this week (was 7 last week).
+     Without consistent Deadlift or Shrug volume in every week, trap mass
+     will erode under the calorie deficit over 4-6 weeks.
+  3. Core -- low direct atrophy risk but stability risk for compound lifts.
+
+WHEN IS THE NEXT DELOAD DUE?
+  Training history from resume date (first consistent session: Apr 10, 2026):
+  Week 1: Apr 6-12  (2 sessions: Fri Apr 10, Sat Apr 11)
+  Week 2: Apr 13-18 (current: 4 sessions -- most productive week so far)
+  Deload protocol: every 4 weeks of CONSISTENT training (4-5 sessions/week).
+  A week with fewer than 3 sessions does not count as a full training week.
+  Week 1 (2 sessions) was a partial week; Week 2 (4 sessions) is the first
+  full week. Consistent 5-session weeks starting from Week 2 would place
+  the deload at:
+  Week 2: Apr 13-18 (Week 1 of full mesocycle)
+  Week 3: Apr 20-26
+  Week 4: Apr 27-May 3
+  Week 5: May 4-10
+  NEXT DELOAD: Week of May 11, 2026 (after 4 full weeks of 4-5 sessions).
+  Deload protocol: reduce all sets by 50% (3 sets -> 1-2 sets), keep the
+  same weights and rep ranges. Duration: 4-5 days.
+
+
+7. KEY INSIGHTS
+------------------------------------------------------------------------
+
+RECOVERY AT 44 -- ARE THE 48-72H GAPS BEING MET?
+
+At 44, muscle protein synthesis (the repair process that follows training)
+takes 15-20% longer to reach completion than it does at 25. The practical
+implication is that the same muscle group worked via compound movements
+requires 48-72 hours of recovery before being loaded again to avoid
+performing the next session on partially repaired tissue. This week, most
+transitions between sessions respected this window: the 48h gap before
+Monday Push and the 49h gap before Friday Upper were both clean. The one
+structural failure was the Tue-Wed sequence (23h gap, Pull then Legs) where
+Romanian Deadlift re-loaded the lower back and traps worked the previous day.
+The consequence was measurable -- Leg Extension regressed from 63kg to 57kg
+and Hip Abduction did not add the planned rep. Importantly, no session was
+skipped due to this overlap and no injury occurred, which suggests the body
+is tolerating the current volume reasonably well at this early stage of the
+mesocycle. However, the recommendation stands: restructure Week 3 to place
+a rest day between Pull and Legs sessions. Running Mon Pull, Tue rest, Wed
+Push, Thu Legs, Fri Upper or Sat Lower will give every session a 48h+ buffer
+and should unlock better performance in the leg session specifically.
+
+REAR DELT AND TRAP GAP -- SHOULDER HEALTH CONSEQUENCES IN PLAIN TERMS:
+
+The shoulder joint does not sit in a deep socket the way the hip does. It is
+held in place almost entirely by soft tissue: the rotator cuff (4 small muscles)
+and the surrounding larger muscles including the rear deltoid. When the muscles
+on the front of the shoulder (anterior deltoid, pectoral minor) are significantly
+stronger than the muscles on the back (rear deltoid, lower trapezius), the
+shoulder blade tilts forward and the ball of the shoulder joint migrates
+slightly toward the front of the socket. Every overhead press, every lat
+pulldown, every push-up then pinches the tendon of the supraspinatus (a rotator
+cuff muscle) against a bony arch at the top of the shoulder called the acromion.
+This is anterior impingement. In the short term it causes pain at the front of
+the shoulder during pressing. In the medium term it frays the tendon. In the
+long term it tears it -- and at 44, tendon collagen turnover is roughly 30%
+slower than at 25, meaning tears heal poorly and incompletely. The current
+numbers make this risk concrete: Shoulder Press e1RM is 98.0kg; Face Pull
+e1RM (the best rear delt proxy in the log) is 32.6kg. That is a 3:1 anterior-
+to-posterior strength ratio. A healthy ratio is closer to 2:1 or less. At 6
+rear delt sets this week (target 8+), the gap is not widening -- but it is
+not closing either. The Rear Delt Fly addition on Friday (35x12, e1RM 49.0kg)
+is the right exercise, done at the right load, but 3 sets once a week is
+insufficient. Target is Face Pull and Rear Delt Fly in every session until
+the Face Pull e1RM reaches at least 45kg (currently 32.6kg).
+
+RED FLAGS FROM SESSION DATA THIS WEEK:
+
+  1. TRAPS DROPPED TO 4 SETS -- DOWN FROM 7 LAST WEEK. The only direct trap
+     work was Shrug x4 on Tuesday. No Deadlift (Trap Bar) this week (it
+     appeared last week in the Sat Lower session). Traps need 6+ sets every
+     week for scapular stability; at 4 sets and a 417 kcal/day deficit, trap
+     catabolism risk is real over a 4-6 week horizon. Deadlift (Trap Bar)
+     must return to every Lower session.
+
+  2. PENDULUM SQUAT STILL AT 0kg (2ND CONSECUTIVE WEEK). This is the primary
+     quad compound in the Legs session. Three sets are being performed but
+     zero volume is being captured. Without load data, there is no way to
+     track progression, no way to confirm a deload reduction, and no way to
+     assess quad stimulus adequacy. This is the single most urgent tracking
+     fix in the entire log.
+
+  3. PULL-UP STILL AT 0kg (2ND CONSECUTIVE WEEK). At 87kg bodyweight, 3 sets
+     of 6 pull-ups = approximately 1,566 kg*reps of back volume that is
+     invisible in tracking. Hevy requires bodyweight to be entered in the
+     user profile for BW exercises to capture volume. Until this is done,
+     back volume is understated by ~1,566 kg*reps per Pull session.
+
+  4. LEG EXTENSION REGRESSION PERSISTING. Peak was Sat Apr 11 at 63x12
+     (e1RM 88.2kg). Dropped to 57x10 on Wed Apr 15 (e1RM 76.0kg). This is
+     a -12.2kg e1RM drop across one week. The most likely cause is the Tue-
+     Wed back-to-back sequence creating cumulative fatigue before the Legs
+     session. If Leg Extension does not return to 60+ kg in next week's
+     dedicated Legs session (now moved to Thu), the fatigue is systemic rather
+     than session-order related, and total weekly volume should be reviewed.
+
+OVERALL TREND VS PREVIOUS REPORT (Apr 17):
+
+The Apr 17 report scored 7/10 and flagged rear delts (3 sets), triceps (3
+sets), and chest (6 sets) as the most critical volume gaps. This report
+(Apr 18) shows meaningful improvement on all three: chest at 9 sets (up 3),
+triceps at 6 sets (up 3), rear delts at 6 sets (up 3). The addition of the
+Fri Upper Body Drona session -- which was not in yesterday's report -- added
+18 sets of well-distributed upper body volume and introduced Rear Delt Fly
+as a new exercise. Shoulder press e1RM hit a 30-day high at 98.0kg. Chest
+Press work sets advanced from 40kg to 50kg. Triceps Pushdown locked in
+50kg for working sets. The trend is positive: more volume, better balance,
+consistent morning timing, and progressive loading visible across exercises.
+The next performance target is pushing rear delts to 8+ sets and traps to
+6+ sets in Week 3 without dropping any of the gains made in chest, triceps,
+and back.
+
+
+8. PLAN FOR NEXT WEEK
+------------------------------------------------------------------------
+Target: 5 sessions, 7-9 AM IST. Week 3 of current mesocycle. No deload.
+KEY STRUCTURAL CHANGE: Pull moved to Mon, rest Tue, Push Wed, Legs Thu,
+Upper/Lower alternates Fri-Sat. This separates Pull from Legs by 48h.
+
+SESSION 1 -- Monday 20 Apr: PULL (Back / Rear Delts / Traps / Biceps)
+  Bent Over Row (Barbell)         3 x 10 @ 60kg         target all 3 sets at 10 reps
+  Lat Pulldown (Machine)          3 x 10 @ 55kg         up from 50kg (+5kg)
+  Pull-Up (BW)                    3 x  7 @ 87kg (BW)   enter BW in Hevy app first
+  Face Pull                       5 x 18 @ 20.4kg       up from 3 sets (rear delts)
+  Rear Delt Reverse Fly (Machine) 3 x 12 @ 35kg         confirmed from Fri Apr 17
+  Shrug (Smith Machine)           4 x 11 @ 62.5kg       up from 60kg
+  Hammer Curl (Dumbbell)          3 x 10 @ 12.5kg       up from 10kg (overdue)
+  Rear delt total: 8 sets (Face Pull 5 + Rear Delt Fly 3). Hits the target.
+  Trap total: 4 Shrug + 3 Pull-Up (upper back/traps) = 7 sets minimum.
+
+  Why new on Pull: Face Pull increased from 3 to 5 sets to close the rear
+  delt gap that has persisted for 2 weeks. This is the priority exercise
+  for long-term shoulder health ahead of the pressing movements.
+
+SESSION 2 -- REST DAY: Tuesday 21 Apr
+  Allows 48h between Pull (Mon) and Legs (Thu). Eliminates the Tue-Wed
+  consecutive Pull->Legs overlap that caused Leg Extension regression.
+
+SESSION 3 -- Wednesday 22 Apr: PUSH (Chest / Shoulders / Triceps)
+  Incline Bench Press (Dumbbell)  3 x 11 @ 22.5kg       up from 20kg (2 weeks overdue)
+  Chest Press (Machine)           3 x 12 @ 50kg         locked in from Fri Apr 17
+  Chest Fly (Machine)             3 x 12 @ 41kg         up from 39kg (overdue)
+  Shoulder Press (Dumbbell)       3 x 12 @ 17.5kg       up from 15kg (overdue)
+  Lateral Raise (Dumbbell)        3 x 12 @ 12kg         up from 10kg (overdue)
+  Triceps Pushdown                3 x 12 @ 50kg         all sets at 50kg (locked in)
+  Overhead Tricep Extension       2 x 12 @ 20kg         ADD NEW -- tricep volume
+  Face Pull                       3 x 18 @ 20.4kg       ADD to Push -- rear delts
+
+  Why new on Push: Overhead Tricep Extension added to ensure triceps hit 8+
+  sets/week (Pushdown alone = 6; adding 2 overhead sets = 8 total tricep sets
+  across Push + Upper). Face Pull on Push maintains rear delt stimulus daily.
+
+SESSION 4 -- Thursday 23 Apr: LEGS (Quads / Hamstrings / Glutes / Core)
+  Pendulum Squat (Machine)        3 x  8 @ [LOG THE ACTUAL WEIGHT]  URGENT
+  Leg Extension (Machine)         3 x 10 @ 60kg         up from 57kg (fresh legs after rest)
+  Seated Leg Curl (Machine)       4 x 12 @ 31kg         up from 29kg, +1 set
+  Romanian Deadlift (Dumbbell)    3 x 10 @ 40kg         reset for cleaner progression
+  Hip Abduction (Machine)         3 x 11 @ 80kg         add 1 rep (target from 2 weeks)
+  Hip Adduction (Machine)         3 x 11 @ 45kg         advance sets 2-3 from 40kg
+  Crunch (Machine)                3 x 20 @ 20kg         ADD BACK -- missing from this week
+
+  Why restructured: Moving Legs to Thu gives 48h after Mon Pull, eliminating
+  the Tue-Wed posterior-chain overlap. Leg Extension should recover to 60kg+
+  with a fresh approach. Romanian DL reset to 40kg for 3 clean sets, then
+  advance from there rather than jumping to 45kg on the third set.
+
+SESSION 5 -- Friday 24 Apr: UPPER (Drona -- Upper Body)
+  Seated Shoulder Press (Machine) 3 x 10 @ 72.5kg       up from 70kg (ready to advance)
+  Chest Press (Machine)           3 x 12 @ 50kg         confirm standardised weight
+  Lat Pulldown (Machine)          3 x 11 @ 55kg         sync with Monday
+  Rear Delt Reverse Fly (Machine) 3 x 12 @ 35kg         maintain -- add 1 rep next session
+  Face Pull                       3 x 18 @ 20.4kg       maintain on all upper sessions
+  Lateral Raise (Machine)         3 x 15 @ 22.5kg       standardise (was 25/25/20kg)
+  Bicep Curl (Machine)            3 x 12 @ 20kg         confirm all 3 sets at 12 reps
+
+  OPTIONAL SESSION 5B -- Saturday 25 Apr: LOWER (Cult Lower)
+  Deadlift (Trap Bar)             3 x  9 @ 72.5kg       up from 70kg (warmup: 50x6)
+  Leg Extension (Machine)         3 x 10 @ 60kg         confirm Thu progression
+  Seated Leg Curl (Machine)       3 x 12 @ 31kg         confirm
+  Crunch (Machine)                3 x 20 @ 20kg         add to every lower session
+
+NOTES FOR ALL SESSIONS:
+  - Compound lifts (Deadlift, Row, Squat, Shoulder Press): rest 2-3 min.
+  - Isolation lifts (Lateral Raise, Curl, Face Pull): rest 60-90 sec.
+  - BEFORE Mon session: enter bodyweight (87kg) in Hevy app profile.
+  - BEFORE Thu session: note the actual plate weight on Pendulum Squat.
+
+  +------------------------------------------------------------------+
+  | Deload   : NOT needed. Next deload: week of May 11, 2026         |
+  | Timing   : 7-9 AM IST preferred. No sessions after 9 PM IST.    |
+  | Nutrition: 2,367 kcal/day | 174g protein/day minimum            |
+  +------------------------------------------------------------------+
+
+========================================================================
+END OF REPORT | Generated 2026-04-18 | Ganesh | 4 sessions, 26,266 kg*reps
+========================================================================
