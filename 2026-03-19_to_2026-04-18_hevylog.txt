@@ -1,11 +1,11 @@
 ========================================================================
 HEVY WORKOUT LOG — 30-DAY EXPORT
 Period : 2026-03-19 to 2026-04-18  (last 30 days)
-Created: 2026-04-18 08:30:47
+Created: 2026-04-18 23:32:26
 User   : Ganesh | 44M | 181cm | 87kg → 79kg target
 ========================================================================
 
-SESSIONS (last 30 days): 6  |  planned: ~20 (5/wk × 4 wks)
+SESSIONS (last 30 days): 7  |  planned: ~20 (5/wk × 4 wks)
 
 ------------------------------------------------------------------------
 SESSION 1: Friday 10 Apr 2026  07:54 IST  |  65 min
@@ -237,30 +237,68 @@ Title: Friday: Upper Body (Drona)
 
   SESSION TOTAL: 18 sets  |  9,565 kg·reps
 
+------------------------------------------------------------------------
+SESSION 7: Saturday 18 Apr 2026  16:06 IST  |  54 min
+Title: Saturday: Lower Body (Cult)
+
+  Shrug (Barbell)  [isolation | traps]
+    Set 1       60kg × 11 reps | vol: 660 kg·reps | e1RM: 82.0kg
+    Set 2       60kg × 11 reps | vol: 660 kg·reps | e1RM: 82.0kg
+    Set 3       60kg × 11 reps | vol: 660 kg·reps | e1RM: 82.0kg
+    >> 3 working sets  |  volume: 1,980 kg·reps  |  best e1RM: 82.0kg
+
+  Deadlift (Trap bar)  [compound | back, traps]
+    Set 1       80kg × 9 reps | vol: 720 kg·reps | e1RM: 104.0kg
+    Set 2       80kg × 9 reps | vol: 720 kg·reps | e1RM: 104.0kg
+    Set 3       80kg × 7 reps | vol: 560 kg·reps | e1RM: 98.7kg
+    >> 3 working sets  |  volume: 2,000 kg·reps  |  best e1RM: 104.0kg
+
+  Leg Press (Machine)  [compound | legs]
+    Set 1       50kg × 11 reps | vol: 550 kg·reps | e1RM: 68.3kg
+    Set 2       50kg × 11 reps | vol: 550 kg·reps | e1RM: 68.3kg
+    Set 3       50kg × 11 reps | vol: 550 kg·reps | e1RM: 68.3kg
+    >> 3 working sets  |  volume: 1,650 kg·reps  |  best e1RM: 68.3kg
+
+  Leg Extension (Machine)  [isolation | legs]
+    Set 1       63kg × 10 reps | vol: 630 kg·reps | e1RM: 84.0kg
+    Set 2       63kg × 10 reps | vol: 630 kg·reps | e1RM: 84.0kg
+    Set 3       63kg × 10 reps | vol: 630 kg·reps | e1RM: 84.0kg
+    >> 3 working sets  |  volume: 1,890 kg·reps  |  best e1RM: 84.0kg
+
+  Crunch (Machine)  [isolation | core]
+    Set 1       20kg × 15 reps | vol: 300 kg·reps | e1RM: 30.0kg
+    Set 2       20kg × 15 reps | vol: 300 kg·reps | e1RM: 30.0kg
+    Set 3       20kg × 15 reps | vol: 300 kg·reps | e1RM: 30.0kg
+    >> 3 working sets  |  volume: 900 kg·reps  |  best e1RM: 30.0kg
+
+  SESSION TOTAL: 15 sets  |  8,420 kg·reps
+
 ========================================================================
 30-DAY TOTALS
 ========================================================================
-  Sessions  : 6  (planned ~20 for 30 days)
-  Total sets: 93
-  Total vol : 39,194 kg·reps
+  Sessions  : 7  (planned ~20 for 30 days)
+  Total sets: 108
+  Total vol : 47,614 kg·reps
 
 VOLUME BY MUSCLE GROUP
 ------------------------------------------------------------------------
-  Chest                 5,444 kg·reps   11.6%  |  12 sets
-  Back                  7,825 kg·reps   16.7%  |  18 sets
-  Shoulders             6,705 kg·reps   14.3%  |  15 sets
-  Traps                 5,815 kg·reps   12.4%  |  10 sets
-  Rear Delts            2,362 kg·reps    5.0%  |  6 sets
-  Legs                  9,603 kg·reps   20.5%  |  21 sets
-  Biceps                2,744 kg·reps    5.8%  |  12 sets
-  Triceps               3,400 kg·reps    7.2%  |  6 sets
-  Core                  3,030 kg·reps    6.5%  |  5 sets
+  Chest                 5,444 kg·reps    9.5%  |  12 sets
+  Back                  9,825 kg·reps   17.1%  |  21 sets
+  Shoulders             6,705 kg·reps   11.7%  |  15 sets
+  Traps                 9,795 kg·reps   17.1%  |  16 sets
+  Rear Delts            2,362 kg·reps    4.1%  |  6 sets
+  Legs                 13,143 kg·reps   22.9%  |  27 sets
+  Biceps                2,744 kg·reps    4.8%  |  12 sets
+  Triceps               3,400 kg·reps    5.9%  |  6 sets
+  Core                  3,930 kg·reps    6.9%  |  8 sets
   Other                     0 kg·reps    0.0%  |  3 sets
 
 EXERCISE SUMMARY  (sorted by volume)
 ------------------------------------------------------------------------
-  [I] Leg Extension (Machine)                       2 sess  6 sets       3,834 kg·reps  |  best e1RM: 88.2kg
+  [I] Leg Extension (Machine)                       3 sess  9 sets       5,724 kg·reps  |  best e1RM: 88.2kg
       muscles: legs
+  [C] Deadlift (Trap bar)                           2 sess  6 sets       3,890 kg·reps  |  best e1RM: 104.0kg
+      muscles: back, traps
   [I] Triceps Pushdown                              2 sess  6 sets       3,400 kg·reps  |  best e1RM: 68.3kg
       muscles: triceps
   [I] Chest Press (Machine)                         2 sess  6 sets       3,380 kg·reps  |  best e1RM: 68.3kg
@@ -275,8 +313,12 @@ EXERCISE SUMMARY  (sorted by volume)
       muscles: legs, core
   [C] Shoulder Press (Machine Plates)               1 sess  3 sets       2,100 kg·reps  |  best e1RM: 93.3kg
       muscles: shoulders
-  [C] Deadlift (Trap bar)                           1 sess  3 sets       1,890 kg·reps  |  best e1RM: 91.0kg
-      muscles: back, traps
+  [I] Shrug (Barbell)                               1 sess  3 sets       1,980 kg·reps  |  best e1RM: 82.0kg
+      muscles: traps
+  [I] Crunch (Machine)                              2 sess  5 sets       1,700 kg·reps  |  best e1RM: 33.3kg
+      muscles: core
+  [C] Leg Press (Machine)                           1 sess  3 sets       1,650 kg·reps  |  best e1RM: 68.3kg
+      muscles: legs
   [C] Bent Over Row (Barbell)                       1 sess  3 sets       1,500 kg·reps  |  best e1RM: 80.0kg
       muscles: back
   [I] Chest Fly (Machine)                           1 sess  3 sets       1,404 kg·reps  |  best e1RM: 54.6kg
@@ -295,8 +337,6 @@ EXERCISE SUMMARY  (sorted by volume)
       muscles: shoulders
   [I] Seated Leg Curl (Machine)                     1 sess  3 sets       1,044 kg·reps  |  best e1RM: 40.6kg
       muscles: biceps, legs
-  [I] Crunch (Machine)                              1 sess  2 sets         800 kg·reps  |  best e1RM: 33.3kg
-      muscles: core
   [C] Incline Bench Press (Dumbbell)                1 sess  3 sets         660 kg·reps  |  best e1RM: 27.3kg
       muscles: chest
   [C] Shoulder Press (Dumbbell)                     1 sess  3 sets         585 kg·reps  |  best e1RM: 21.5kg
@@ -317,9 +357,9 @@ EXERCISE SUMMARY  (sorted by volume)
 PUSH / PULL BALANCE
 ------------------------------------------------------------------------
   Push volume :     15,549 kg·reps
-  Pull volume :     15,571 kg·reps
-  Ratio       : 1.00  (OK — balanced)
+  Pull volume :     19,551 kg·reps
+  Ratio       : 1.26  (OK — balanced)
 
 ========================================================================
-END OF LOG  |  2026-03-19 to 2026-04-18  |  Generated 2026-04-18 08:30:47
+END OF LOG  |  2026-03-19 to 2026-04-18  |  Generated 2026-04-18 23:32:26
 ========================================================================
