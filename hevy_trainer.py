@@ -1021,6 +1021,623 @@ def run_export_log(state):
     return state
 
 
+# ─── Analysis Report: Sections 1-6 (data-driven) ─────────────────────────────
+
+def run_analysis_report(state):
+    """Generate report sections 1-6 (data-driven) to report_YYYY-MM-DD.txt.
+
+    Sections 7-8 (insights + next week plan) are appended by Claude.
+    Uses plain ASCII only — no Unicode box-drawing characters.
+    All times are displayed in IST (UTC+5:30).
+    """
+    IST = timezone(timedelta(hours=5, minutes=30))
+    today_ist   = datetime.now(IST)
+    report_date = today_ist.strftime("%Y-%m-%d")
+    report_file = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        f"report_{report_date}.txt"
+    )
+
+    # ── Fetch 30-day data and split into this week vs prior ──
+    workouts, _, _ = get_week_workouts(days=30)
+    now_utc = datetime.now(timezone.utc)
+    workouts_sorted = sorted(
+        workouts,
+        key=lambda x: parse_ts(x) or datetime.min.replace(tzinfo=timezone.utc)
+    )
+
+    week_cutoff_utc = (today_ist - timedelta(days=7)).astimezone(timezone.utc)
+    this_week  = [w for w in workouts_sorted
+                  if (parse_ts(w) or datetime.min.replace(tzinfo=timezone.utc)) >= week_cutoff_utc]
+    prior_wks  = [w for w in workouts_sorted
+                  if (parse_ts(w) or datetime.min.replace(tzinfo=timezone.utc)) < week_cutoff_utc]
+
+    # ── Constants ──
+    MUSCLE_TARGETS = {
+        "chest":     12, "back":      14, "shoulders": 10,
+        "traps":      6, "rear_delts": 8, "biceps":     8,
+        "triceps":    8, "legs":      14, "core":        6,
+    }
+    MEV = {  # minimum effective volume to retain muscle on a calorie deficit
+        "chest":  8, "back":      10, "shoulders": 8,
+        "traps":  4, "rear_delts": 6, "biceps":    6,
+        "triceps":6, "legs":      10, "core":       4,
+    }
+    TDEE        = 2784
+    TARGET_CALS = 2367
+    PROTEIN_G   = 174
+
+    # ── Pre-compute: exercise sets for this week and prior ──
+    ex_this_week = defaultdict(list)   # {title: [{"wt", "reps", "e1rm"}]}
+    ex_prior     = defaultdict(list)   # {title: [{"wt", "reps", "e1rm", "date"}]}
+    sets_by_muscle_week = defaultdict(int)
+    vol_by_muscle_week  = defaultdict(float)
+
+    for wk in this_week:
+        for ex in wk.get("exercises", []):
+            ex_title = ex.get("title", "Unknown")
+            for s in ex.get("sets", []):
+                if s.get("type", "normal") != "normal":
+                    continue
+                wt   = s.get("weight_kg") or 0
+                reps = s.get("reps") or 0
+                er   = e1rm(wt, reps) if wt and reps else 0.0
+                ex_this_week[ex_title].append({"wt": wt, "reps": reps, "e1rm": er})
+                for m in classify_muscles(ex_title):
+                    sets_by_muscle_week[m] += 1
+                    vol_by_muscle_week[m]  += wt * reps
+
+    for wk in prior_wks:
+        dt     = parse_ts(wk)
+        dt_ist = dt.astimezone(IST) if dt else None
+        dstr   = dt_ist.strftime("%d %b") if dt_ist else "?"
+        for ex in wk.get("exercises", []):
+            ex_title = ex.get("title", "Unknown")
+            for s in ex.get("sets", []):
+                if s.get("type", "normal") != "normal":
+                    continue
+                wt   = s.get("weight_kg") or 0
+                reps = s.get("reps") or 0
+                er   = e1rm(wt, reps) if wt and reps else 0.0
+                if wt and reps:
+                    ex_prior[ex_title].append({"wt": wt, "reps": reps, "e1rm": er, "date": dstr})
+
+    # ── 4-week buckets (bucket 3 = this week, 0 = oldest) ──
+    bucket_sessions = [0, 0, 0, 0]
+    bucket_vol      = [0.0, 0.0, 0.0, 0.0]
+    for wk in workouts_sorted:
+        dt = parse_ts(wk)
+        if not dt:
+            continue
+        days_ago = (now_utc - dt).total_seconds() / 86400
+        if   days_ago <= 7:  b = 3
+        elif days_ago <= 14: b = 2
+        elif days_ago <= 21: b = 1
+        elif days_ago <= 30: b = 0
+        else:                continue
+        bucket_sessions[b] += 1
+        sv = 0.0
+        for ex in wk.get("exercises", []):
+            for s in ex.get("sets", []):
+                if s.get("type", "normal") == "normal":
+                    sv += (s.get("weight_kg") or 0) * (s.get("reps") or 0)
+        bucket_vol[b] += sv
+
+    def bucket_label(b):
+        end_days   = (3 - b) * 7
+        start_days = end_days + 7
+        end_d   = (today_ist - timedelta(days=end_days)).strftime("%d %b")
+        start_d = (today_ist - timedelta(days=start_days)).strftime("%d %b")
+        return f"{start_d}-{end_d}"
+
+    # ── Helpers ──
+    lines = []
+    def w(text=""):
+        lines.append(str(text))
+
+    def session_muscles(wk):
+        ms = set()
+        for ex in wk.get("exercises", []):
+            for m in classify_muscles(ex.get("title", "")):
+                ms.add(m)
+        return ms
+
+    def session_vol_sets(wk):
+        vol, sets = 0.0, 0
+        for ex in wk.get("exercises", []):
+            for s in ex.get("sets", []):
+                if s.get("type", "normal") == "normal":
+                    vol  += (s.get("weight_kg") or 0) * (s.get("reps") or 0)
+                    sets += 1
+        return vol, sets
+
+    # ────────────────────────────────────────────────────────────
+    now_str   = today_ist.strftime("%Y-%m-%d %H:%M IST")
+    wk_start  = (today_ist - timedelta(days=7)).strftime("%d %b")
+    wk_end    = today_ist.strftime("%d %b %Y")
+    sess_count = len(this_week)
+
+    w("=" * 72)
+    w("WEEKLY TRAINING REPORT")
+    w(f"Generated : {now_str}")
+    w(f"User      : {USER['name']} | {USER['age']}M | {USER['height_cm']}cm | "
+      f"{USER['weight_kg']}kg -> {USER['target_kg']}kg")
+    w(f"This week : {wk_start} to {wk_end}")
+    w("=" * 72)
+    w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 1: THIS WEEK AT A GLANCE
+    # ════════════════════════════════════════════════════════════
+    w("=" * 72)
+    w("1. THIS WEEK AT A GLANCE")
+    w("=" * 72)
+    w()
+
+    prior_counts = [bucket_sessions[b] for b in (0, 1, 2)]
+    prior_avg    = sum(prior_counts) / 3 if prior_counts else 0
+
+    w(f"  Sessions     : {sess_count} of 5 target")
+    w(f"  Prior 3 weeks: {prior_counts[0]}, {prior_counts[1]}, {prior_counts[2]} sessions"
+      f"  (avg {prior_avg:.1f})")
+    w()
+
+    # Score (1-10): sessions = 50%, muscle coverage = 30%, no red flags = 20%
+    rd_sets = sets_by_muscle_week.get("rear_delts", 0)
+    tr_sets = sets_by_muscle_week.get("traps", 0)
+    late_count = sum(
+        1 for wk in this_week
+        if (lambda dt: dt is not None and 0 <= dt.astimezone(IST).hour < 4)(parse_ts(wk))
+    )
+    raw  = min(sess_count, 5) * 1.2
+    raw += (1 if rd_sets >= 6 else 0) + (1 if tr_sets >= 4 else 0)
+    raw -= late_count * 0.5
+    score = max(1, min(10, round(raw)))
+    if score >= 8:   score_note = "Strong week — volume, balance and recovery all solid."
+    elif score >= 6: score_note = "Good week — one or two areas need attention (see below)."
+    elif score >= 4: score_note = "Average week — muscle gaps or missed sessions holding you back."
+    else:            score_note = "Below par — low sessions or major muscle imbalances this week."
+    w(f"  Overall score: {score}/10 — {score_note}")
+    w()
+
+    # Biggest win
+    best_ex, best_e1rm_v, best_set_data = None, 0.0, {}
+    for ex_title, sets_list in ex_this_week.items():
+        top_set = max(sets_list, key=lambda s: s["e1rm"], default=None)
+        if top_set and top_set["e1rm"] > best_e1rm_v:
+            best_e1rm_v = top_set["e1rm"]
+            best_ex     = ex_title
+            best_set_data = top_set
+
+    if best_ex and best_e1rm_v > 0:
+        w(f"  Biggest win  : {best_ex} — {best_set_data['wt']}kg x {best_set_data['reps']} reps"
+          f"  (e1RM {best_e1rm_v:.1f}kg)")
+    else:
+        w("  Biggest win  : No working sets recorded this week")
+
+    # Biggest concern: muscle furthest below target
+    worst_muscle, worst_gap = None, 0
+    for m, target in MUSCLE_TARGETS.items():
+        gap = target - sets_by_muscle_week.get(m, 0)
+        if gap > worst_gap:
+            worst_gap, worst_muscle = gap, m
+    if worst_muscle:
+        actual = sets_by_muscle_week.get(worst_muscle, 0)
+        w(f"  Biggest concern: {worst_muscle.replace('_',' ').title()} — "
+          f"{actual} sets vs {MUSCLE_TARGETS[worst_muscle]} target ({worst_gap} sets short)")
+
+    # Week-on-week volume
+    this_vol = bucket_vol[3]
+    last_vol = bucket_vol[2]
+    if last_vol > 0:
+        change_pct = (this_vol - last_vol) / last_vol * 100
+        direction  = "UP" if change_pct >= 0 else "DOWN"
+        w(f"  vs last week : Volume {direction} {abs(change_pct):.0f}%  "
+          f"({this_vol:,.0f} vs {last_vol:,.0f} kg*reps)")
+    else:
+        w("  vs last week : No prior week data in 30-day log")
+    w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 2: SESSION BY SESSION
+    # ════════════════════════════════════════════════════════════
+    w()
+    w("=" * 72)
+    w("2. THIS WEEK — SESSION BY SESSION")
+    w("=" * 72)
+    w()
+
+    if not this_week:
+        w("  No sessions recorded this week.")
+    else:
+        for idx, wk in enumerate(this_week, 1):
+            dt     = parse_ts(wk)
+            dt_ist = dt.astimezone(IST) if dt else None
+            day_str = dt_ist.strftime("%A %d %b %Y  %H:%M IST") if dt_ist else "Unknown"
+            title   = wk.get("title") or wk.get("name") or "Workout"
+
+            # Duration
+            s_ts = wk.get("start_time") or wk.get("created_at") or ""
+            e_ts = wk.get("end_time") or ""
+            dur_str = ""
+            if s_ts and e_ts:
+                try:
+                    sd = datetime.fromisoformat(s_ts.replace("Z", "+00:00"))
+                    ed = datetime.fromisoformat(e_ts.replace("Z", "+00:00"))
+                    mins = int((ed - sd).total_seconds() / 60)
+                    dur_str = f"  |  {mins} min"
+                except Exception:
+                    pass
+
+            is_late  = dt_ist and 0 <= dt_ist.hour < 4
+            late_tag = "  [FLAG: after midnight IST]" if is_late else ""
+
+            sv, ss = session_vol_sets(wk)
+            w(f"  Session {idx}: {day_str}{dur_str}{late_tag}")
+            w(f"  Type   : {title}")
+            w(f"  Volume : {sv:,.0f} kg*reps  |  {ss} sets")
+
+            # Top exercises
+            ex_lines = []
+            for ex in wk.get("exercises", []):
+                ex_title   = ex.get("title", "Unknown")
+                norm_sets  = [s for s in ex.get("sets", []) if s.get("type", "normal") == "normal"]
+                if not norm_sets:
+                    continue
+                best_s  = max(norm_sets, key=lambda s: e1rm(s.get("weight_kg") or 0, s.get("reps") or 0))
+                bwt     = best_s.get("weight_kg") or 0
+                breps   = best_s.get("reps") or 0
+                ber     = e1rm(bwt, breps) if bwt and breps else 0
+                ex_vol  = sum((s.get("weight_kg") or 0) * (s.get("reps") or 0) for s in norm_sets)
+
+                # Flags
+                flags_s = []
+                reps_seq = [s.get("reps") or 0 for s in norm_sets]
+                if len(reps_seq) >= 2 and reps_seq[0] > 0 and reps_seq[-1] < reps_seq[0] * 0.7:
+                    flags_s.append(f"rep collapse {reps_seq[0]}->{reps_seq[-1]}")
+                if bwt == 0 and breps > 0:
+                    flags_s.append("0kg logged")
+                wts_seq = [s.get("weight_kg") or 0 for s in norm_sets if (s.get("weight_kg") or 0) > 0]
+                if len(wts_seq) >= 2 and wts_seq[-1] < wts_seq[0] * 0.9:
+                    flags_s.append(f"weight drop {wts_seq[0]}kg->{wts_seq[-1]}kg")
+
+                # Prior comparison
+                prior_er = max((s["e1rm"] for s in ex_prior.get(ex_title, [])), default=0)
+                if prior_er > 0 and ber > 0:
+                    d = ber - prior_er
+                    vs_prior = f" vs prior: {'+' if d >= 0 else ''}{d:.1f}kg e1RM"
+                else:
+                    vs_prior = ""
+
+                flag_str  = f"  [FLAG: {', '.join(flags_s)}]" if flags_s else ""
+                ex_lines.append(
+                    f"    {ex_title}: {bwt}kg x {breps}r x {len(norm_sets)} sets"
+                    f"  (e1RM {ber:.1f}kg){vs_prior}{flag_str}"
+                )
+
+            for line in ex_lines[:6]:
+                w(line)
+            if len(ex_lines) > 6:
+                w(f"    ... and {len(ex_lines)-6} more exercises")
+            w()
+
+    # 4-week volume trend
+    w("  4-WEEK VOLUME TREND")
+    w("  " + "-" * 62)
+    labels       = ["Wk -3", "Wk -2", "Wk -1", "This wk"]
+    max_vol_bar  = max(bucket_vol) if any(v > 0 for v in bucket_vol) else 1
+    for b in range(4):
+        lbl   = labels[b]
+        dlbl  = bucket_label(b)
+        vol   = bucket_vol[b]
+        n     = bucket_sessions[b]
+        blen  = int(vol / max_vol_bar * 20) if max_vol_bar > 0 else 0
+        bstr  = "#" * blen + "." * (20 - blen)
+        w(f"  {lbl} ({dlbl}): [{bstr}] {vol:>10,.0f} kg*reps  {n} sess")
+    w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 3: STRENGTH
+    # ════════════════════════════════════════════════════════════
+    w()
+    w("=" * 72)
+    w("3. STRENGTH — HOW ARE THE LIFTS MOVING?")
+    w("=" * 72)
+    w()
+    w("  e1RM = estimated 1-rep max  (formula: weight x (1 + reps / 30))")
+    w("  [C] = compound lift  |  [I] = isolation")
+    w()
+
+    def sort_ex(title):
+        return (0 if is_compound(title) else 1, title.lower())
+
+    for ex_title in sorted(ex_this_week.keys(), key=sort_ex):
+        sets_list = ex_this_week[ex_title]
+        if not sets_list:
+            continue
+
+        best_s    = max(sets_list, key=lambda s: s["e1rm"])
+        best_wt   = best_s["wt"]
+        best_reps = best_s["reps"]
+        best_er   = best_s["e1rm"]
+
+        # Prior best
+        prior_list   = ex_prior.get(ex_title, [])
+        prior_best   = max(prior_list, key=lambda s: s["e1rm"]) if prior_list else None
+        prior_er     = prior_best["e1rm"] if prior_best else 0
+        prior_date   = prior_best["date"] if prior_best else ""
+        delta        = best_er - prior_er if prior_er > 0 and best_er > 0 else 0
+
+        if prior_er > 0 and best_er > 0:
+            if delta > 0.5:   comparison = f"UP +{delta:.1f}kg vs {prior_date}"
+            elif delta < -0.5: comparison = f"DOWN {delta:.1f}kg vs {prior_date}"
+            else:             comparison = f"SAME as {prior_date}"
+        elif prior_er == 0:
+            comparison = "First time in 30-day log"
+        else:
+            comparison = "No prior data"
+
+        # Next session target
+        if delta > 0:
+            next_wt = best_wt + (2.5 if is_compound(ex_title) else 1.25)
+        elif delta < -0.5:
+            next_wt = round(best_wt * 0.95, 2)
+        else:
+            next_wt = best_wt
+        next_reps = best_reps
+
+        # Flags
+        flags_ex = []
+        rseq = [s["reps"] for s in sets_list]
+        if len(rseq) >= 2 and rseq[0] > 0 and rseq[-1] < rseq[0] * 0.7:
+            flags_ex.append(f"rep collapse ({rseq[0]}->{rseq[-1]})")
+        if any(s["wt"] == 0 and s["reps"] > 0 for s in sets_list):
+            flags_ex.append("0kg logged — check entry")
+        wseq = [s["wt"] for s in sets_list if s["wt"] > 0]
+        if len(wseq) >= 2 and wseq[-1] < wseq[0] * 0.9:
+            flags_ex.append(f"weight drop ({wseq[0]}kg->{wseq[-1]}kg)")
+
+        cmp = "[C]" if is_compound(ex_title) else "[I]"
+        w(f"  {cmp} {ex_title}")
+        w(f"      Best this week : {best_wt}kg x {best_reps} reps  (e1RM {best_er:.1f}kg)")
+        w(f"      vs prior       : {comparison}")
+        w(f"      Next session   : {next_wt}kg x {next_reps} reps")
+        if flags_ex:
+            w(f"      *** FLAGS: {', '.join(flags_ex)}")
+        w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 4: MUSCLE BALANCE
+    # ════════════════════════════════════════════════════════════
+    w()
+    w("=" * 72)
+    w("4. ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?")
+    w("=" * 72)
+    w()
+    w("  Muscle Group    | Sets this wk | Target/wk | Gap    | Status")
+    w("  ----------------+--------------+-----------+--------+--------")
+
+    for m, target in MUSCLE_TARGETS.items():
+        actual = sets_by_muscle_week.get(m, 0)
+        gap    = target - actual
+        status = "OK" if gap <= 0 else ("LOW" if gap <= 3 else "CRITICAL")
+        label  = m.replace("_", " ").title()
+        w(f"  {label:<16}| {actual:>12} | {target:>9} | {gap:>6} | {status}")
+
+    w()
+
+    # Push vs pull
+    push_muscles = {"chest", "shoulders", "triceps"}
+    pull_muscles = {"back", "biceps", "rear_delts", "traps"}
+    push_sets = sum(sets_by_muscle_week.get(m, 0) for m in push_muscles)
+    pull_sets = sum(sets_by_muscle_week.get(m, 0) for m in pull_muscles)
+    p_ratio   = pull_sets / push_sets if push_sets > 0 else 0
+    w(f"  Push sets: {push_sets}  |  Pull sets: {pull_sets}  |  "
+      f"Ratio pull:push = {p_ratio:.2f}  "
+      f"({'OK -- balanced' if p_ratio >= 1.0 else 'LOW -- add more pulling work'})")
+    w()
+
+    w(f"  Rear delts: {rd_sets} sets this week  (need 8+/week)")
+    if rd_sets < 8:
+        w(f"    SHORT by {8-rd_sets} sets. Rear delts stabilise the shoulder joint. "
+          f"If front shoulder muscles stay much stronger than rear, you risk rotator cuff "
+          f"problems over time. Add face pulls or reverse flys.")
+    else:
+        w("    OK -- shoulder balance maintained.")
+
+    tr_act = sets_by_muscle_week.get("traps", 0)
+    w(f"  Traps     : {tr_act} sets this week  (need 6+/week)")
+    if tr_act < 6:
+        w(f"    SHORT by {6-tr_act} sets. Traps support neck and upper back posture. "
+          f"Add shrugs or deadlifts.")
+    else:
+        w("    OK.")
+    w()
+
+    ok_muscles    = [m for m, t in MUSCLE_TARGETS.items() if sets_by_muscle_week.get(m, 0) >= t]
+    short_muscles = [m for m, t in MUSCLE_TARGETS.items() if sets_by_muscle_week.get(m, 0) < t]
+    if ok_muscles:
+        w(f"  Enough work this week: {', '.join(m.replace('_',' ').title() for m in ok_muscles)}")
+    if short_muscles:
+        w(f"  Short this week      : {', '.join(m.replace('_',' ').title() for m in short_muscles)}")
+        w("  Under-trained muscles lose size first on a calorie deficit. "
+          "Prioritise these next session.")
+    w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 5: REST AND RECOVERY
+    # ════════════════════════════════════════════════════════════
+    w()
+    w("=" * 72)
+    w("5. REST AND RECOVERY THIS WEEK")
+    w("=" * 72)
+    w()
+
+    w(f"  Sessions this week : {sess_count} of 5 target")
+    for b in range(3):
+        w(f"  {labels[b]} ({bucket_label(b)}): {bucket_sessions[b]} sessions")
+    w()
+
+    # Gaps between consecutive sessions this week
+    if len(this_week) >= 2:
+        w("  Time between sessions this week:")
+        for i in range(len(this_week) - 1):
+            dt1 = parse_ts(this_week[i])
+            dt2 = parse_ts(this_week[i + 1])
+            if not dt1 or not dt2:
+                continue
+            gap_hrs  = (dt2 - dt1).total_seconds() / 3600
+            d1s      = dt1.astimezone(IST).strftime("%a %d %b %H:%M")
+            d2s      = dt2.astimezone(IST).strftime("%a %d %b %H:%M")
+            m1       = session_muscles(this_week[i])
+            m2       = session_muscles(this_week[i + 1])
+            overlap  = m1 & m2
+            flag_p   = ""
+            if gap_hrs < 24 and overlap:
+                flag_p = (f"  [FLAG: only {gap_hrs:.0f}h rest, "
+                          f"same muscles: {', '.join(sorted(overlap))}]")
+            elif gap_hrs < 16:
+                flag_p = f"  [FLAG: only {gap_hrs:.0f}h rest]"
+            w(f"    {d1s} -> {d2s}: {gap_hrs:.0f}h{flag_p}")
+        w()
+
+    # Late-night sessions
+    late_sessions = [
+        wk for wk in this_week
+        if (lambda dt: dt is not None and 0 <= dt.astimezone(IST).hour < 4)(parse_ts(wk))
+    ]
+    if late_sessions:
+        w(f"  Sessions after midnight IST this week: {len(late_sessions)}")
+        w()
+        w("  WHY THIS MATTERS:")
+        w("  Working out after midnight raises cortisol (the stress hormone). Cortisol")
+        w("  suppresses growth hormone, which your body releases mostly during deep sleep.")
+        w("  At age 44, growth hormone is already 60-70% lower than your 20s -- late sessions")
+        w("  cut it further. This slows both fat loss and muscle repair. Aim for 6-9 PM IST.")
+        w()
+        for wk in late_sessions:
+            dt = parse_ts(wk)
+            if dt:
+                di = dt.astimezone(IST)
+                w(f"    - {di.strftime('%A %d %b %Y  %H:%M IST')}  ({wk.get('title','Workout')})")
+    else:
+        w("  No sessions after midnight IST this week. Good.")
+    w()
+
+    # Back-to-back same-muscle groups
+    btb_lines = []
+    for i in range(len(this_week) - 1):
+        dt1 = parse_ts(this_week[i])
+        dt2 = parse_ts(this_week[i + 1])
+        if not dt1 or not dt2:
+            continue
+        gap_hrs = (dt2 - dt1).total_seconds() / 3600
+        if gap_hrs >= 48:
+            continue
+        overlap = session_muscles(this_week[i]) & session_muscles(this_week[i + 1])
+        if overlap:
+            d1 = dt1.astimezone(IST).strftime("%a %d %b")
+            d2 = dt2.astimezone(IST).strftime("%a %d %b")
+            btb_lines.append(
+                f"    {d1} + {d2} ({gap_hrs:.0f}h apart): overlap = {', '.join(sorted(overlap))}"
+            )
+
+    if btb_lines:
+        w("  Back-to-back sessions hitting the same muscle group:")
+        for line in btb_lines:
+            w(line)
+        w()
+        w("  At age 44, muscles need 48-72h to fully repair between sessions.")
+        w("  Training a muscle before it has recovered adds fatigue, not stimulus,")
+        w("  and raises injury risk. Rearrange sessions to respect the recovery window.")
+    else:
+        w("  No back-to-back same-muscle sessions this week. Good.")
+    w()
+
+    # ════════════════════════════════════════════════════════════
+    # SECTION 6: BODY RECOMPOSITION CHECK
+    # ════════════════════════════════════════════════════════════
+    w()
+    w("=" * 72)
+    w("6. BODY RECOMPOSITION CHECK")
+    w("=" * 72)
+    w()
+
+    w(f"  Calorie target : {TARGET_CALS} kcal/day")
+    w(f"  TDEE estimate  : {TDEE} kcal/day  (your estimated daily burn at current weight)")
+    w(f"  Daily deficit  : {TDEE - TARGET_CALS} kcal  "
+      f"(15% cut -- sustainable rate for muscle retention)")
+    w(f"  Protein target : {PROTEIN_G}g/day  (2g per kg bodyweight)")
+    w()
+    w("  WHY PROTEIN MATTERS ON A CUT:")
+    w("  In a calorie deficit, the body looks for extra fuel. If protein is low, it breaks")
+    w("  down muscle tissue for energy -- this is called muscle catabolism. At 174g/day,")
+    w("  you supply enough amino acids to maintain muscle while losing fat. Going below")
+    w("  ~120g/day on this deficit risks losing the muscle you are training to build.")
+    w()
+
+    # MEV table
+    w("  MUSCLE STIMULUS CHECK  (minimum sets/week to retain muscle on a calorie deficit):")
+    w(f"  {'Muscle':<16} {'This wk':>8}  {'Min':>5}  Status")
+    w(f"  {'-'*16} {'-'*8}  {'-'*5}  {'-'*10}")
+    at_risk = []
+    for m, mev in MEV.items():
+        actual = sets_by_muscle_week.get(m, 0)
+        status = "OK" if actual >= mev else "AT RISK"
+        label  = m.replace("_", " ").title()
+        w(f"  {label:<16} {actual:>8}  {mev:>5}  {status}")
+        if actual < mev:
+            at_risk.append(label)
+    w()
+    if at_risk:
+        w(f"  Muscles at risk of loss this week (below minimum stimulus):")
+        w(f"    {', '.join(at_risk)}")
+        w("  These are not getting enough signal to hold on to muscle during a deficit.")
+        w("  Add sets for these in the next 1-2 sessions.")
+    else:
+        w("  All muscle groups above minimum effective volume this week. Good.")
+    w()
+
+    # Deload timing
+    week_count   = state.get("week_count", 0)
+    last_counted = state.get("last_counted_week")
+    this_week_str = today_ist.strftime("%Y-W%W")
+    if last_counted != this_week_str and sess_count > 0:
+        week_count += 1
+        state["week_count"]        = week_count
+        state["last_counted_week"] = this_week_str
+
+    last_deload_week   = state.get("last_deload_week", 0)
+    weeks_since_deload = week_count - last_deload_week
+    next_deload_in     = max(0, DELOAD_EVERY_N_WEEKS - weeks_since_deload)
+    next_deload_date   = (today_ist + timedelta(weeks=next_deload_in)).strftime("%d %b %Y")
+
+    w(f"  Active training weeks logged : {week_count}")
+    w(f"  Weeks since last deload      : {weeks_since_deload}  "
+      f"(deload every {DELOAD_EVERY_N_WEEKS} weeks)")
+    if next_deload_in == 0:
+        w("  *** DELOAD THIS WEEK ***")
+        w("      Cut all sets to 2 per exercise. Keep weights the same.")
+        w("      Deload weeks let joints and connective tissue recover.")
+        w("      You will come back stronger after the deload.")
+    else:
+        w(f"  Next deload : in {next_deload_in} week(s), approx {next_deload_date}")
+    w()
+
+    # ── Write file ──
+    content = "\n".join(lines) + "\n"
+    with open(report_file, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    section("ANALYSIS REPORT — Sections 1-6 complete")
+    print(f"\n  Report date : {report_date}")
+    print(f"  This week   : {sess_count} sessions")
+    print(f"  Prior weeks : {prior_counts[0]}, {prior_counts[1]}, {prior_counts[2]}")
+    print(f"  Saved ->    : {report_file}")
+
+    return state
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 MODES = {
@@ -1031,6 +1648,7 @@ MODES = {
     "prs":         run_pr_tracker,
     "recomp":      run_recomp_monitor,
     "export":      run_export_log,
+    "analysis":    run_analysis_report,
 }
 
 def main():
