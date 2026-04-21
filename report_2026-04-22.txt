@@ -1,0 +1,216 @@
+========================================================================
+WEEKLY TRAINING REPORT
+Generated : 2026-04-22 05:07 IST
+User      : Ganesh | 44M | 181cm | 87kg -> 79kg
+This week : 15 Apr to 22 Apr 2026
+========================================================================
+
+========================================================================
+1. THIS WEEK AT A GLANCE
+========================================================================
+
+  Sessions     : 0 of 5 target
+  Prior 3 weeks: 0, 0, 0 sessions  (avg 0.0)
+
+  Overall score: 1/10 — Below par — low sessions or major muscle imbalances this week.
+
+  Biggest win  : No working sets recorded this week
+  Biggest concern: Back — 0 sets vs 14 target (14 sets short)
+  vs last week : No prior week data in 30-day log
+
+
+========================================================================
+2. THIS WEEK — SESSION BY SESSION
+========================================================================
+
+  No sessions recorded this week.
+  4-WEEK VOLUME TREND
+  --------------------------------------------------------------
+  Wk -3 (25 Mar-01 Apr): [....................]          0 kg*reps  0 sess
+  Wk -2 (01 Apr-08 Apr): [....................]          0 kg*reps  0 sess
+  Wk -1 (08 Apr-15 Apr): [....................]          0 kg*reps  0 sess
+  This wk (15 Apr-22 Apr): [....................]          0 kg*reps  0 sess
+
+
+========================================================================
+3. STRENGTH — HOW ARE THE LIFTS MOVING?
+========================================================================
+
+  e1RM = estimated 1-rep max  (formula: weight x (1 + reps / 30))
+  [C] = compound lift  |  [I] = isolation
+
+
+========================================================================
+4. ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?
+========================================================================
+
+  Muscle Group    | Sets this wk | Target/wk | Gap    | Status
+  ----------------+--------------+-----------+--------+--------
+  Chest           |            0 |        12 |     12 | CRITICAL
+  Back            |            0 |        14 |     14 | CRITICAL
+  Shoulders       |            0 |        10 |     10 | CRITICAL
+  Traps           |            0 |         6 |      6 | CRITICAL
+  Rear Delts      |            0 |         8 |      8 | CRITICAL
+  Biceps          |            0 |         8 |      8 | CRITICAL
+  Triceps         |            0 |         8 |      8 | CRITICAL
+  Legs            |            0 |        14 |     14 | CRITICAL
+  Core            |            0 |         6 |      6 | CRITICAL
+
+  Push sets: 0  |  Pull sets: 0  |  Ratio pull:push = 0.00  (LOW -- add more pulling work)
+
+  Rear delts: 0 sets this week  (need 8+/week)
+    SHORT by 8 sets. Rear delts stabilise the shoulder joint. If front shoulder muscles stay much stronger than rear, you risk rotator cuff problems over time. Add face pulls or reverse flys.
+  Traps     : 0 sets this week  (need 6+/week)
+    SHORT by 6 sets. Traps support neck and upper back posture. Add shrugs or deadlifts.
+
+  Short this week      : Chest, Back, Shoulders, Traps, Rear Delts, Biceps, Triceps, Legs, Core
+  Under-trained muscles lose size first on a calorie deficit. Prioritise these next session.
+
+
+========================================================================
+5. REST AND RECOVERY THIS WEEK
+========================================================================
+
+  Sessions this week : 0 of 5 target
+  Wk -3 (25 Mar-01 Apr): 0 sessions
+  Wk -2 (01 Apr-08 Apr): 0 sessions
+  Wk -1 (08 Apr-15 Apr): 0 sessions
+
+  No sessions after midnight IST this week. Good.
+
+  No back-to-back same-muscle sessions this week. Good.
+
+
+========================================================================
+6. BODY RECOMPOSITION CHECK
+========================================================================
+
+  Calorie target : 2367 kcal/day
+  TDEE estimate  : 2784 kcal/day  (your estimated daily burn at current weight)
+  Daily deficit  : 417 kcal  (15% cut -- sustainable rate for muscle retention)
+  Protein target : 174g/day  (2g per kg bodyweight)
+
+  WHY PROTEIN MATTERS ON A CUT:
+  In a calorie deficit, the body looks for extra fuel. If protein is low, it breaks
+  down muscle tissue for energy -- this is called muscle catabolism. At 174g/day,
+  you supply enough amino acids to maintain muscle while losing fat. Going below
+  ~120g/day on this deficit risks losing the muscle you are training to build.
+
+  MUSCLE STIMULUS CHECK  (minimum sets/week to retain muscle on a calorie deficit):
+  Muscle            This wk    Min  Status
+  ---------------- --------  -----  ----------
+  Chest                   0      8  AT RISK
+  Back                    0     10  AT RISK
+  Shoulders               0      8  AT RISK
+  Traps                   0      4  AT RISK
+  Rear Delts              0      6  AT RISK
+  Biceps                  0      6  AT RISK
+  Triceps                 0      6  AT RISK
+  Legs                    0     10  AT RISK
+  Core                    0      4  AT RISK
+
+  Muscles at risk of loss this week (below minimum stimulus):
+    Chest, Back, Shoulders, Traps, Rear Delts, Biceps, Triceps, Legs, Core
+  These are not getting enough signal to hold on to muscle during a deficit.
+  Add sets for these in the next 1-2 sessions.
+
+  Active training weeks logged : 0
+  Weeks since last deload      : 0  (deload every 4 weeks)
+  Next deload : in 4 week(s), approx 20 May 2026
+
+
+========================================================================
+7. KEY INSIGHTS
+========================================================================
+
+  RECOVERY AT 44:
+  At 44, muscle protein synthesis after a session peaks within 24h but
+  elevated repair signals persist 48–72h. This means same-muscle sessions
+  should be at least 48h apart — ideally 72h for compound-heavy days.
+  This week shows 0 sessions logged, so there is no recovery pattern to
+  evaluate. The greater concern is the opposite: zero stimulus means the
+  body has no signal to retain muscle while in a calorie deficit, and
+  catabolism risk is elevated for all nine muscle groups tracked.
+
+  REAR DELT AND TRAP GAP:
+  When the front shoulder muscles (anterior deltoid, chest) are trained
+  consistently but rear delts and traps are neglected, the shoulder joint
+  is pulled forward out of neutral. Over months this compresses the
+  supraspinatus tendon — the classic rotator cuff impingement pathway.
+  This week: rear delts at 0 of 8 target sets, traps at 0 of 6 target
+  sets. Every muscle group is at zero. The shoulder imbalance risk is not
+  theoretical — it accumulates silently until a lift suddenly hurts.
+
+  RED FLAGS THIS WEEK:
+  1. Zero sessions in the 30-day log — the API returned HTTP 503 (DNS
+     cache overflow) and no workout data was retrieved. Either the Hevy
+     service was down at export time, or no workouts have been logged to
+     the app in 30 days. Confirm which before next week's report.
+  2. All nine muscle groups are below the minimum stimulus threshold for
+     muscle retention on a calorie deficit. Every group is AT RISK of
+     size loss this week.
+  3. Deload counter is at week 0 of 4. With 0 active training weeks
+     recorded, the deload schedule cannot be tracked. If training has
+     actually occurred but wasn't captured by the API, the fatigue debt
+     may be higher than the data shows.
+
+  OVERALL TREND:
+  This is the first report in the 30-day window with data available.
+  No prior-week comparison is possible — baseline starts here. The only
+  direction from zero is up.
+
+
+========================================================================
+8. PLAN FOR NEXT WEEK  (22 Apr – 28 Apr 2026)
+========================================================================
+
+  Target: 5 sessions, 6–9 PM IST, no sessions after midnight.
+  Calorie target: 2,367 kcal/day | Protein: 174g minimum/day.
+
+  Note: No historical e1RM data exists in the 30-day log. The weights
+  below are conservative starting marks for a 44M at 87 kg with a body
+  recomp goal. Adjust down if any set feels grinding; adjust up only if
+  the last rep of every set is easy.
+
+  ── SESSION 1 (Wednesday 23 Apr) — PUSH ────────────────────────────
+  Barbell Bench Press        4 × 8 × 70 kg
+  Incline Dumbbell Press     3 × 10 × 24 kg each hand
+  Cable Lateral Raise        3 × 15 × 8 kg each side
+  Overhead Tricep Extension  3 × 12 × 22 kg (EZ bar)
+  Face Pull (cable)          3 × 20 × 15 kg   ← rear delts; do EVERY session
+
+  ── SESSION 2 (Thursday 24 Apr) — PULL ─────────────────────────────
+  Lat Pulldown               4 × 10 × 60 kg
+  Seated Cable Row           4 × 10 × 55 kg
+  Dumbbell Shrug             3 × 15 × 30 kg each hand  ← traps
+  Dumbbell Bicep Curl        3 × 12 × 14 kg each hand
+  Hammer Curl                2 × 15 × 12 kg each hand
+
+  ── SESSION 3 (Saturday 26 Apr) — LEGS ─────────────────────────────
+  Barbell Squat              4 × 8 × 80 kg
+  Romanian Deadlift          3 × 10 × 70 kg
+  Leg Press                  3 × 12 × 120 kg
+  Lying Leg Curl             3 × 12 × 40 kg
+  Calf Raise (standing)      4 × 15 × 60 kg
+  Plank                      3 × 45s bodyweight  ← core
+
+  ── SESSION 4 (Sunday 27 Apr) — PUSH (volume focus) ─────────────────
+  Dumbbell Bench Press       4 × 10 × 28 kg each hand
+  Machine Shoulder Press     3 × 12 × 40 kg
+  Cable Fly (mid)            3 × 15 × 12 kg each side
+  Tricep Pushdown (rope)     3 × 15 × 20 kg
+  Face Pull (cable)          3 × 20 × 15 kg   ← rear delts again
+
+  ── SESSION 5 (Monday 28 Apr) — PULL + CORE ─────────────────────────
+  Deadlift                   4 × 5 × 90 kg   ← main compound; traps + back
+  Single-arm Dumbbell Row    3 × 10 × 24 kg each side
+  Reverse Pec Deck (fly)     3 × 15 × 30 kg  ← rear delts
+  Barbell Curl               3 × 10 × 32 kg
+  Ab Wheel Rollout           3 × 10 bodyweight
+
+  ──────────────────────────────────────────────────────────────────
+  Deload  : Not yet — next due Week 4, approx 20 May 2026
+  Timing  : Aim for 6–9 PM IST — no sessions after midnight
+  Nutrition: 2,367 kcal/day | 174g protein minimum
+  ──────────────────────────────────────────────────────────────────
+
