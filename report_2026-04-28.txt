@@ -1,0 +1,378 @@
+========================================================================
+WEEKLY TRAINING REPORT
+Generated : 2026-04-28 05:08 IST
+User      : Ganesh | 44M | 181cm | 87kg -> 79kg
+This week : 21 Apr to 28 Apr 2026
+========================================================================
+
+========================================================================
+1. THIS WEEK AT A GLANCE
+========================================================================
+
+  Sessions     : 5 of 5 target
+  Prior 3 weeks: 0, 3, 5 sessions  (avg 2.7)
+
+  Overall score: 8/10 — Strong week — volume, balance and recovery all solid.
+
+  Biggest win  : Deadlift (Trap bar) — 80kg x 10 reps  (e1RM 106.7kg)
+  Biggest concern: Chest — 3 sets vs 12 target (9 sets short)
+  vs last week : Volume UP 23%  (41,584 vs 33,896 kg*reps)
+
+
+========================================================================
+2. THIS WEEK — SESSION BY SESSION
+========================================================================
+
+  Session 1: Tuesday 21 Apr 2026  08:36 IST  |  60 min
+  Type   : Tuesday: Pull (Cult)
+  Volume : 6,370 kg*reps  |  17 sets
+    Bent Over Row (Barbell): 60kg x 9r x 3 sets  (e1RM 78.0kg) vs prior: -2.0kg e1RM
+    Pull Up: 0kg x 6r x 3 sets  (e1RM 0.0kg)  [FLAG: 0kg logged]
+    Shrug (Smith Machine): 60kg x 12r x 4 sets  (e1RM 84.0kg) vs prior: +2.0kg e1RM
+    Face Pull: 22.7kg x 18r x 4 sets  (e1RM 36.3kg) vs prior: +3.7kg e1RM
+    Hammer Curl (Dumbbell): 10kg x 12r x 3 sets  (e1RM 14.0kg) vs prior: +0.7kg e1RM
+
+  Session 2: Wednesday 22 Apr 2026  08:25 IST  |  59 min
+  Type   : Wednesday: Legs (Drona)
+  Volume : 7,944 kg*reps  |  15 sets
+    Leg Press (Machine): 50kg x 11r x 3 sets  (e1RM 68.3kg) vs prior: +0.0kg e1RM
+    Hip Abduction (Machine): 80kg x 9r x 3 sets  (e1RM 104.0kg) vs prior: -2.7kg e1RM
+    Hip Adduction (Machine): 40kg x 10r x 3 sets  (e1RM 53.3kg) vs prior: -1.4kg e1RM
+    Seated Leg Curl (Machine): 29kg x 12r x 3 sets  (e1RM 40.6kg) vs prior: +0.0kg e1RM
+    Leg Extension (Machine): 63kg x 10r x 3 sets  (e1RM 84.0kg) vs prior: -4.2kg e1RM
+
+  Session 3: Friday 24 Apr 2026  08:28 IST  |  75 min
+  Type   : Friday: Upper Body (Drona)
+  Volume : 10,320 kg*reps  |  19 sets
+    Seated Shoulder Press (Machine): 75kg x 11r x 3 sets  (e1RM 102.5kg) vs prior: +4.5kg e1RM
+    Chest Press (Machine): 60kg x 11r x 3 sets  (e1RM 82.0kg) vs prior: +13.7kg e1RM
+    Lat Pulldown (Machine): 60kg x 9r x 3 sets  (e1RM 78.0kg) vs prior: +9.7kg e1RM
+    Rear Delt Reverse Fly (Machine): 40kg x 12r x 4 sets  (e1RM 56.0kg) vs prior: +7.0kg e1RM
+    Bicep Curl (Machine): 20kg x 13r x 3 sets  (e1RM 28.7kg) vs prior: -0.6kg e1RM
+    Triceps Pushdown: 50kg x 12r x 3 sets  (e1RM 70.0kg) vs prior: +1.7kg e1RM
+
+  Session 4: Saturday 25 Apr 2026  08:03 IST  |  84 min
+  Type   : Saturday: Lower Body (Cult)
+  Volume : 10,428 kg*reps  |  16 sets
+    Shrug (Barbell): 60kg x 12r x 4 sets  (e1RM 84.0kg) vs prior: +2.0kg e1RM
+    Deadlift (Trap bar): 80kg x 10r x 3 sets  (e1RM 106.7kg) vs prior: +2.7kg e1RM
+    Leg Press (Machine): 50kg x 12r x 3 sets  (e1RM 70.0kg) vs prior: +1.7kg e1RM
+    Leg Extension (Machine): 63kg x 12r x 3 sets  (e1RM 88.2kg) vs prior: +0.0kg e1RM
+    Crunch (Machine): 30kg x 12r x 3 sets  (e1RM 42.0kg) vs prior: +8.7kg e1RM
+
+  Session 5: Monday 27 Apr 2026  08:31 IST  |  79 min
+  Type   : Tuesday: Pull (Cult)
+  Volume : 6,522 kg*reps  |  17 sets
+    Bent Over Row (Barbell): 60kg x 10r x 3 sets  (e1RM 80.0kg) vs prior: +0.0kg e1RM
+    Pull Up: 0kg x 6r x 3 sets  (e1RM 0.0kg)  [FLAG: 0kg logged]
+    Shrug (Smith Machine): 70kg x 10r x 4 sets  (e1RM 93.3kg) vs prior: +11.3kg e1RM
+    Face Pull: 22.7kg x 18r x 4 sets  (e1RM 36.3kg) vs prior: +3.7kg e1RM
+    Hammer Curl (Dumbbell): 12kg x 8r x 3 sets  (e1RM 15.2kg) vs prior: +1.9kg e1RM
+
+  4-WEEK VOLUME TREND
+  --------------------------------------------------------------
+  Wk -3 (31 Mar-07 Apr): [....................]          0 kg*reps  0 sess
+  Wk -2 (07 Apr-14 Apr): [########............]     17,652 kg*reps  3 sess
+  Wk -1 (14 Apr-21 Apr): [################....]     33,896 kg*reps  5 sess
+  This wk (21 Apr-28 Apr): [####################]     41,584 kg*reps  5 sess
+
+
+========================================================================
+3. STRENGTH — HOW ARE THE LIFTS MOVING?
+========================================================================
+
+  e1RM = estimated 1-rep max  (formula: weight x (1 + reps / 30))
+  [C] = compound lift  |  [I] = isolation
+
+  [C] Bent Over Row (Barbell)
+      Best this week : 60kg x 10 reps  (e1RM 80.0kg)
+      vs prior       : SAME as 14 Apr
+      Next session   : 60kg x 10 reps
+
+  [C] Deadlift (Trap bar)
+      Best this week : 80kg x 10 reps  (e1RM 106.7kg)
+      vs prior       : UP +2.7kg vs 18 Apr
+      Next session   : 82.5kg x 10 reps
+
+  [C] Lat Pulldown (Machine)
+      Best this week : 60kg x 9 reps  (e1RM 78.0kg)
+      vs prior       : UP +9.7kg vs 17 Apr
+      Next session   : 62.5kg x 9 reps
+
+  [C] Leg Press (Machine)
+      Best this week : 50kg x 12 reps  (e1RM 70.0kg)
+      vs prior       : UP +1.7kg vs 18 Apr
+      Next session   : 52.5kg x 12 reps
+
+  [C] Pull Up
+      Best this week : 0kg x 6 reps  (e1RM 0.0kg)
+      vs prior       : First time in 30-day log
+      Next session   : 0kg x 6 reps
+      *** FLAGS: 0kg logged — check entry
+
+  [C] Seated Shoulder Press (Machine)
+      Best this week : 75kg x 11 reps  (e1RM 102.5kg)
+      vs prior       : UP +4.5kg vs 17 Apr
+      Next session   : 77.5kg x 11 reps
+
+  [I] Bicep Curl (Machine)
+      Best this week : 20kg x 13 reps  (e1RM 28.7kg)
+      vs prior       : DOWN -0.6kg vs 10 Apr
+      Next session   : 19.0kg x 13 reps
+
+  [I] Chest Press (Machine)
+      Best this week : 60kg x 11 reps  (e1RM 82.0kg)
+      vs prior       : UP +13.7kg vs 17 Apr
+      Next session   : 61.25kg x 11 reps
+
+  [I] Crunch (Machine)
+      Best this week : 30kg x 12 reps  (e1RM 42.0kg)
+      vs prior       : UP +8.7kg vs 11 Apr
+      Next session   : 31.25kg x 12 reps
+
+  [I] Face Pull
+      Best this week : 22.7kg x 18 reps  (e1RM 36.3kg)
+      vs prior       : UP +3.7kg vs 14 Apr
+      Next session   : 23.95kg x 18 reps
+
+  [I] Hammer Curl (Dumbbell)
+      Best this week : 12kg x 8 reps  (e1RM 15.2kg)
+      vs prior       : UP +1.9kg vs 14 Apr
+      Next session   : 13.25kg x 8 reps
+      *** FLAGS: rep collapse (12->8)
+
+  [I] Hip Abduction (Machine)
+      Best this week : 80kg x 9 reps  (e1RM 104.0kg)
+      vs prior       : DOWN -2.7kg vs 15 Apr
+      Next session   : 76.0kg x 9 reps
+
+  [I] Hip Adduction (Machine)
+      Best this week : 40kg x 10 reps  (e1RM 53.3kg)
+      vs prior       : DOWN -1.4kg vs 15 Apr
+      Next session   : 38.0kg x 10 reps
+
+  [I] Leg Extension (Machine)
+      Best this week : 63kg x 12 reps  (e1RM 88.2kg)
+      vs prior       : SAME as 11 Apr
+      Next session   : 63kg x 12 reps
+
+  [I] Rear Delt Reverse Fly (Machine)
+      Best this week : 40kg x 12 reps  (e1RM 56.0kg)
+      vs prior       : UP +7.0kg vs 17 Apr
+      Next session   : 41.25kg x 12 reps
+
+  [I] Seated Leg Curl (Machine)
+      Best this week : 29kg x 12 reps  (e1RM 40.6kg)
+      vs prior       : SAME as 11 Apr
+      Next session   : 29kg x 12 reps
+
+  [I] Shrug (Barbell)
+      Best this week : 60kg x 12 reps  (e1RM 84.0kg)
+      vs prior       : UP +2.0kg vs 18 Apr
+      Next session   : 61.25kg x 12 reps
+
+  [I] Shrug (Smith Machine)
+      Best this week : 70kg x 10 reps  (e1RM 93.3kg)
+      vs prior       : UP +11.3kg vs 14 Apr
+      Next session   : 71.25kg x 10 reps
+
+  [I] Triceps Pushdown
+      Best this week : 50kg x 12 reps  (e1RM 70.0kg)
+      vs prior       : UP +1.7kg vs 17 Apr
+      Next session   : 51.25kg x 12 reps
+
+
+========================================================================
+4. ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?
+========================================================================
+
+  Muscle Group    | Sets this wk | Target/wk | Gap    | Status
+  ----------------+--------------+-----------+--------+--------
+  Chest           |            3 |        12 |      9 | CRITICAL
+  Back            |           18 |        14 |     -4 | OK
+  Shoulders       |            3 |        10 |      7 | CRITICAL
+  Traps           |           15 |         6 |     -9 | OK
+  Rear Delts      |           12 |         8 |     -4 | OK
+  Biceps          |           12 |         8 |     -4 | OK
+  Triceps         |            3 |         8 |      5 | CRITICAL
+  Legs            |           21 |        14 |     -7 | OK
+  Core            |            6 |         6 |      0 | OK
+
+  Push sets: 9  |  Pull sets: 57  |  Ratio pull:push = 6.33  (OK -- balanced)
+
+  Rear delts: 12 sets this week  (need 8+/week)
+    OK -- shoulder balance maintained.
+  Traps     : 15 sets this week  (need 6+/week)
+    OK.
+
+  Enough work this week: Back, Traps, Rear Delts, Biceps, Legs, Core
+  Short this week      : Chest, Shoulders, Triceps
+  Under-trained muscles lose size first on a calorie deficit. Prioritise these next session.
+
+
+========================================================================
+5. REST AND RECOVERY THIS WEEK
+========================================================================
+
+  Sessions this week : 5 of 5 target
+  Wk -3 (31 Mar-07 Apr): 0 sessions
+  Wk -2 (07 Apr-14 Apr): 3 sessions
+  Wk -1 (14 Apr-21 Apr): 5 sessions
+
+  Time between sessions this week:
+    Tue 21 Apr 08:36 -> Wed 22 Apr 08:25: 24h  [FLAG: only 24h rest, same muscles: biceps]
+    Wed 22 Apr 08:25 -> Fri 24 Apr 08:28: 48h
+    Fri 24 Apr 08:28 -> Sat 25 Apr 08:03: 24h  [FLAG: only 24h rest, same muscles: back]
+    Sat 25 Apr 08:03 -> Mon 27 Apr 08:31: 48h
+
+  No sessions after midnight IST this week. Good.
+
+  Back-to-back sessions hitting the same muscle group:
+    Tue 21 Apr + Wed 22 Apr (24h apart): overlap = biceps
+    Fri 24 Apr + Sat 25 Apr (24h apart): overlap = back
+
+  At age 44, muscles need 48-72h to fully repair between sessions.
+  Training a muscle before it has recovered adds fatigue, not stimulus,
+  and raises injury risk. Rearrange sessions to respect the recovery window.
+
+
+========================================================================
+6. BODY RECOMPOSITION CHECK
+========================================================================
+
+  Calorie target : 2367 kcal/day
+  TDEE estimate  : 2784 kcal/day  (your estimated daily burn at current weight)
+  Daily deficit  : 417 kcal  (15% cut -- sustainable rate for muscle retention)
+  Protein target : 174g/day  (2g per kg bodyweight)
+
+  WHY PROTEIN MATTERS ON A CUT:
+  In a calorie deficit, the body looks for extra fuel. If protein is low, it breaks
+  down muscle tissue for energy -- this is called muscle catabolism. At 174g/day,
+  you supply enough amino acids to maintain muscle while losing fat. Going below
+  ~120g/day on this deficit risks losing the muscle you are training to build.
+
+  MUSCLE STIMULUS CHECK  (minimum sets/week to retain muscle on a calorie deficit):
+  Muscle            This wk    Min  Status
+  ---------------- --------  -----  ----------
+  Chest                   3      8  AT RISK
+  Back                   18     10  OK
+  Shoulders               3      8  AT RISK
+  Traps                  15      4  OK
+  Rear Delts             12      6  OK
+  Biceps                 12      6  OK
+  Triceps                 3      6  AT RISK
+  Legs                   21     10  OK
+  Core                    6      4  OK
+
+  Muscles at risk of loss this week (below minimum stimulus):
+    Chest, Shoulders, Triceps
+  These are not getting enough signal to hold on to muscle during a deficit.
+  Add sets for these in the next 1-2 sessions.
+
+  Active training weeks logged : 1
+  Weeks since last deload      : 1  (deload every 4 weeks)
+  Next deload : in 3 week(s), approx 19 May 2026
+
+
+========================================================================
+7. KEY INSIGHTS
+========================================================================
+
+  RECOVERY AT 44
+  At 44, testosterone and growth hormone levels are lower than in your 20s,
+  meaning muscle protein synthesis runs slower and you need 48-72 hours between
+  sessions that hit the same muscle group. This week fell short of that standard
+  twice: Tuesday Pull and Wednesday Legs were only 24 hours apart (bicep overlap
+  via seated leg curl), and Friday Upper Body and Saturday Lower Body were 24 hours
+  apart (back overlap — lat pulldown Friday, trap bar deadlift Saturday). Training
+  a muscle still in repair mode adds fatigue without adding stimulus and raises
+  soft-tissue injury risk. Next week: shift Saturday Lower to Sunday so the back
+  gets a full 48 hours after Friday's lat pulldown.
+
+  REAR DELT AND TRAP BALANCE
+  When chest and anterior (front) shoulder muscles are far stronger than the rear
+  deltoids, the scapula gets pulled forward — producing rounded shoulders, restricted
+  range of motion, and shoulder impingement that can sideline you for weeks at a time.
+  This week's numbers are actually protective in this regard: rear delts logged 12 sets
+  (target 8) and traps 15 sets (target 6), both comfortably above minimum. The risk
+  currently sits on the other side: chest recorded only 3 sets vs a 12-set target and
+  overall shoulder volume was just 3 sets. If the anterior chain keeps falling behind,
+  the rotator cuff takes compensatory strain. Maintain the strong rear delt and trap
+  work, but close the chest and shoulder gap urgently.
+
+  RED FLAGS THIS WEEK
+  (a) Pull Up — 0kg logged in every session: This breaks the e1RM formula and hides
+      real strength progress entirely. Hevy records added weight for bodyweight
+      exercises. Log your bodyweight (79kg) as the weight entry so pull-up strength
+      can be tracked and periodised properly.
+  (b) Hammer Curl rep collapse: Weight jumped from 10kg × 12 reps to 12kg × 8 reps —
+      a 20% weight increase that caused a 33% rep drop. This is too aggressive. Next
+      session: hold 12kg and rebuild reps back to 10-12 before considering a further
+      increase.
+  (c) Back-to-back sessions hitting the same muscle group: Tue/Wed were only 24h
+      apart (bicep overlap) and Fri/Sat were only 24h apart (back overlap via
+      deadlifts and lat pulldown). Both are flagged in Section 5 and both contradict
+      the 48-72h recovery window needed at 44.
+
+  OVERALL TREND
+  Strongly positive. Weekly volume jumped 23% (41,584 vs 33,896 kg*reps) and the
+  session count held at 5, matching the 5/week target for the second consecutive week.
+  After a zero-session week four weeks ago and only 3 sessions the week after, this
+  is a genuine recovery in training consistency. The main structural risk is the push
+  muscle deficit (chest, shoulders, triceps) which has shown up across both recent
+  active weeks — this needs to be corrected with a dedicated Push session next week
+  rather than repeating the Pull-heavy pattern.
+
+
+========================================================================
+8. PLAN FOR NEXT WEEK (28 Apr – 05 May 2026)
+========================================================================
+
+  SESSION 1: Tuesday 28 Apr — Push (Cult)
+  [Corrects the critical chest/shoulders/triceps deficit. Different muscles from
+   last Monday's Pull session — 24h gap is safe.]
+    Incline Bench Press (Dumbbell):   3 × 12 × 20kg
+    Chest Fly (Machine):              3 × 12 × 45kg
+    Shoulder Press (Dumbbell):        3 × 11 × 17.5kg
+    Lateral Raise (Dumbbell):         3 × 12 × 12.5kg
+    Triceps Pushdown:                 4 × 12 × 50kg   [+1 set to address triceps gap]
+
+  SESSION 2: Wednesday 29 Apr — Legs (Drona)
+  [Push and Legs have no overlap — 24h gap is safe.]
+    Leg Press (Machine):              3 × 12 × 52.5kg   [+2.5kg progression]
+    Hip Abduction (Machine):          3 × 10 × 76kg     [deload from 80kg — regression]
+    Hip Adduction (Machine):          3 × 11 × 38kg     [deload from 40kg — regression]
+    Seated Leg Curl (Machine):        3 × 12 × 29kg     [hold weight]
+    Leg Extension (Machine):          3 × 12 × 63kg     [hold weight]
+
+  SESSION 3: Friday 01 May — Upper Body (Drona)
+  [48h after Legs — all muscle groups fully recovered.]
+    Seated Shoulder Press (Machine):  3 × 11 × 77.5kg   [+2.5kg progression]
+    Chest Press (Machine):            4 × 11 × 60kg     [+1 set for volume; hold weight]
+    Lat Pulldown (Machine):           3 × 9  × 62.5kg   [+2.5kg progression]
+    Rear Delt Reverse Fly (Machine):  4 × 12 × 41kg     [+1kg progression]
+    Bicep Curl (Machine):             3 × 13 × 20kg     [hold weight]
+    Triceps Pushdown:                 3 × 12 × 51kg     [+1kg progression]
+
+  SESSION 4: Sunday 03 May — Lower Body (Cult)
+  [Moved from Saturday to Sunday — gives the back 48h after Friday's lat pulldown
+   before Saturday's deadlifts. This is the key schedule fix from this week.]
+    Shrug (Barbell):                  4 × 12 × 61kg     [+1kg progression]
+    Deadlift (Trap bar):              3 × 10 × 82.5kg   [+2.5kg — new PR target]
+    Leg Press (Machine):              3 × 12 × 52.5kg   [+2.5kg progression]
+    Leg Extension (Machine):          3 × 12 × 63kg     [hold weight]
+    Crunch (Machine):                 3 × 12 × 31kg     [+1kg progression]
+
+  SESSION 5: Tuesday 05 May — Pull (Cult)
+  [48h after Sunday Lower — back gets full recovery window after deadlifts.]
+    Bent Over Row (Barbell):          3 × 10 × 60kg     [hold weight — build consistency]
+    Pull Up:                          3 × 6  × 79kg     [LOG AS 79KG — not 0kg]
+    Shrug (Smith Machine):            4 × 10 × 71kg     [+1kg progression]
+    Face Pull:                        4 × 18 × 23kg     [+0.3kg progression]
+    Hammer Curl (Dumbbell):           3 × 10 × 12kg     [hold 12kg; rebuild reps 8→10]
+
+  +-------------------------------------------------------------------+
+  |  Deload  : Not yet — next due week of 19 May 2026  (Week 4)       |
+  |  Timing  : Aim for 6–9 AM IST — no sessions after midnight        |
+  |  Nutrition: 2,367 kcal/day | 174g protein minimum                 |
+  +-------------------------------------------------------------------+
