@@ -1,6 +1,6 @@
 ========================================================================
 WEEKLY TRAINING REPORT
-Generated : 2026-05-24 05:06 IST
+Generated : 2026-05-24 19:36 IST
 User      : Ganesh | 44M | 181cm | 87kg -> 79kg
 This week : 17 May to 24 May 2026
 ========================================================================
@@ -10,7 +10,7 @@ This week : 17 May to 24 May 2026
 ========================================================================
 
   Sessions     : 2 of 5 target
-  Prior 3 weeks: 7, 5, 6 sessions  (avg 6.0)
+  Prior 3 weeks: 6, 5, 6 sessions  (avg 5.7)
 
   Overall score: 2/10 — Below par — low sessions or major muscle imbalances this week.
 
@@ -40,10 +40,10 @@ This week : 17 May to 24 May 2026
 
   4-WEEK VOLUME TREND
   --------------------------------------------------------------
-  Wk -3 (26 Apr-03 May): [####################]     62,672 kg*reps  7 sess
-  Wk -2 (03 May-10 May): [############........]     40,120 kg*reps  5 sess
-  Wk -1 (10 May-17 May): [################....]     50,673 kg*reps  6 sess
-  This wk (17 May-24 May): [##..................]      8,025 kg*reps  2 sess
+  Wk -3 (26 Apr-03 May): [####################]     52,352 kg*reps  6 sess
+  Wk -2 (03 May-10 May): [###############.....]     40,120 kg*reps  5 sess
+  Wk -1 (10 May-17 May): [###################.]     50,673 kg*reps  6 sess
+  This wk (17 May-24 May): [###.................]      8,025 kg*reps  2 sess
 
 
 ========================================================================
@@ -124,7 +124,7 @@ This week : 17 May to 24 May 2026
 ========================================================================
 
   Sessions this week : 2 of 5 target
-  Wk -3 (26 Apr-03 May): 7 sessions
+  Wk -3 (26 Apr-03 May): 6 sessions
   Wk -2 (03 May-10 May): 5 sessions
   Wk -1 (10 May-17 May): 6 sessions
 
@@ -175,122 +175,282 @@ This week : 17 May to 24 May 2026
 
 
 ========================================================================
+6.5. PPL ADHERENCE & CORRECTIVE COMPLIANCE
+========================================================================
+
+Programme week : W1  (started 2026-05-24; today is Day 1, Sunday REST --
+                      PPL x2 formal training begins Mon 25 May 2026)
+Sessions this week: 2 of 6 target
+
+NOTE: Both sessions (Mon 18 May, Tue 19 May) occurred before the PPL x2 start
+      date under the old Cult/Drona split. Adherence is mapped against the PPL
+      x2 template retroactively to establish a baseline.
+
+  Day        | Expected | Detected           | Status
+  -----------+----------+--------------------+--------------------------------
+  Mon 18 May | Push A   | Pull A (INFERRED)  | WRONG -- Pull done on Push A day
+  Tue 19 May | Pull A   | Push (INFERRED)    | WRONG + INCOMPLETE (1 set only)
+
+  Wed 20 May -- Sat 23 May : No sessions (4 consecutive days missed)
+
+  Adherence: 0%  (0 of 2 sessions on correct PPL type; 4 of 6 sessions missed)
+
+CORRECTIVE MARKERS:
+  Hip Thrust in Legs sessions : N/A -- 0 legs sessions this week.
+                                APT correction absent for all 7 days. CRITICAL.
+  Core stabiliser (all sessions): 1 of 2 sessions
+                                  (Mon 18 May: Cable Crunch -- OK)
+                                  (Tue 19 May: not logged -- incomplete session)
+  Rear delt work in Pull sessions: 1 of 1 pull sessions
+                                   (Mon 18 May: Face Pull 3 sets -- OK)
+                                   Running weekly total: 3 of 8 target sets (37%)
+  Sessions over 60 min: Tue 19 May -- 78 min  (18 min OVER the 60-min cap)
+
+LATERAL RAISE (V-TAPER KPI):
+  This week  : none performed (0 sets)
+  Prior week : 12.5kg x 13 reps  (Dumbbell, best of 3 consistent sets; Tue 12 May & Sat 16 May)
+               35kg x 9 reps     (Machine, Thu 14 May -- rep collapse on set 3)
+  Trend      : DOWN
+  Note: No lateral raises of any kind performed this week. V-taper stimulus
+        absent for 7 days. This is the primary KPI to restore in W2.
+
+
+========================================================================
 7. KEY INSIGHTS
 ========================================================================
 
-  RECOVERY AT 44
-  At 44, muscle protein synthesis takes longer to peak and return to
-  baseline — the science says 48-72h between sessions hitting the same
-  muscle group is the target. This week's two sessions were Pull on Mon
-  18 May and Push on Tue 19 May — different muscle groups, so the 24h
-  gap was fine in isolation. The real recovery problem was not overlap
-  but simply the low session count: only 2 of 5 planned workouts hit,
-  meaning most muscles got zero stimulus this week and are now sitting
-  in a 5-day rest window heading into Sunday.
+RECOVERY AT 44
+  The only two sessions this week were Mon 18 May (Pull, 08:28) and Tue 19 May
+  (Push, 08:43) -- a gap of 24 hours 15 minutes. Because these sessions trained
+  different muscle groups (pulling muscles vs. pushing muscles), the same-muscle
+  48h rule was technically not violated, and the report confirms no back-to-back
+  same-muscle pairs. However, 24h between consecutive training days is compressed
+  systemic recovery for a 44-year-old athlete. More damaging was the pattern that
+  followed: four days of zero training (Wed-Sat), meaning rest was bunched in the
+  wrong place rather than distributed evenly. From a same-muscle standpoint, the
+  last Pull session before Mon 18 May was Mon 11 May -- a 7-day gap -- which is
+  well within safe limits. No 48h same-muscle violations this week.
 
-  REAR DELT AND TRAP GAP
-  When the front-of-shoulder muscles (chest, anterior deltoid) are
-  trained much more than the rear delts, the shoulder joint gets pulled
-  forward at rest — a posture called anterior shoulder tilt. Over time
-  this compresses the rotator cuff tendons and raises impingement and
-  tear risk, especially on pressing movements. This week: 3 rear delt
-  sets vs the 8/week target, and 3 trap sets vs the 6/week target.
-  Rear delts stabilise the shoulder blade; traps hold the neck and
-  upper back upright. Both being critically short while Push volume is
-  already low is a double warning — the imbalance is not worsening fast
-  this week only because push volume also crashed.
+PPL ADHERENCE AND PROGRAMME AGE
+  Adherence this week: 0% (0 of 2 sessions matched the correct PPL session type).
+  This is W1 of the PPL x2 programme, which formally starts tomorrow (Mon 25 May).
+  Both sessions this week were done under the old Cult schedule: "Monday: Pull"
+  and "Tuesday: Push," which is the direct reverse of the PPL x2 schedule
+  (Mon = Push A, Tue = Pull A). Additionally, 4 of 6 target sessions were missed
+  entirely (Wed through Sat). The most persistent gap in the 30-day log is the
+  Wed-Sat block, suggesting a structural barrier on weekday evenings or Saturdays
+  rather than random variation. The first full PPL x2 week (Mon 25 May - Sat 30 May)
+  must hit all 6 sessions to establish the new pattern.
 
-  RED FLAGS THIS WEEK
-  1. Pull Up — 0kg logged across 4 sets (Monday session). Hevy records
-     bodyweight-only lifts as 0kg. This is technically not a data error,
-     but it inflates set count without contributing to volume and can
-     make the pull session look stronger than it is. Confirm entry is
-     intentional; if bands are used, log the band assistance as a
-     negative load (or use a separate note).
-  2. Session 20 (Tuesday Push) — only 1 set logged (Shoulder Press
-     20kg x 10r) in a 78-minute workout. A 78-minute session producing
-     200 kg*reps is almost certainly a data entry dropout: the rest of
-     the workout was not saved or was logged in a separate session that
-     did not sync. This needs to be checked in the Hevy app.
-  3. Volume crash — 8,025 kg*reps this week vs 50,673 last week (84%
-     drop) and vs a 3-week average of 51,155. This is the largest
-     single-week drop in the 30-day log, and most of it is attributable
-     to the missing data in Session 20 rather than genuine reduced load.
+CORRECTIVE COMPLIANCE
+  Hip Thrust hit rate this week: 0% -- no legs sessions were completed at all, so
+  the glute-posterior chain received zero stimulus for 7 days. Anterior pelvic tilt
+  (APT) means the hip flexors are chronically shortened and the glutes are
+  neurologically inhibited. Weekly Hip Thrust is the primary corrective force
+  counteracting this tilt; skipping it for a full week allows the pattern to
+  reassert itself. Rear delt sets: 3 of 8 target this week (37.5%). When anterior
+  deltoids are significantly stronger than the rear deltoids, the humeral head
+  migrates forward in the glenohumeral socket during pressing and overhead
+  movements. At age 44, cartilage and tendon recovery is slower, meaning this
+  anterior-posterior imbalance compounds into rotator cuff impingement over months,
+  not years. Face Pull and Rear Delt Reverse Fly must appear in every Pull session.
+  Core stabiliser presence: 1 of 2 sessions (50%) -- Cable Crunch on Monday only.
 
-  TREND VS PREVIOUS REPORT
-  This is the first report generated under this format, so no prior
-  report exists for direct comparison. Across the 30-day log, weeks
-  -3 through -1 averaged 6 sessions and 51,155 kg*reps per week —
-  this week's 2 sessions and 8,025 kg*reps is a sharp negative outlier.
-  The 30-day strength trajectory is positive (Trap bar deadlift up
-  from 106.7 to 123.5kg e1RM; Cable Row up from 93.3 to 102.7kg;
-  Chest Press up from 70 to 84kg e1RM) but this week's session data
-  is almost certainly incomplete and should be treated as a data gap
-  rather than a true drop in fitness.
+LATERAL RAISE TREND -- V-TAPER KPI
+  Trend this week: DOWN. Zero lateral raise sets performed vs. 12.5kg x 13 reps
+  (Dumbbell) in the prior week. Lateral Raise at the Machine reached 35kg x 9 reps
+  (Thu 14 May, prior week) but showed rep collapse. For Ganesh specifically, the
+  love handles sit at exactly the same width as the lats, visually collapsing the
+  waist-to-shoulder ratio regardless of body fat level. The only structural fix is
+  lateral deltoid hypertrophy -- which requires consistent, progressive lateral
+  raises every Push session. One missed week sets the KPI back; two missed weeks
+  erases adaptation. Target for W2: Dumbbell LR at 13.75kg, all 3 sets x 12 reps.
+
+HARD FLAGS
+  - Tue 19 May: 78-minute session with only 1 working set logged (Shoulder Press
+    20kg x 10). Either the workout was abandoned after the first exercise, or
+    significant data entry was missed. If the session was real, the missing log
+    is a tracking failure -- unlogged work cannot be progressed.
+  - Pull Up: 0kg recorded across all Pull sessions (bodyweight not entered in
+    Hevy). Pull Ups count toward volume but cannot be load-progressed without
+    accurate bodyweight data. Enter actual bodyweight in the app.
+  - Zero legs sessions this week: Hip Thrust, Leg Press, Romanian Deadlift, and
+    Hip Abduction all at 0 sets vs. 14-set weekly target. Every major leg pattern
+    missed.
+  - Tue 19 May: 78 min duration = 18 min over the 60-min per-session cap.
+  - Cable Crunch (Mon 18 May): Weight dropped from 35kg (set 1) to 30kg (sets 2-3)
+    mid-session -- suggests fatigue from starting too heavy or insufficient warm-up.
+
+OVERALL VERDICT: DECLINING
+  This week is the worst in the 30-day log. 2 sessions vs. prior 3-week average
+  of 5.7 sessions. Volume DOWN 84% (8,025 vs. 50,673 kg*reps last week). All
+  muscle groups below weekly maintenance minimums except core. The Tue 19 May
+  session was effectively empty. Corrective markers (Hip Thrust, rear delts, core)
+  were all below target. The programme formally begins tomorrow -- the W2 targets
+  below are the first real test of the PPL x2 structure.
 
 
 ========================================================================
-8. PLAN FOR NEXT WEEK  (26 May – 1 Jun 2026)
+8. PLAN FOR NEXT WEEK
 ========================================================================
 
-  TARGET: 5 sessions. Fix Tuesday data gap. Prioritise rear delts.
+Programme week: W2 of PPL x2  |  Mon 25 May to Sat 30 May 2026
+Base rule: +2.5kg compounds / +1.25kg isolation if all sets hit target reps.
+           Drop 5% if rep collapse flagged. First appearance = conservative start.
 
-  ------------------------------------------------------------------
-  SESSION 1 — Monday 26 May: PULL (Cult)
-  ------------------------------------------------------------------
-  Seated Cable Row V-Grip  3 x 10 x 79.5 kg   (up from 77kg — earned)
-  Pull Up                  4 x 7  x 0 kg       (bodyweight — note in log)
-  Shrug (Smith Machine)    3 x 12 x 70 kg      (maintain)
-  Face Pull                4 x 16 x 24.9 kg    (add 1 extra set — rear delts critical)
-  Hammer Curl (DB)         3 x 10 x 13.75 kg   (small step up from 12.5kg)
-  Cable Crunch             3 x 15 x 35 kg      (maintain — no weight drop mid-set)
+------------------------------------------------------------------------
+MONDAY -- Push A  (Chest primary + Shoulders + Triceps)
+------------------------------------------------------------------------
+  Incline Bench Press (Dumbbell)  4 x 10-12 @ 25kg
+    (Was 22.5kg x 12 x 4 -- all sets hit; compound +2.5kg)
 
-  ------------------------------------------------------------------
-  SESSION 2 — Tuesday 27 May: PUSH (Cult)
-  ------------------------------------------------------------------
-  Incline Bench Press (DB) 4 x 12 x 22.5 kg   (maintain — fix logging this session)
-  Shoulder Press (DB)      3 x 10 x 20 kg      (maintain, fix Tuesday data dropout)
-  Chest Fly (Machine)      3 x 11 x 52 kg      (small rep increase)
-  Lateral Raise (DB)       3 x 13 x 12.5 kg    (maintain)
-  Triceps Pushdown         3 x 11 x 27.2 kg    (maintain)
-  NOTE: Log every set before leaving the gym — last Tuesday's session
-  shows only 1 set saved. Check sync before exiting the app.
+  Shoulder Press (Dumbbell)       3 x 10-12 @ 20kg
+    (Was 20kg x 12 x 3 on Sat 16 May; this week dropped to x10 in 1 set --
+     hold weight, rebuild rep consistency before adding load)
 
-  ------------------------------------------------------------------
-  SESSION 3 — Wednesday 28 May: LEGS (Drona)
-  ------------------------------------------------------------------
-  Leg Press (Machine)      3 x 12 x 60 kg      (add 2 reps per set)
-  Hip Thrust (Machine)     3 x 13 x 20 kg      (maintain rep PR)
-  Sissy Squat (BW)         3 x 12 x 0 kg       (add 1 rep per set)
-  Romanian Deadlift (DB)   3 x 11 x 40 kg      (maintain)
-  Hip Abduction (Machine)  3 x 10 x 85 kg      (maintain)
-  Hip Adduction (Machine)  3 x 10 x 45 kg      (maintain)
+  Chest Fly (Machine)             3 x 12 @ 52kg
+    (Was 52kg x 11 x 3 -- not all sets at 12 yet; hold until full 3x12 clean)
 
-  ------------------------------------------------------------------
-  SESSION 4 — Thursday 29 May: UPPER BODY (Drona)
-  ------------------------------------------------------------------
-  Seated Shoulder Press    3 x 10 x 80 kg      (maintain at 80 — consolidate)
-  Chest Press (Machine)    4 x 12 x 60 kg      (maintain — solid base)
-  Lat Pulldown (Machine)   3 x 11 x 60 kg      (add 1 rep)
-  Rear Delt Reverse Fly    4 x 11 x 50 kg      (maintain 4 sets — keep rear delts fed)
-  Lateral Raise (Machine)  3 x 9  x 35 kg      (maintain)
-  Bicep Curl (Machine)     3 x 12 x 25 kg      (maintain — hit 12r/set consistently)
-  Triceps Pushdown         3 x 11 x 60 kg      (maintain)
+  Lateral Raise (Dumbbell)        3 x 12 @ 13.75kg   [V-TAPER KPI -- do not skip]
+    (Was 12.5kg x 13 x 3 -- all sets hit; isolation +1.25kg = 13.75kg)
 
-  ------------------------------------------------------------------
-  SESSION 5 — Saturday 31 May: LOWER BODY (Cult)
-  ------------------------------------------------------------------
-  Deadlift (Trap Bar)      3 x 10 x 95 kg      (up from 95x9 — add 1 rep)
-  Leg Press (Machine)      3 x 10 x 70 kg      (maintain)
-  Leg Extension (Machine)  3 x 10 x 77 kg      (maintain)
-  Crunch (Machine)         3 x 12 x 35 kg      (maintain)
-  Seated Leg Curl          3 x 8  x 43 kg      (maintain — hamstrings underdone)
-  Shrug (Barbell)          4 x 15 x 60 kg      (maintain — traps short this week)
+  Triceps Pushdown                3 x 12 @ 28.5kg
+    (Was 27.2kg x 11 x 3 -- all sets hit; isolation +1.25kg = 28.45kg)
 
-  ------------------------------------------------------------------
-  ┌────────────────────────────────────────────────────────────────┐
-  │  Deload : Not yet — next due in 3 weeks, approx 14 Jun 2026   │
-  │  Timing : Aim 6-9 AM IST (current pattern) — no after-midnight│
-  │  Nutrition: 2,367 kcal/day | 174g protein minimum             │
-  └────────────────────────────────────────────────────────────────┘
+  Dead Bug                        3 x 10  [mandatory T8-T12 corrective -- do not skip]
+
+  FOCUS: Lateral Raise is the primary V-taper KPI -- treat it as a main lift, not
+         a finisher. Monitor Shoulder Press reps; if still falling short of 10 on
+         sets 2-3, flag for a regression review next report.
+
+------------------------------------------------------------------------
+TUESDAY -- Pull A  (Back compound + Biceps)
+------------------------------------------------------------------------
+  Seated Cable Row - V Grip (Cable)   3 x 10 @ 79.5kg
+    (Was 77kg x 10 x 3 -- all sets hit; compound +2.5kg = 79.5kg)
+
+  Pull Up                             4 x 7  (bodyweight -- enter actual BW in Hevy)
+    (Hold until 3 consecutive sets hit 10 reps; focus on full range of motion)
+
+  Shrug (Smith Machine)               3 x 12 @ 72.5kg
+    (Was 70kg x 12 x 3 -- all sets hit; isolation +1.25kg -> round to 72.5kg)
+
+  Face Pull                           3 x 15 @ 26.15kg
+    (Was 24.9kg x 16 x 3 -- all sets hit; isolation +1.25kg = 26.15kg)
+
+  Hammer Curl (Dumbbell)              3 x 10 @ 13.75kg
+    (Was 12.5kg x 10 x 3 -- all sets hit; isolation +1.25kg = 13.75kg)
+
+  Cable Crunch                        3 x 15 @ 32.5kg
+    (Was 35kg -> 30kg weight drop mid-session; stabilise at 32.5kg before progressing)
+
+  Dead Bug                            3 x 10  [mandatory corrective]
+
+  FOCUS: 79.5kg on Cable Row is a new high; if form degrades after rep 8, drop
+         to 77kg and add a 4th set for volume compensation.
+
+------------------------------------------------------------------------
+WEDNESDAY -- Legs A  (Quads + Hamstrings + Glutes, Hip Thrust mandatory)
+------------------------------------------------------------------------
+  Hip Thrust (Machine)            3 x 12 @ 22.5kg   [MANDATORY APT CORRECTION]
+    (Was 20kg x 13 x 3 -- all sets hit; compound +2.5kg = 22.5kg. Do this first.)
+
+  Leg Press (Machine)             3 x 12 @ 62.5kg
+    (Was 60kg x 12 x 3 -- all sets hit; compound +2.5kg = 62.5kg)
+
+  Romanian Deadlift (Dumbbell)    3 x 10 @ 42.5kg
+    (Was 40kg x 11 x 3 -- all sets hit; compound +2.5kg = 42.5kg)
+
+  Sissy Squat (Weighted)          3 x 12  (bodyweight -- increase reps toward 15
+                                  before adding load)
+
+  Hip Abduction (Machine)         3 x 10 @ 86.25kg
+    (Was 85kg x 10 x 3 -- all sets hit; isolation +1.25kg = 86.25kg)
+
+  Hip Adduction (Machine)         3 x 10 @ 46.25kg
+    (Was 45kg x 10 x 3 -- all sets hit; isolation +1.25kg = 46.25kg)
+
+  Dead Bug                        3 x 10  [mandatory corrective]
+
+  FOCUS: Hip Thrust is non-negotiable -- APT correction depends on it every Legs
+         session. If the machine is occupied, use a bench and barbell variant.
+
+------------------------------------------------------------------------
+THURSDAY -- Push B  (Shoulders primary + Chest variation + Triceps)
+------------------------------------------------------------------------
+  Seated Shoulder Press (Machine)  3 x 10 @ 82.5kg
+    (Was 80kg x 10 x 3 -- all sets hit; compound +2.5kg = 82.5kg)
+
+  Chest Press (Machine)            4 x 12 @ 61.25kg
+    (Was 60kg x 12 x 4 -- all sets hit; isolation +1.25kg = 61.25kg;
+     if machine increments in 2.5kg, use 62.5kg)
+
+  Lateral Raise (Machine)          3 x 10 @ 35kg   [hold -- rep collapse flagged]
+    (Was 35kg x 9/9/8 -- set 3 collapsed to 8; hold weight, target all 3x10)
+
+  Triceps Pushdown                 3 x 12 @ 57kg   [dropped from 60kg]
+    (Was 60kg x 11/11/9 -- rep collapse on set 3; drop 5% = 57kg;
+     rebuild to 3x12 before returning to 60kg)
+
+  Dead Bug                         3 x 10  [mandatory corrective]
+
+  FOCUS: Triceps Pushdown back to 57kg this session -- full range, pause at full
+         extension, no elbow flare. Return to 60kg only when all 3 sets hit 12.
+
+------------------------------------------------------------------------
+FRIDAY -- Pull B  (Back + Rear Delts + Biceps, Face Pull mandatory)
+------------------------------------------------------------------------
+  Lat Pulldown (Machine)           3 x 10 @ 62.5kg
+    (Was 60kg x 11 x 3 -- all sets hit; compound +2.5kg = 62.5kg)
+
+  Rear Delt Reverse Fly (Machine)  4 x 12 @ 51.25kg
+    (Was 50kg x 11 x 4 -- all sets hit; isolation +1.25kg = 51.25kg)
+
+  Face Pull                        3 x 15 @ 26.15kg   [MANDATORY rear delt target]
+    (Combined with Reverse Fly above = 7 rear delt sets; aim for 8 by adding 1
+     extra Reverse Fly set if time permits)
+
+  Bicep Curl (Machine)             3 x 12 @ 25kg   [hold -- rep decline flagged]
+    (Was 25kg x 12/11/10 -- gradual rep decline across sets; hold until all 3x12)
+
+  Shrug (Smith Machine)            3 x 12 @ 72.5kg
+    (Traps coverage to close the weekly gap)
+
+  Dead Bug                         3 x 10  [mandatory corrective]
+
+  FOCUS: Rear delts are the primary health risk at 44. Both Reverse Fly AND Face
+         Pull must be completed. Combined with Monday's Face Pull (3 sets), this
+         week total rear delt: 9 sets -- first time meeting the 8-set minimum.
+
+------------------------------------------------------------------------
+SATURDAY -- Legs B  (Glutes + Hamstrings + Single-Leg + Rack Pull,
+                      Hip Thrust mandatory)
+------------------------------------------------------------------------
+  Hip Thrust (Machine)            3 x 12 @ 22.5kg   [MANDATORY APT CORRECTION]
+    (Same progression as Legs A -- do this first)
+
+  Deadlift (Trap bar / Rack Pull) 3 x 9 @ 97.5kg
+    (Was 95kg x 9 x 2 sets -- both sets hit; compound +2.5kg = 97.5kg)
+
+  Leg Press (Machine)             3 x 10 @ 72.5kg
+    (Was 70kg x 10 x 3 -- all sets hit; compound +2.5kg = 72.5kg)
+
+  Seated Leg Curl (Machine)       3 x 10 @ 43kg   [hold -- not yet at 10 reps]
+    (Was 43kg x 8 x 3 -- below 10-rep target; hold weight, focus on reps)
+
+  Bulgarian Split Squat           3 x 8 per leg  (bodyweight -- NEW exercise)
+    (Single-leg pattern required for Legs B; conservative BW start. Add 5kg
+     barbell hold once 3x10 per leg is clean)
+
+  Dead Bug                        3 x 10  [mandatory corrective]
+
+  FOCUS: Saturday Legs B is the session most frequently skipped in the 30-day log.
+         Book the 6-9 PM slot now. Hip Thrust and Deadlift are the non-negotiables
+         if time is tight -- drop Split Squat before dropping either of those.
+
++------------------------------------------------------------------+
+| Deload   : not yet -- next due Week 5, approx 14 Jun 2026        |
+| Timing   : 6-9 PM IST -- no sessions after midnight              |
+| Nutrition: 2,367 kcal/day | 174g protein minimum                 |
++------------------------------------------------------------------+
 
