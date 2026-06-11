@@ -1,0 +1,437 @@
+========================================================================
+WEEKLY TRAINING REPORT
+Generated : 2026-06-12 05:00 IST
+User      : Ganesh | 44M | 181cm | 87kg -> 79kg
+This week : 05 Jun to 12 Jun 2026
+========================================================================
+
+========================================================================
+1. THIS WEEK AT A GLANCE
+========================================================================
+
+  Sessions     : 3 of 5 target
+  Prior 3 weeks: 6, 4, 2 sessions  (avg 4.0)
+
+  Overall score: 5/10 — Average week — muscle gaps or missed sessions holding you back.
+
+  Biggest win  : Seated Cable Row - V Grip (Cable) — 70kg x 8 reps  (e1RM 88.7kg)
+  Biggest concern: Rear Delts — 0 sets vs 8 target (8 sets short)
+  vs last week : Volume UP 16%  (12,306 vs 10,652 kg*reps)
+
+
+========================================================================
+2. THIS WEEK — SESSION BY SESSION
+========================================================================
+
+  Session 1: Friday 05 Jun 2026  08:02 IST  |  98 min
+  Type   : Full Body 3
+  Volume : 4,427 kg*reps  |  12 sets
+    Romanian Deadlift (Barbell): 60kg x 8r x 3 sets  (e1RM 76.0kg)
+    Incline Bench Press (Dumbbell): 20kg x 12r x 3 sets  (e1RM 28.0kg) vs prior: -3.5kg e1RM  [FLAG: rep collapse 12->8]
+    Seated Cable Row - V Grip (Cable): 70kg x 8r x 3 sets  (e1RM 88.7kg) vs prior: -14.0kg e1RM
+    Triceps Pushdown: 24.9kg x 10r x 3 sets  (e1RM 33.2kg) vs prior: -48.8kg e1RM
+
+  Session 2: Monday 08 Jun 2026  08:13 IST  |  71 min
+  Type   : Full Body A — Monday
+  Volume : 2,570 kg*reps  |  15 sets
+    Squat (Barbell): 65kg x 5r x 4 sets  (e1RM 75.8kg) vs prior: +25.1kg e1RM
+    Bench Press (Barbell): 60kg x 6r x 3 sets  (e1RM 72.0kg) vs prior: +16.0kg e1RM
+    Pull Up: 0kg x 4r x 3 sets  (e1RM 0.0kg)  [FLAG: 0kg logged]
+    Lateral Raise (Dumbbell): 10kg x 12r x 3 sets  (e1RM 14.0kg) vs prior: -3.9kg e1RM
+    Hanging Leg Raise: 0kg x 8r x 2 sets  (e1RM 0.0kg)  [FLAG: rep collapse 8->4, 0kg logged]
+
+  Session 3: Wednesday 10 Jun 2026  08:27 IST  |  65 min
+  Type   : Full Body B — Wednesday
+  Volume : 5,309 kg*reps  |  16 sets
+    Romanian Deadlift (Barbell): 60kg x 6r x 4 sets  (e1RM 72.0kg)
+    Overhead Press (Barbell): 40kg x 6r x 3 sets  (e1RM 48.0kg) vs prior: -2.7kg e1RM
+    Leg Extension (Machine): 63kg x 12r x 3 sets  (e1RM 88.2kg) vs prior: -9.3kg e1RM
+    Bicep Curl (Dumbbell): 10kg x 9r x 3 sets  (e1RM 13.0kg) vs prior: +0.3kg e1RM
+    Triceps Pushdown: 24.9kg x 10r x 3 sets  (e1RM 33.2kg) vs prior: -48.8kg e1RM
+
+  4-WEEK VOLUME TREND
+  --------------------------------------------------------------
+  Wk -3 (15 May-22 May): [####################]     46,591 kg*reps  6 sess
+  Wk -2 (22 May-29 May): [##########..........]     23,436 kg*reps  4 sess
+  Wk -1 (29 May-05 Jun): [####................]     10,652 kg*reps  2 sess
+  This wk (05 Jun-12 Jun): [#####...............]     12,306 kg*reps  3 sess
+
+
+========================================================================
+3. STRENGTH — HOW ARE THE LIFTS MOVING?
+========================================================================
+
+  e1RM = estimated 1-rep max  (formula: weight x (1 + reps / 30))
+  [C] = compound lift  |  [I] = isolation
+
+  [C] Bench Press (Barbell)
+      Best this week : 60kg x 6 reps  (e1RM 72.0kg)
+      vs prior       : UP +16.0kg vs 01 Jun
+      Next session   : 62.5kg x 6 reps
+
+  [C] Incline Bench Press (Dumbbell)
+      Best this week : 20kg x 12 reps  (e1RM 28.0kg)
+      vs prior       : DOWN -3.5kg vs 16 May
+      Next session   : 19.0kg x 12 reps
+      *** FLAGS: rep collapse (12->8)
+
+  [C] Overhead Press (Barbell)
+      Best this week : 40kg x 6 reps  (e1RM 48.0kg)
+      vs prior       : DOWN -2.7kg vs 03 Jun
+      Next session   : 38.0kg x 6 reps
+
+  [C] Pull Up
+      Best this week : 0kg x 4 reps  (e1RM 0.0kg)
+      vs prior       : First time in 30-day log
+      Next session   : 0kg x 4 reps
+      *** FLAGS: 0kg logged — check entry
+
+  [C] Romanian Deadlift (Barbell)
+      Best this week : 60kg x 8 reps  (e1RM 76.0kg)
+      vs prior       : First time in 30-day log
+      Next session   : 60kg x 8 reps
+
+  [C] Seated Cable Row - V Grip (Cable)
+      Best this week : 70kg x 8 reps  (e1RM 88.7kg)
+      vs prior       : DOWN -14.0kg vs 18 May
+      Next session   : 66.5kg x 8 reps
+
+  [C] Squat (Barbell)
+      Best this week : 65kg x 5 reps  (e1RM 75.8kg)
+      vs prior       : UP +25.1kg vs 01 Jun
+      Next session   : 67.5kg x 5 reps
+
+  [I] Bicep Curl (Dumbbell)
+      Best this week : 10kg x 9 reps  (e1RM 13.0kg)
+      vs prior       : SAME as 01 Jun
+      Next session   : 11.25kg x 9 reps
+
+  [I] Hanging Leg Raise
+      Best this week : 0kg x 8 reps  (e1RM 0.0kg)
+      vs prior       : First time in 30-day log
+      Next session   : 0kg x 8 reps
+      *** FLAGS: rep collapse (8->4), 0kg logged — check entry
+
+  [I] Lateral Raise (Dumbbell)
+      Best this week : 10kg x 12 reps  (e1RM 14.0kg)
+      vs prior       : DOWN -3.9kg vs 12 May
+      Next session   : 9.5kg x 12 reps
+
+  [I] Leg Extension (Machine)
+      Best this week : 63kg x 12 reps  (e1RM 88.2kg)
+      vs prior       : DOWN -9.3kg vs 15 May
+      Next session   : 59.85kg x 12 reps
+
+  [I] Triceps Pushdown
+      Best this week : 24.9kg x 10 reps  (e1RM 33.2kg)
+      vs prior       : DOWN -48.8kg vs 14 May
+      Next session   : 23.65kg x 10 reps
+
+
+========================================================================
+4. ARE THE RIGHT MUSCLES GETTING ENOUGH WORK?
+========================================================================
+
+  Muscle Group    | Sets this wk | Target/wk | Gap    | Status
+  ----------------+--------------+-----------+--------+--------
+  Chest           |            6 |        12 |      6 | CRITICAL
+  Back            |           13 |        14 |      1 | LOW
+  Shoulders       |            6 |        10 |      4 | CRITICAL
+  Traps           |            7 |         6 |     -1 | OK
+  Rear Delts      |            0 |         8 |      8 | CRITICAL
+  Biceps          |            3 |         8 |      5 | CRITICAL
+  Triceps         |            6 |         8 |      2 | LOW
+  Legs            |           14 |        14 |      0 | OK
+  Core            |            5 |         6 |      1 | LOW
+
+  Push sets: 18  |  Pull sets: 23  |  Ratio pull:push = 1.28  (OK -- balanced)
+
+  Rear delts: 0 sets this week  (need 8+/week)
+    SHORT by 8 sets. Rear delts stabilise the shoulder joint. If front shoulder muscles stay much stronger than rear, you risk rotator cuff problems over time. Add face pulls or reverse flys.
+  Traps     : 7 sets this week  (need 6+/week)
+    OK.
+
+  Enough work this week: Traps, Legs
+  Short this week      : Chest, Back, Shoulders, Rear Delts, Biceps, Triceps, Core
+  Under-trained muscles lose size first on a calorie deficit. Prioritise these next session.
+
+
+========================================================================
+5. REST AND RECOVERY THIS WEEK
+========================================================================
+
+  Sessions this week : 3 of 5 target
+  Wk -3 (15 May-22 May): 6 sessions
+  Wk -2 (22 May-29 May): 4 sessions
+  Wk -1 (29 May-05 Jun): 2 sessions
+
+  Time between sessions this week:
+    Fri 05 Jun 08:02 -> Mon 08 Jun 08:13: 72h
+    Mon 08 Jun 08:13 -> Wed 10 Jun 08:27: 48h
+
+  No sessions after midnight IST this week. Good.
+
+  No back-to-back same-muscle sessions this week. Good.
+
+
+========================================================================
+6. BODY RECOMPOSITION CHECK
+========================================================================
+
+  Calorie target : 2367 kcal/day
+  TDEE estimate  : 2784 kcal/day  (your estimated daily burn at current weight)
+  Daily deficit  : 417 kcal  (15% cut -- sustainable rate for muscle retention)
+  Protein target : 174g/day  (2g per kg bodyweight)
+
+  WHY PROTEIN MATTERS ON A CUT:
+  In a calorie deficit, the body looks for extra fuel. If protein is low, it breaks
+  down muscle tissue for energy -- this is called muscle catabolism. At 174g/day,
+  you supply enough amino acids to maintain muscle while losing fat. Going below
+  ~120g/day on this deficit risks losing the muscle you are training to build.
+
+  MUSCLE STIMULUS CHECK  (minimum sets/week to retain muscle on a calorie deficit):
+  Muscle            This wk    Min  Status
+  ---------------- --------  -----  ----------
+  Chest                   6      8  AT RISK
+  Back                   13     10  OK
+  Shoulders               6      8  AT RISK
+  Traps                   7      4  OK
+  Rear Delts              0      6  AT RISK
+  Biceps                  3      6  AT RISK
+  Triceps                 6      6  OK
+  Legs                   14     10  OK
+  Core                    5      4  OK
+
+  Muscles at risk of loss this week (below minimum stimulus):
+    Chest, Shoulders, Rear Delts, Biceps
+  These are not getting enough signal to hold on to muscle during a deficit.
+  Add sets for these in the next 1-2 sessions.
+
+  Active training weeks logged : 1
+  Weeks since last deload      : 1  (deload every 4 weeks)
+  Next deload : in 3 week(s), approx 03 Jul 2026
+
+
+========================================================================
+6.5. PPL ADHERENCE & CORRECTIVE COMPLIANCE
+========================================================================
+
+Programme week: W3  (started 2026-05-24; 18 days elapsed, ceil(18/7) = 3)
+Sessions this week: 3 of 6 target
+
+Day        | Expected | Detected              | Status
+-----------+----------+-----------------------+----------------------------
+Fri 05 Jun | Pull B   | INFERRED: Full Body   | OFF-PLAN
+Sat 06 Jun | Legs B   | (no session)          | MISSED
+Sun 07 Jun | REST     | REST                  | OK
+Mon 08 Jun | Push A   | INFERRED: Full Body A | OFF-PLAN
+Tue 09 Jun | Pull A   | (no session)          | MISSED
+Wed 10 Jun | Legs A   | INFERRED: Full Body B | OFF-PLAN
+Thu 11 Jun | Push B   | (no session)          | MISSED
+
+Adherence: 0%  (0 of 3 sessions matched correct PPL session type)
+All three sessions were logged under Full Body format. Inferred session types
+based on exercises: RDL+Row+Bench+Triceps (Full Body), Squat+Bench+PullUp+
+LateralRaise (Full Body A), RDL+OHP+LegExt+BicepCurl+Triceps (Full Body B) --
+none match the required PPL session type for that day of week.
+
+CORRECTIVE MARKERS:
+Hip Thrust in Legs sessions : 0 of 0 PPL Legs sessions this week
+                               (0 of 1 total PPL Legs A sessions in programme --
+                                APT corrective MISSING since 13 May, 4 weeks absent)
+Core stabiliser (all sessions): 0 of 3 sessions  [Dead Bug / Bird-Dog absent from all]
+Rear delt work in Pull sessions: 0 of 0 Pull sessions this week  (0 rear delt sets total)
+Sessions over 60 min: ALL 3 sessions exceeded the 60-min target
+  Fri 05 Jun  Full Body 3       : 98 min  (+38 min over cap)
+  Mon 08 Jun  Full Body A       : 71 min  (+11 min over cap)
+  Wed 10 Jun  Full Body B       : 65 min  (+ 5 min over cap)
+
+LATERAL RAISE (V-TAPER KPI):
+This week : 10kg x 12 reps  |  Prior week: N/A -- no sets logged (29 May-4 Jun)
+Last best  : 10kg x 15 reps (Thu 28 May, PPL Push B)
+Trend: DOWN  (same weight, 3 fewer reps vs last logged session)
+
+
+========================================================================
+7. KEY INSIGHTS
+========================================================================
+
+RECOVERY AT 44
+This week had two session pairs: Fri 05 Jun 08:02 -> Mon 08 Jun 08:13 (72h gap) and
+Mon 08 Jun 08:13 -> Wed 10 Jun 08:27 (48h gap exactly). Both clear the 48h minimum on
+paper. However, the Mon-Wed pair is borderline: squats hit the legs on Monday and
+Romanian Deadlift plus Leg Extension hit them again on Wednesday at exactly 48h -- no
+buffer above the minimum. At 44, with lower protein synthesis rates than a 25-year-old,
+a 48h gap for the same muscle group leaves the body at the edge of adequate recovery,
+not comfortably past it. The 72h Fri-Mon pair was genuinely adequate. The tighter pair
+should be extended to 60-72h in future programming.
+
+PPL ADHERENCE AND PROGRAMME AGE
+This week's PPL session-type adherence is 0% -- all 3 sessions were Full Body format.
+Of 6 required training days (Mon-Sat), only 3 were used. The consistently skipped days
+this week are Saturday (Legs B), Tuesday (Pull A), and Thursday (Push B). Saturday has
+been missed in the prior two weeks as well, suggesting a consistent scheduling gap on
+that day. We are now in Programme Week 3 (started 2026-05-24). The PPL format was
+followed correctly in W1 (Mon 25 - Thu 28 May) with 4 PPL-typed sessions, but has not
+been repeated since. Each week that passes in Full Body format delays the specialisation
+benefits of PPL x2 -- the chest-primary, shoulder-primary, and leg-specific session
+structure exists precisely to accumulate enough targeted sets per muscle group per week.
+
+CORRECTIVE COMPLIANCE
+Hip Thrust hit rate: 0 of 0 PPL Legs sessions this week, and 0 of 1 total PPL Legs
+sessions in the programme (May 27 Legs A had no Hip Thrust either). The APT corrective
+has been absent for 4 weeks. Without hip thrusts, the glutes are not being loaded through
+full hip extension under tension, and anterior pelvic tilt continues uncorrected -- this
+places chronic compressive load on the lumbar spine during squats and deadlifts.
+Rear delt total this week: 0 sets vs 8-set weekly target. In plain terms: every pressing
+session hammers the anterior deltoid, but the posterior rotator cuff (infraspinatus,
+teres minor, posterior deltoid) receives no training signal. Over time this anterior
+dominance pulls the humeral head forward in the socket. At 44, with reduced tendon
+elasticity, sustained anterior overload raises the risk of subacromial impingement --
+pain and loss of range on overhead pressing, which is already a compound KPI.
+Core stabiliser (Dead Bug or Bird-Dog) was logged in 0 of 3 sessions this week, down
+from 4 of 4 sessions in PPL Week 1. The T8-T12 kyphosis corrective has been dropped
+entirely since reverting to Full Body format.
+
+LATERAL RAISE TREND -- V-TAPER KPI
+This week: 10kg x 12 reps (Mon 08 Jun). Last logged best: 10kg x 15 reps (Thu 28 May
+PPL Push B). Trend is DOWN -- same weight, 3 fewer reps, meaning less training volume
+and a weaker stimulus to the medial deltoid. This matters specifically because Ganesh's
+love handles sit at lat-width level, collapsing the shoulder-to-waist visual ratio. The
+medial deltoid is the only muscle that can push the shoulder silhouette wider than the
+love handle line. A declining rep count at 10kg means the V-taper KPI is moving
+backward, not forward. The target is a consistent 12.5kg x 12 reps before end of W4.
+
+HARD FLAGS FROM SESSION DATA
+Flag 1: Rep collapse -- Incline Bench Press dropped 12 reps to 8 reps across sets on
+  Fri 05 Jun (3-set average collapsed 33%). Next session reduce to 17.5kg x 12.
+Flag 2: Rep collapse -- Hanging Leg Raise fell from 8 reps to 4 reps on Mon 08 Jun;
+  session note confirms low energy and fatigue. A session entered in depleted state.
+Flag 3: All 3 sessions over 60 min (98, 71, 65 min). At a 417 kcal daily deficit,
+  sessions running 65-98 min drive cortisol elevation, which accelerates muscle protein
+  breakdown. Keep sessions at 55-60 min by trimming warm-up volume or dropping 1 set.
+Flag 4: No Hip Thrust in any session (4 consecutive weeks). APT correction has stalled.
+Flag 5: Zero rear delt sets for the second consecutive full-body week. Rotator cuff
+  imbalance is accumulating -- this is the highest-priority corrective gap in the log.
+
+OVERALL VERDICT: HOLDING
+Volume rose 16% vs last week (12,306 vs 10,652 kg*reps). Attendance improved (3 vs 2
+sessions). Bench Press is at 60kg and Squat at 65kg, both up from the prior week. These
+are genuine positives. However, PPL adherence remains 0% (same as last week), corrective
+compliance is 0% (same as last week), rear delt volume is 0 (same as last week), and the
+V-taper KPI is down. The programme regression from PPL to Full Body has now held for
+two weeks. A third consecutive Full Body week will push the verdict to DECLINING.
+
+========================================================================
+8. PLAN FOR NEXT WEEK
+========================================================================
+
+Programme week: W4  (Week 4 of PPL x2)  --  Mon 15 Jun to Sat 20 Jun 2026
+
+MONDAY 15 Jun -- Push A  (Chest + Shoulders + Triceps)
+  Bench Press (Barbell)              3 x 6  @ 60kg
+    [All 3 sets at 60kg -- build consistency before progressing to 62.5kg]
+  Incline Bench Press (Dumbbell)     3 x 12 @ 17.5kg
+    [Dropped from 20kg -- rep collapse (12->8) flagged on 05 Jun]
+  Chest Fly (Machine)                3 x 12 @ 47.5kg
+    [Prior PPL Push A was 45kg x12 x3; all sets hit; +2.5kg]
+  Lateral Raise (Dumbbell)           3 x 12 @ 12.5kg  *** V-TAPER KPI ***
+    [Up from 10kg -- all 3 sets hit 12 reps on Mon 08 Jun; isolation +1.25kg -> nearest DB 12.5kg]
+  Face Pull                          3 x 15 @ 24.9kg
+    [Rear delt dose added to Push A -- 0 rear delt sets this week; do not skip]
+  Triceps Pushdown                   3 x 10 @ 26.1kg
+    [Up from 24.9kg -- all sets hit 10 reps; isolation +1.25kg]
+  Dead Bug                           3 x 10  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: Lateral Raise at 12.5kg is the V-taper KPI this session. Bench at 60kg
+  is consolidation, not progression -- 3 consistent sets before adding weight.
+
+TUESDAY 16 Jun -- Pull A  (Back compound + Biceps)
+  Seated Cable Row - V Grip (Cable)  3 x 8  @ 72.5kg
+    [Up from 70kg -- all 3 sets hit 8 reps on 05 Jun; compound +2.5kg]
+  Dumbbell Row                       3 x 12 @ 22.5kg
+    [Up from 20kg -- all sets hit 12 reps (26 May); compound +2.5kg]
+  Pull Up (Bodyweight)               4 x 4  @ 0kg
+    [Brachialis still the limiting factor -- focus lat engagement, not rep count]
+  Shrug (Smith Machine)              3 x 12 @ 72.5kg
+    [Up from 70kg -- all 3 sets hit 12 reps (26 May); +2.5kg]
+  Face Pull                          3 x 15 @ 24.9kg
+    [Rear delt volume supplement -- critical this week; 0 rear delt sets logged]
+  Hammer Curl (Dumbbell)             3 x 12 @ 12.5kg
+    [Prior best 12.5kg x10x3 (18 May); build reps to 12 before progressing]
+  Bicep Curl (Dumbbell)              3 x 10 @ 10kg
+    [Set 3 dropped to 8 reps on Wed 10 Jun -- hold weight, target all 3 sets at 10]
+  Dead Bug                           3 x 10  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: Rear delt volume -- Face Pull mandatory. Cable Row progression to 72.5kg
+  is the primary strength marker.
+
+WEDNESDAY 18 Jun -- Legs A  (Quads, Hamstrings, Glutes -- Hip Thrust MANDATORY)
+  Hip Thrust (Machine)               3 x 13 @ 20kg   *** MANDATORY APT CORRECTIVE ***
+    [APT corrective absent 4 weeks -- do this FIRST, before squats]
+  Squat (Barbell)                    4 x 5  @ 65kg
+    [Best working sets 65kg x5 on Mon 08 Jun -- consolidate at 65kg for 4 sets]
+  Leg Press (Machine)                3 x 12 @ 72.5kg
+    [Up from 70kg -- all sets hit 12 reps (27 May Legs A); compound +2.5kg]
+  Seated Leg Curl (Machine)          3 x 9  @ 45kg
+    [Up from 43kg -- all sets hit 9 reps (27 May); +2.5kg to nearest increment]
+  Dead Bug                           3 x 16  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: Hip Thrust first -- APT correction must not be deferred to end of
+  session. Squat at 65kg x4x5 is the consistency target before moving to 67.5kg.
+
+THURSDAY 19 Jun -- Push B  (Shoulders primary + Chest variation + Triceps)
+  Overhead Press (Barbell)           3 x 8  @ 40kg
+    [Reps dropped from 8 (03 Jun) to 6 (10 Jun) at same weight -- rebuild reps before
+     adding weight; do not progress to 42.5kg until all 3 sets hit 8 reps]
+  Seated OH Press (Dumbbell)         4 x 12 @ 17.5kg
+    [Prior PPL Push B: 17.5kg x10x4 -- build reps to 4x12 before moving to 20kg]
+  Chest Press (Machine)              3 x 12 @ 60kg
+    [Prior best 60kg x12x4 (14 May) -- chest variation for Push B]
+  Lateral Raise (Dumbbell)           3 x 12 @ 12.5kg  *** V-TAPER KPI ***
+    [Second lateral raise session this week -- critical to hit 12.5kg again]
+  Face Pull                          3 x 15 @ 24.9kg
+    [Mandatory rear delt -- Push B supplement to reach 8-set weekly target]
+  Chest Supported Y Raise (DB)       3 x 12 @ 5kg
+    [Prior PPL Push B: 5kg x12x3 -- maintain; progress to 6kg when all hit 15 reps]
+  Overhead Triceps Extension (Cable) 3 x 11 @ 25kg
+    [Up from 24kg x11x3 (28 May); isolation +1.25kg -> 25kg]
+  Dead Bug                           3 x 10  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: OHP reps (8 not 6) is the single most important number this session.
+  Rear delt volume is the structural priority.
+
+FRIDAY 20 Jun -- Pull B  (Back + Rear Delts + Biceps -- Face Pull MANDATORY)
+  Lat Pulldown (Cable)               3 x 12 @ 55kg
+    [Up from 52kg x12x3 (01 Jun); all sets hit; compound +2.5kg]
+  Bent Over Row (Barbell)            3 x 10 @ 57.5kg
+    [Up from 55kg x10x3 (03 Jun); all sets hit; compound +2.5kg]
+  Face Pull                          3 x 15 @ 24.9kg   *** MANDATORY rear delt, Pull B ***
+  Rear Delt Reverse Fly (Machine)    3 x 11 @ 50kg
+    [Prior best 50kg x11x4 (14 May) -- returning after 4-week absence; resume at 50kg]
+  Bicep Curl (Dumbbell)              3 x 10 @ 10kg
+  Seated Incline Curl (Dumbbell)     3 x 10 @ 7.5kg
+    [Prior best 7.5kg x10x2 (26 May) -- add a third set]
+  Dead Bug                           3 x 10  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: Rear delt isolation (Face Pull + Reverse Fly = 6 sets today). Combined
+  with Tue/Thu Face Pulls, target 12+ rear delt sets for the week.
+
+SATURDAY 21 Jun -- Legs B  (Glutes, Hamstrings, Single-Leg, Rack Pull -- Hip Thrust MANDATORY)
+  Hip Thrust (Machine)               3 x 13 @ 22.5kg   *** MANDATORY APT CORRECTIVE ***
+    [Progress from 20kg if Wednesday went cleanly -- APT non-negotiable]
+  Romanian Deadlift (Barbell)        3 x 8  @ 60kg
+    [Different rep scheme from Wed -- build volume at base weight]
+  Seated Leg Curl (Machine)          3 x 9  @ 45kg
+    [Match Wednesday weight -- confirm the progression holds]
+  Hip Abduction (Machine)            3 x 10 @ 85kg
+    [Prior best 85kg x10x3 (13 May) -- resume at same weight]
+  Single Leg Press (Machine)         3 x 10 @ bodyweight
+    [Form and balance focus -- 0kg logged (27 May); technique session]
+  Rack Pull                          3 x 5  @ 70kg
+    [Prior best 70kg x5 (26 May) -- maintain; do not exceed without spotter check]
+  Dead Bug                           3 x 16  -- MANDATORY (T8-T12 kyphosis corrective)
+  Session focus: Rack Pull and Hip Thrust are the two non-negotiables. Posterior chain
+  and APT corrective both addressed in this session.
+
++------------------------------------------------------------------+
+| Deload   : not yet -- next due approx 03 Jul 2026               |
+| Timing   : 6-9 PM IST -- no sessions after midnight              |
+| Nutrition: 2,367 kcal/day | 174g protein minimum                 |
++------------------------------------------------------------------+
+
