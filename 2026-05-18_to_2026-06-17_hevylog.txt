@@ -1,7 +1,7 @@
 ========================================================================
 HEVY WORKOUT LOG — 30-DAY EXPORT
 Period : 2026-05-18 to 2026-06-17  (last 30 days)
-Created: 2026-06-17 04:48:08
+Created: 2026-06-17 23:30:58
 User   : Ganesh | 44M | 181cm | 87kg → 79kg target
 ========================================================================
 
@@ -62,7 +62,7 @@ Title: Tuesday: Push (Cult)
 
 ------------------------------------------------------------------------
 SESSION 3: Monday 25 May 2026  08:12 IST  |  84 min
-Title: Monday – Push A (Chest)
+Title: Monday - Push A (Chest)
 
   Stretching  [isolation | other]
     Set 1       0kg × 0 reps
@@ -139,7 +139,7 @@ Title: Monday – Push A (Chest)
 
 ------------------------------------------------------------------------
 SESSION 4: Tuesday 26 May 2026  10:14 IST  |  118 min
-Title: Tuesday – Pull A (Back + Traps)
+Title: Tuesday - Pull A (Back + Traps)
 
   Stretching  [isolation | other]
     Set 1       0kg × 0 reps
@@ -222,7 +222,7 @@ Title: Tuesday – Pull A (Back + Traps)
 
 ------------------------------------------------------------------------
 SESSION 5: Wednesday 27 May 2026  08:37 IST  |  122 min
-Title: Wednesday – Legs A
+Title: Wednesday - Legs A
 
   Stretching  [isolation | other]
     Set 1       0kg × 0 reps
@@ -237,28 +237,6 @@ Title: Wednesday – Legs A
     Set 1       0kg × 16 reps
     Set 2       0kg × 16 reps
     >> 2 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    Set 2       0kg × 0 reps
-    >> 2 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    Set 2       0kg × 0 reps
-    >> 2 working sets  |  volume: 0 kg·reps
-
-  Glute Bridge  [isolation | other]
-    Set 1       0kg × 20 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Clamshell  [isolation | other]
-    Set 1       0kg × 15 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Warm Up  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
 
   Deadlift (Trap bar)  [compound | back, traps]
     Set 1       90kg × 8 reps | vol: 720 kg·reps | e1RM: 114.0kg
@@ -296,30 +274,11 @@ Title: Wednesday – Legs A
     Set 3       0kg × 0 reps
     >> 3 working sets  |  volume: 0 kg·reps
 
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    Set 2       0kg × 0 reps
-    >> 2 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    Set 2       0kg × 0 reps
-    >> 2 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    Set 2       0kg × 0 reps
-    >> 2 working sets  |  volume: 0 kg·reps
-
   SESSION TOTAL: 36 sets  |  5,921 kg·reps
 
 ------------------------------------------------------------------------
 SESSION 6: Thursday 28 May 2026  07:55 IST  |  103 min
-Title: Thursday – Push B (Shoulders)
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
+Title: Thursday - Push B (Shoulders)
 
   Superman  [isolation | other]
     Set 1       0kg × 10 reps
@@ -330,18 +289,6 @@ Title: Thursday – Push B (Shoulders)
     Set 1       0kg × 16 reps
     Set 2       0kg × 16 reps
     >> 2 working sets  |  volume: 0 kg·reps
-
-  Warm Up  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Band Pullaparts  [isolation | other]
-    Set 1       0kg × 20 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
 
   Seated Overhead Press (Dumbbell)  [compound | shoulders]
     Set 1       17.5kg × 10 reps | vol: 175 kg·reps | e1RM: 23.3kg
@@ -379,18 +326,6 @@ Title: Thursday – Push B (Shoulders)
     Set 2       24kg × 11 reps | vol: 264 kg·reps | e1RM: 32.8kg
     Set 3       24kg × 11 reps | vol: 264 kg·reps | e1RM: 32.8kg
     >> 3 working sets  |  volume: 3,192 kg·reps  |  best e1RM: 112.8kg
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
-  Stretching  [isolation | other]
-    Set 1       0kg × 0 reps
-    >> 1 working sets  |  volume: 0 kg·reps
 
   SESSION TOTAL: 30 sets  |  6,186 kg·reps
 
@@ -507,12 +442,7 @@ Title: Full Body 3
 
 ------------------------------------------------------------------------
 SESSION 10: Monday 08 Jun 2026  08:13 IST  |  71 min
-Title: Full Body A — Monday
-
-  Squat (Bodyweight)  [compound | legs]
-    Warmup      0kg × 10 reps
-    Warmup      0kg × 10 reps
-    >> 0 working sets  |  volume: 0 kg·reps
+Title: Full Body A - Monday
 
   Squat (Barbell)  [compound | legs]
     Warmup      40kg × 3 reps | vol: 120 kg·reps
@@ -531,7 +461,6 @@ Title: Full Body A — Monday
     >> 3 working sets  |  volume: 960 kg·reps  |  best e1RM: 72.0kg
 
   Pull Up  [compound | back]
-    Notes: brachialis fails before lats
     Set 1       0kg × 4 reps
     Set 2       0kg × 4 reps
     Set 3       0kg × 4 reps
@@ -544,7 +473,6 @@ Title: Full Body A — Monday
     >> 3 working sets  |  volume: 360 kg·reps  |  best e1RM: 14.0kg
 
   Hanging Leg Raise  [isolation | core]
-    Notes: Couldn't complete because of low energy and tiredness
     Set 1       0kg × 8 reps
     Set 2       0kg × 4 reps
     >> 2 working sets  |  volume: 0 kg·reps
@@ -553,12 +481,7 @@ Title: Full Body A — Monday
 
 ------------------------------------------------------------------------
 SESSION 11: Wednesday 10 Jun 2026  08:27 IST  |  65 min
-Title: Full Body B — Wednesday
-
-  Back Extension (Hyperextension)  [isolation | other]
-    Warmup      0kg × 10 reps
-    Warmup      0kg × 10 reps
-    >> 0 working sets  |  volume: 0 kg·reps
+Title: Full Body B - Wednesday
 
   Romanian Deadlift (Barbell)  [compound | back, traps, legs]
     Warmup      30kg × 5 reps | vol: 150 kg·reps
@@ -598,12 +521,7 @@ Title: Full Body B — Wednesday
 
 ------------------------------------------------------------------------
 SESSION 12: Friday 12 Jun 2026  08:20 IST  |  70 min
-Title: Full Body C — Friday
-
-  Back Extension (Hyperextension)  [isolation | other]
-    Warmup      0kg × 10 reps
-    Warmup      0kg × 10 reps
-    >> 0 working sets  |  volume: 0 kg·reps
+Title: Full Body C - Friday
 
   Bent Over Row (Barbell)  [compound | back]
     Warmup      30kg × 5 reps | vol: 150 kg·reps
@@ -644,12 +562,7 @@ Title: Full Body C — Friday
 
 ------------------------------------------------------------------------
 SESSION 13: Monday 15 Jun 2026  08:22 IST  |  68 min
-Title: Full Body A — Monday
-
-  Squat (Bodyweight)  [compound | legs]
-    Warmup      0kg × 10 reps
-    Warmup      0kg × 10 reps
-    >> 0 working sets  |  volume: 0 kg·reps
+Title: Full Body A - Monday
 
   Squat (Barbell)  [compound | legs]
     Warmup      30kg × 5 reps | vol: 150 kg·reps
@@ -679,21 +592,11 @@ Title: Full Body A — Monday
     Set 3       10kg × 14 reps | vol: 140 kg·reps | e1RM: 14.7kg
     >> 3 working sets  |  volume: 420 kg·reps  |  best e1RM: 14.7kg
 
-  Hanging Leg Raise  [isolation | core]
-    Notes: I'm going to cut the meat because of the tiredness.
-    Set 1       0kg × 5 reps
-    >> 1 working sets  |  volume: 0 kg·reps
-
   SESSION TOTAL: 14 sets  |  2,620 kg·reps
 
 ------------------------------------------------------------------------
 SESSION 14: Wednesday 17 Jun 2026  08:35 IST  |  36 min
-Title: Full Body B — Wednesday
-
-  Back Extension (Hyperextension)  [isolation | other]
-    Warmup      0kg × 10 reps
-    Warmup      0kg × 10 reps
-    >> 0 working sets  |  volume: 0 kg·reps
+Title: Full Body B - Wednesday
 
   Romanian Deadlift (Barbell)  [compound | back, traps, legs]
     Warmup      30kg × 5 reps | vol: 150 kg·reps
@@ -734,7 +637,7 @@ Title: Full Body B — Wednesday
 ========================================================================
 30-DAY TOTALS
 ========================================================================
-  Sessions  : 14  (planned ~20 for 30 days)
+  Sessions  : 14  (planned ~24 for 30 days @ 6/week)
   Total sets: 264
   Total vol : 67,009 kg·reps
 
@@ -751,113 +654,6 @@ VOLUME BY MUSCLE GROUP
   Core                 11,022 kg·reps   12.2%  |  27 sets
   Other                 1,510 kg·reps    1.7%  |  63 sets
 
-EXERCISE SUMMARY  (sorted by volume)
-------------------------------------------------------------------------
-  [I] Shrug (Smith Machine)                         2 sess  6 sets       5,040 kg·reps  |  best e1RM: 98.0kg
-      muscles: traps
-  [C] Romanian Deadlift (Barbell)                   3 sess  11 sets       4,440 kg·reps  |  best e1RM: 76.0kg
-      muscles: back, traps, legs
-  [C] Bench Press (Barbell)                         4 sess  13 sets       4,420 kg·reps  |  best e1RM: 72.0kg
-      muscles: chest
-  [C] Leg Press (Machine)                           2 sess  6 sets       4,410 kg·reps  |  best e1RM: 98.0kg
-      muscles: legs
-  [I] Face Pull                                     4 sess  12 sets       4,333 kg·reps  |  best e1RM: 38.2kg
-      muscles: rear_delts
-  [I] Leg Extension (Machine)                       2 sess  6 sets       4,102 kg·reps  |  best e1RM: 93.3kg
-      muscles: legs
-  [C] Seated Cable Row - V Grip (Cable)             2 sess  6 sets       3,990 kg·reps  |  best e1RM: 102.7kg
-      muscles: back, core
-  [C] Squat (Barbell)                               3 sess  11 sets       3,510 kg·reps  |  best e1RM: 75.8kg
-      muscles: legs
-  [I] Overhead Triceps Extension (Cable)            1 sess  3 sets       3,192 kg·reps  |  best e1RM: 112.8kg
-      muscles: triceps, core
-  [I] Chest Fly (Machine)                           2 sess  6 sets       3,150 kg·reps  |  best e1RM: 63.0kg
-      muscles: chest
-  [C] Bent Over Row (Barbell)                       2 sess  7 sets       2,850 kg·reps  |  best e1RM: 73.3kg
-      muscles: back
-  [C] Overhead Press (Barbell)                      3 sess  9 sets       2,430 kg·reps  |  best e1RM: 54.0kg
-      muscles: shoulders
-  [C] Deadlift (Trap bar)                           1 sess  3 sets       2,240 kg·reps  |  best e1RM: 120.3kg
-      muscles: back, traps
-  [I] Triceps Pushdown                              3 sess  9 sets       2,228 kg·reps  |  best e1RM: 35.4kg
-      muscles: triceps
-  [C] Incline Bench Press (Dumbbell)                3 sess  9 sets       1,880 kg·reps  |  best e1RM: 28.0kg
-      muscles: chest
-  [C] Lat Pulldown (Cable)                          1 sess  3 sets       1,872 kg·reps  |  best e1RM: 72.8kg
-      muscles: back, core
-  [I] Shrug (Barbell)                               1 sess  3 sets       1,800 kg·reps  |  best e1RM: 60.0kg
-      muscles: traps
-  [I] Lateral Raise (Dumbbell)                      4 sess  12 sets       1,590 kg·reps  |  best e1RM: 15.0kg
-      muscles: shoulders
-  [I] Cable Crunch                                  1 sess  3 sets       1,425 kg·reps  |  best e1RM: 52.5kg
-      muscles: core
-  [I] Seated Leg Curl (Machine)                     1 sess  3 sets       1,161 kg·reps  |  best e1RM: 55.9kg
-      muscles: biceps, legs
-  [I] Rack Pull                                     1 sess  3 sets       1,150 kg·reps  |  best e1RM: 81.7kg
-      muscles: other
-  [C] Deadlift (Barbell)                            1 sess  3 sets       1,050 kg·reps  |  best e1RM: 81.7kg
-      muscles: back, traps
-  [I] Bicep Curl (Dumbbell)                         3 sess  9 sets         770 kg·reps  |  best e1RM: 13.0kg
-      muscles: biceps
-  [C] Dumbbell Row                                  1 sess  3 sets         720 kg·reps  |  best e1RM: 28.0kg
-      muscles: back
-  [C] Seated Overhead Press (Dumbbell)              1 sess  4 sets         700 kg·reps  |  best e1RM: 23.3kg
-      muscles: shoulders
-  [I] Triceps Rope Pushdown                         1 sess  3 sets         613 kg·reps  |  best e1RM: 29.5kg
-      muscles: triceps
-  [C] Upright Row (Cable)                           1 sess  3 sets         543 kg·reps  |  best e1RM: 24.1kg
-      muscles: back, core
-  [I] Hammer Curl (Dumbbell)                        1 sess  3 sets         375 kg·reps  |  best e1RM: 16.7kg
-      muscles: biceps
-  [I] Chest Supported Y Raise (Dumbbell)            2 sess  6 sets         360 kg·reps  |  best e1RM: 7.0kg
-      muscles: other
-  [I] Rear Delt Reverse Fly (Dumbbell)              1 sess  3 sets         315 kg·reps  |  best e1RM: 11.2kg
-      muscles: rear_delts
-  [C] Shoulder Press (Dumbbell)                     1 sess  1 sets         200 kg·reps  |  best e1RM: 26.7kg
-      muscles: shoulders
-  [I] Seated Incline Curl (Dumbbell)                1 sess  2 sets         150 kg·reps  |  best e1RM: 10.0kg
-      muscles: chest, biceps
-  [C] Pull Up                                       3 sess  10 sets           0 kg·reps
-      muscles: back
-  [I] Stretching                                    18 sess  23 sets           0 kg·reps
-      muscles: other
-  [I] Superman                                      4 sess  8 sets           0 kg·reps
-      muscles: other
-  [I] Bird Dog                                      4 sess  8 sets           0 kg·reps
-      muscles: other
-  [I] Warm Up                                       5 sess  5 sets           0 kg·reps
-      muscles: other
-  [I] Band Pullaparts                               2 sess  2 sets           0 kg·reps
-      muscles: other
-  [I] Dead Hang                                     1 sess  2 sets           0 kg·reps
-      muscles: other
-  [C] Pull Up (Weighted)                            1 sess  4 sets           0 kg·reps
-      muscles: back
-  [I] Glute Bridge                                  1 sess  1 sets           0 kg·reps
-      muscles: other
-  [I] Clamshell                                     1 sess  1 sets           0 kg·reps
-      muscles: other
-  [C] Single Leg Press (Machine)                    1 sess  3 sets           0 kg·reps
-      muscles: legs
-  [I] Dead Bug                                      1 sess  3 sets           0 kg·reps
-      muscles: other
-  [I] Side Plank                                    1 sess  3 sets           0 kg·reps
-      muscles: core
-  [I] Treadmill                                     1 sess  1 sets           0 kg·reps
-      muscles: other
-  [I] Hanging Leg Raise                             3 sess  6 sets           0 kg·reps
-      muscles: core
-  [C] Squat (Bodyweight)                            2 sess  0 sets           0 kg·reps
-      muscles: legs
-  [I] Back Extension (Hyperextension)               3 sess  0 sets           0 kg·reps
-      muscles: other
-
-PUSH / PULL BALANCE
-------------------------------------------------------------------------
-  Push volume :     20,913 kg·reps
-  Pull volume :     31,649 kg·reps
-  Ratio       : 1.51  (OK — balanced)
-
 ========================================================================
-END OF LOG  |  2026-05-18 to 2026-06-17  |  Generated 2026-06-17 04:48:08
+END OF LOG  |  2026-05-18 to 2026-06-17  |  Generated 2026-06-17 23:30:58
 ========================================================================
